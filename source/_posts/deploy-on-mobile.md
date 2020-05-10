@@ -35,8 +35,9 @@ cover: /images/deploy-on-mobile/cover.jpg
 >
 >  先执行```$ pkg install proot```，然后执行 ```$ termux-chroot``` 就可以模拟出root权限。详情见链接↑
 >
-> 获取完成后就可以用Termux编辑，但是无法用文件管理器看到。
+> 获取完成后可以用Termux操作，但是无法用文件管理器看到。
 
+本文资料来自：华为平板 M6
 ## 配置环境
 
 ### 初始化

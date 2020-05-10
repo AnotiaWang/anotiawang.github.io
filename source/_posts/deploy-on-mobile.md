@@ -1,5 +1,5 @@
 ---
-title: 在移动设备上进行博客编辑和部署
+title: 在移动设备上进行 Hexo 博客编辑和部署
 copyright: true
 date: 2020-05-10 10:09:12
 tags: [博客, 教程]
@@ -31,7 +31,7 @@ cover: /images/deploy-on-mobile/cover.jpg
 
 ![Termux 主界面](/images/deploy-on-mobile/termux-1.jpg)
 
-> 我找资料的时候发现没有root的手机也有[解决办法](https://zhuanlan.zhihu.com/p/35668237)，不过我自己没有尝试，在此列出作为参考：
+> 我找资料的时候发现没有root的手机也有[解决办法](https://zhuanlan.zhihu.com/p/35668237)，在此列出作为参考：
 >
 >  先执行```$ pkg install proot```，然后执行 ```$ termux-chroot``` 就可以模拟出root权限。详情见链接↑
 >

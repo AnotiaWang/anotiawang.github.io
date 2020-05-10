@@ -35,6 +35,8 @@ cover: /images/deploy-on-mobile/cover.jpg
 > 我找资料的时候发现没有root的手机也有[解决办法](https://zhuanlan.zhihu.com/p/35668237)，不过我自己没有尝试，在此列出作为参考：
 >
 >  先执行```$ pkg install proot```，然后执行 ```$ termux-chroot``` 就可以模拟出root权限。详情见链接↑
+>
+> 获取完成后就可以用Termux编辑，但是无法用文件管理器看到。
 
 ## 配置环境
 
@@ -46,13 +48,13 @@ cover: /images/deploy-on-mobile/cover.jpg
 
 ### 安装node.js长期支持版
 
-```
+```bash
 $ apt install nodejs-lts
 ```
 
 原因：node.js的最新版在博客generate时容易出现如下错误：
 
-~~~
+~~~bash
 TypeError [ERR_INVALID_ARGTYPE]: The "mode" argument mast be integer. Received an instance of Object
 ~~~
 
@@ -62,7 +64,7 @@ TypeError [ERR_INVALID_ARGTYPE]: The "mode" argument mast be integer. Received a
 
 ### 安装 git
 
-```
+```bash
 $ apt install git
 ```
 
@@ -78,17 +80,24 @@ $ apt install git
 
 ### 定位到Blog
 
-``` （“Blog”替换成你自己取的名字）
+```bash
 $ cd Blog
 ```
 
 
 
-> 如果你的博客在git上有备份，就直接用``git clone`` 指令克隆，然后```cd 仓库名```，如
+> 如果你的博客在git上有备份：
 >
-> ``` $ git clone https://github.com/xxx/xxx.github.io```，克隆到files文件夹下，一个叫做“xxx.github.io”的子文件夹
+> 克隆→定位→安装Hexo→安装组件→安装主题→生成、部署
 >
-> `$ cd xxx.github.io` 定位到克隆好的文件夹
+> ```bash
+> $ git clone https://e.coding.net/xxx/xxx.git
+> $ cd xxx
+> $ npm install hexo --save
+> $ npm install
+> $ git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly
+> $ hexo g -s
+> ```
 
 ### 安装 hexo-cli
 
@@ -100,17 +109,20 @@ $ cd Blog
 
 安装必要组件：```$ npm install```
 
+完成。
 
+## 开始编辑
 
+下面的不用我多说了吧
 
+流程和电脑端的操作基本一致
 
-
-
-
-
-
+具体的请见参考资料
 
 
 
 # 参考资料
 
+这个大佬写得非常全面，从准备到部署到debug都有（不是恰饭）：https://zhuanlan.zhihu.com/p/35668237
+
+https://lanlan2017.github.io/blog/4a95e633/

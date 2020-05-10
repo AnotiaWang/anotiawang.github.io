@@ -116,7 +116,7 @@ favicon: /images/favicon.png
 # Post info settings
 # ---------------
 avatar:
-  img: /imges/avatar.png
+  img: /images/avatar.png
   effect: false # 頭像會一直轉圈
 
 # the banner image of index

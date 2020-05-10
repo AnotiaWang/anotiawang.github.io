@@ -15,20 +15,8 @@ date: 2020-05-08 15:35:26
 
 （排名不分前后）
 
----------------
+|                             头像                             |   网站名    |             介绍             |         传送门         |
+| :----------------------------------------------------------: | :---------: | :--------------------------: | :--------------------: |
+| <img src="https://kaifan-1301263664.cos.ap-nanjing.myqcloud.com/%E5%A4%B4%E5%83%8F/zuo.ico" style="zoom: 30%;" /> | 小通's Blog |         专业划水摸鱼         |   https://howsyc.cn    |
+| <img src="https://cdn.jsdelivr.net/gh/verbgcom/verbgcom.github.io/images/avatar.png" style="zoom: 16%;" /> |  动G Blog   | 不放松，不醉到，用学习态度。 | https://www.verbg.com/ |
 
-## [<img src="https://kaifan-1301263664.cos.ap-nanjing.myqcloud.com/%E5%A4%B4%E5%83%8F/zuo.ico" style="zoom:10%;" />   小通's Blog](https://howsyc.cn)
-
-专业划水摸鱼
-
-链接🔗 https://howsyc.cn
-
-![](/images/friendlink/xtblogpage.png)
-
-----------------------
-
-### [<img src="https://cdn.jsdelivr.net/gh/verbgcom/verbgcom.github.io/images/avatar.png" style="zoom:5%;" />   动G Blog](https://www.verbg.com/)
-
-不放松，不醉到，用学习态度。
-
-链接🔗 https://www.verbg.com/

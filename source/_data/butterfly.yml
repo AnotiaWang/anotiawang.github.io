@@ -14,6 +14,7 @@ menu:
 #  友链: /link/ || fa fa-link
   关于: /about/ || fa fa-heart
   更多||fa fa-list:
+    - 留言板 || /board/ || fas fa-chalkboard
     - 前往十字街 || http://chat.henrize.kim:3000 || far fa-comments
     - 友链 || /link/ || fa fa-link
     - 音乐 || https://music.163.com/#/playlist?id=653176122 || fa fa-music
@@ -78,9 +79,9 @@ algolia_search:
 # Please see doc for more details: https://docs.jerryc.me/config.html#本地搜索
 # ---------------
 local_search:
-  enable: false
+  enable: true
   labels:
-    input_placeholder: Search for Posts
+    input_placeholder: 搜索任意内容……
     hits_empty: "关键词“ ${query}”没有搜索结果" # if there are no result
 
 # MathJax

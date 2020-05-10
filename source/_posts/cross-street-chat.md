@@ -1,7 +1,7 @@
 ---
 title: 聊天室 - 十字街
 date: 2020-05-08 21:49:32
-tags: 十字街
+tags: 分享
 categories: 十字街
 description: "我们在十字街相遇，我们在人生的岔路相遇"
 cover: /images/cross-street/banner.jpg

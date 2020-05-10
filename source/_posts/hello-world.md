@@ -49,3 +49,6 @@ $ git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git them
 $ hexo g
 ~~~
 
+# 官方文档
+
+https://docs.jerryc.me/#/zh-cn/config/theme-config

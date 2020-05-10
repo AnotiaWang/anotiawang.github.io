@@ -2,13 +2,12 @@
 title: 在移动设备上进行博客编辑和部署
 copyright: true
 date: 2020-05-10 10:09:12
-tags: 
+tags: [博客, 教程]
 categories: 教程
-description: 
+description: "我不是鸽王！"
+sticky: 1
 cover: /images/deploy-on-mobile/cover.jpg
 ---
-
-
 
 # 导言
 
@@ -46,19 +45,19 @@ cover: /images/deploy-on-mobile/cover.jpg
 
 ``$ apt upgrade``
 
-### 安装node.js长期支持版
+### 安装 node.js
 
 ```bash
 $ apt install nodejs-lts
 ```
 
-原因：node.js的最新版在博客generate时容易出现如下错误：
+此处安装的是<u>长期支持版</u>，因为node.js的最新版在博客generate时容易出现如下错误：
 
 ~~~bash
 TypeError [ERR_INVALID_ARGTYPE]: The "mode" argument mast be integer. Received an instance of Object
 ~~~
 
-[nodejs新版的报错截图](/images/deploy-on-mobile/error-node-too-new.jpg)
+[👉nodejs新版的报错截图👈](/images/deploy-on-mobile/error-node-too-new.jpg)
 
 ![](/images/deploy-on-mobile/install-nodejs.jpg)
 
@@ -78,26 +77,11 @@ $ apt install git
 
 > 或者Termux使用命令：```$ mkdir Blog```直接创建
 
-### 定位到Blog
+### 定位到 Blog
 
 ```bash
 $ cd Blog
 ```
-
-
-
-> 如果你的博客在git上有备份：
->
-> 克隆→定位→安装Hexo→安装组件→安装主题→生成、部署
->
-> ```bash
-> $ git clone https://e.coding.net/xxx/xxx.git
-> $ cd xxx
-> $ npm install hexo --save
-> $ npm install
-> $ git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly
-> $ hexo g -s
-> ```
 
 ### 安装 hexo-cli
 
@@ -111,15 +95,156 @@ $ cd Blog
 
 完成。
 
+>  如果你的博客在git上有备份：
+>
+>  克隆→定位→安装Hexo→安装组件→安装主题→生成、部署。
+>
+>  举例：
+>
+>  ```bash
+>  $ git clone https://e.coding.net/xxx/xxx.git
+>  $ cd xxx
+>  $ npm install hexo --save
+>  $ npm install
+>  $ git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly
+>  $ hexo g -s
+>  ```
+>
+
 ## 开始编辑
 
-下面的不用我多说了吧
+因为Hexo支持跨平台，所以手机端编辑和部署操作与电脑端基本一致。这里讲一下大概的操作。
 
-流程和电脑端的操作基本一致
+### 文件操作
 
-具体的请见参考资料
+#### 新建博文
 
+```bash
+$ hexo new "title"
+```
 
+新的文章在 `/source/_posts/xxxxx.md`
+
+#### 新建页面
+
+```bash
+$ hexo new page title
+```
+
+新的页面在`/source/title`，页面文件在`/source/title/index.md`
+
+文件可以手动删除。
+
+### 生成 | 预览 | 部署
+
+生成、预览、部署
+
+```bash
+$ hexo g
+INFO  Start processing
+INFO  Files loaded in x s
+INFO  Generated: xxx
+INFO  Generated: xxx
+....
+INFO  xx files generated in x.x s
+
+$ hexo s
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
+
+$ hexo d
+...
+INFO  Deploy done: git
+```
+
+或者使用组合命令：
+
+**生成并本地预览：**
+
+```bash
+$ hexo s -g
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
+```
+
+**生成并部署：**
+
+```bash
+$ hexo d -g
+INFO  Start processing
+...
+INFO  Deploy done: git
+```
+
+## 备份与恢复
+
+### 将博客备份到 git（以Coding为例）
+
+如果你的博客文件夹是从git克隆下来的，那么会自动设置远程仓库，不需要手动设置。
+
+输入 ``git remote -v``查看已经存在的远程仓库，应该会有以下提示：
+
+```bash
+$ git remote -v
+origin  https://e.coding.net/cross-street/Blog.git (fetch)
+origin  https://e.coding.net/cross-street/Blog.git (push)
+```
+
+默认生成的远程仓库会被归为“origin”类。
+
+#### 设置新的远程仓库
+
+输入`git remote add <简称> <地址>`新增一个远程仓库
+
+```bash
+$ git remote add BlogBackup https://e.coding.net/cross-street/xxxxx.git
+
+$ git remote -v
+origin  https://e.coding.net/cross-street/Blog.git (fetch)
+origin  https://e.coding.net/cross-street/Blog.git (push)
+BlogBackup https://e.coding.net/cross-street/xxxxx.git (fetch)
+BlogBackup https://e.coding.net/cross-street/xxxxx.git (push)
+```
+
+#### 推送到远程仓库
+
+查看当前仓库有哪些分支（前面带*的是当前定位的分支，所有的相关操作在这个分支下执行）
+
+```bash
+$ git branch
+*master
+backup
+```
+
+创建并定位到新分支：
+
+```bash
+$ git checkout -b sample
+Switched to a new branch "sample"
+```
+
+搜索更新文件：``git add .``
+
+输入更新内容（显示在远程仓库的日志里）：```git commit -m "更新内容"```
+
+推送：`git push <简称> <分支>`
+
+可能会要求输入你在托管方的账号密码。
+
+```bash
+$ git add .
+$ git commit -m "Add new posts & debug"
+$ git push origin master
+
+```
+
+### 从远程仓库同步（恢复）
+
+```bash
+$ git clone 仓库地址
+```
+
+恢复的时候别忘了重新安装主题。
 
 # 参考资料
 

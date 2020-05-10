@@ -3,6 +3,7 @@ title: 建站参考目录
 date: 2020-05-08 17:52:54
 tags: [感谢]
 categories: Post
+sticky: 
 description: "罗列一下我写这个博客用到的资料"
 cover: https://s1.ax1x.com/2020/05/08/YKe4MV.png
 ---

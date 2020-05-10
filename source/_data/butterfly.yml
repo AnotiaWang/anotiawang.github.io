@@ -246,8 +246,8 @@ disqusjs:
   count: false # dispaly comment count in top_img
 
 laibili:
-  enable: false
-  uid:
+  enable: true
+  uid: MTAyMC81MDA1NC8yNjU0NQ==
 
 gitalk:
   enable: false
@@ -265,7 +265,7 @@ gitalk:
 
 # valine comment system. https://valine.js.org
 valine:
-  enable: true # if you want use valine,please set this value is true
+  enable: false # if you want use valine,please set this value is true
   appId: 4eD9VpC6IObHLbzqx8UecMom-gzGzoHsz # leancloud application app id
   appKey: UA8PCe4Lel0crm8IgEfGJOov # leancloud application app key
   notify: true # valine mail notify (true/false) Deprecated in v1.4.0+
@@ -461,7 +461,7 @@ canvas_nest:
 # 打字效果
 activate_power_mode:
   enable: true
-  colorful: true # 冒光特效
+  colorful: false # 冒光特效
   shake: false # 抖動特效
 
 # 鼠標點擊效果

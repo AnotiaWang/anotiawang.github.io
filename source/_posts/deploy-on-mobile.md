@@ -112,6 +112,47 @@ $ cd Blog
 >  ```
 >
 
+### 设置默认用户信息
+设置默认的账户名、邮箱和密码
+
+```bash
+$ git config --global user.name "xxx"
+$ git config --global user.email "xxx@xmail.com"
+$ git config --global user.password "6666666"
+```
+
+如果对账号安全不放心，可以不设置密码，在部署和备份的时候手动输入。
+### 在托管平台登记密钥
+先生成一个SSH密钥。邮箱填自己GitHub或Coding或其他托管平台的注册邮箱。
+
+```bash
+$ ssh-keygen -t rsa -C "xxx@xmail.com"
+```
+
+输入完成后一路回车，如果不放心就在 “密码”那一栏 设置一个加密密码。
+生成密钥信息：
+
+```bash
+$ cat ~/.ssh/id_rsa.pub
+```
+
+之后程序会生成一个名为"id_rsa.pub"的文件，默认保存在`/files/.ssh/`文件夹，可以手动查看，或者直接复制程序输出的一串密钥。
+打开托管平台，在**个人设置里**新建一个SSH公钥，以Coding为例：
+![Create new SSH key](/images/deploy-on-mobile/SSH.jpg)
+
+> 注：Coding的公钥分为两种类型，在个人设置里的是**全局公钥**，可以编辑你的所有项目；在每个项目设置里还有单独的SSH私钥，仅对该项目有效。
+
+接下来在设备上“注册”密钥并检查可用性：
+
+```bash
+$ ssh -T git@e.coding.net
+Warning: Permanently added the RSA host key for IP address '118.xx.xxx.252' to the list of known hosts.
+Coding 提示: Hello 艾诺迪亚, You've connected to Coding.net via SSH. This is a personal key.
+艾诺迪亚，你好，你已经通过 SSH 协议认证 Coding.net 服务 ，这是一个个人公钥.
+公钥指纹：a3:9c:70:1d:f6:06:7d:xxxxxxxxxxxxx:72:1e:fe
+```
+
+如果出现以上提示则说明成功。GitHub使用``ssh -T git@github.com``即可。
 ## 开始编辑
 
 因为Hexo支持跨平台，所以手机端编辑和部署操作与电脑端基本一致。这里讲一下大概的操作。
@@ -124,7 +165,7 @@ $ cd Blog
 $ hexo new "title"
 ```
 
-新的文章在 `/source/_posts/xxxxx.md`
+新的文章在 `/source/_posts/title.md`
 
 #### 新建页面
 

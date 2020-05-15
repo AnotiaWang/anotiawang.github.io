@@ -247,7 +247,7 @@ disqusjs:
   count: false # dispaly comment count in top_img
 
 laibili:
-  enable: true
+  enable: false
   uid: MTAyMC81MDA1NC8yNjU0NQ==
 
 gitalk:
@@ -266,20 +266,20 @@ gitalk:
 
 # valine comment system. https://valine.js.org
 valine:
-  enable: false # if you want use valine,please set this value is true
+  enable: true # if you want use valine,please set this value is true
   appId: 4eD9VpC6IObHLbzqx8UecMom-gzGzoHsz # leancloud application app id
   appKey: UA8PCe4Lel0crm8IgEfGJOov # leancloud application app key
   notify: true # valine mail notify (true/false) Deprecated in v1.4.0+
   verify: false # valine verify code (true/false) Deprecated in v1.4.0+
   pageSize: 10 # comment list page size
-  avatar: monsterid # gravatar style https://valine.js.org/#/avatar
+  avatar: wavatar # gravatar style https://valine.js.org/#/avatar
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
-  placeholder: 在这里留下你的足迹 # valine comment input placeholder(like: Please leave your footprints )
+  placeholder: 在这里留下你的足迹… # valine comment input placeholder(like: Please leave your footprints )
   guest_info: nick,mail,link #valine comment header info
-  recordIP: false # Record reviewer IP
+  recordIP: true # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   emojiCDN: # emoji CDN
-  enableQQ: false # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
+  enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: nick,mail # required fields nick/mail/link
   bg: # valine background
   count: true # dispaly comment count in top_img

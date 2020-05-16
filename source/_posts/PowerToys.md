@@ -1,7 +1,7 @@
 ---
-title: PowerToys
+title: PowerToys - 低调的神器
 copyright: true
-description: '微软推出的鲜为人知的神器。'
+description: '微软推出的鲜为人知的工具，提高了Windows不少实用性。'
 sticky: 
 date: 2020-05-16 11:54:38
 tags: [分享]
@@ -13,7 +13,7 @@ cover: /images/PowerToys/cover.png
 
 然而前段时间，~~微软~~巨硬的一款软件开始**重新**进入人们的视线，那就是“PowerToys”。
 
-![](/image/PowerToys/cover.jpg)
+![](/images/PowerToys/cover.jpg)
 
 为什么是“重新”？
 
@@ -33,9 +33,11 @@ PowerToys的设置界面有详细的配置（英文）。
 
 ![](/images/PowerToys/settings.png)
 
+安装后，PowerToys会在后台运行，系统托盘显示图标。**对应的操作通过右键菜单完成。**
+
 # FancyZone
 
-顾名思义，它能为用户构建出应用窗口布局。
+顾名思义，它能一键设置窗口布局。
 
 ![](/images/PowerToys/FancyZone.png)
 
@@ -44,6 +46,15 @@ PowerToys的设置界面有详细的配置（英文）。
 按住`` Win+` ``配置布局方式。
 
 ![](/images/PowerToys/FancyZoneSettings.png)
+
+可以手动设置的选项：
+
+* 覆盖Windows自带的热键；
+* 当分辨率改变时保持窗口布局；
+* 当新的布局生效时，自动编排窗口到新的布局模式；
+* 记忆每个应用上一次的窗口位置；
+* 在当前/全部显示器上显示布局网格；
+* 示意区域的颜色可以调节。
 
 # Shortcut Guide
 
@@ -69,5 +80,18 @@ Windows有丰富的快捷键，但是要花不少时间去学习和记忆。Powe
 
 # Images Resizer
 
-这个功能在Powerpoint里有，微软把它拎出来做了一个单独的，根据需要在哪种设备上显示，压缩图片尺寸。
+这个功能其实在Microsoft Office里有，微软把它拎出来做了一个单独的功能，根据需要在哪种设备上显示，压缩图片尺寸，从而节约大小。
 
+![](/images/PowerToys/Resizer.png)
+
+# 其他配置
+
+* 应用支持浅色和深色主题，可以根据系统自动切换；
+* 可以开机启动、以管理员模式启动；
+* 每一个功能都有演示页面（会打开相应的GitHub链接）
+
+------------------------
+
+工具可以在微软的[GitHub Release](https://github.com/microsoft/PowerToys/releases)页下载到。
+
+> 封面图片来自PowerToys GitHub页面，PowerToys的图标来自网络。

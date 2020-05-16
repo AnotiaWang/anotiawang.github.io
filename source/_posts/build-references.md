@@ -2,7 +2,7 @@
 title: 建站参考目录
 date: 2020-05-08 17:52:54
 tags: [感谢]
-categories: Post
+categories: 教程
 sticky: 
 description: "罗列一下我写这个博客用到的资料"
 cover: https://s1.ax1x.com/2020/05/08/YKe4MV.png
@@ -30,6 +30,6 @@ cover: https://s1.ax1x.com/2020/05/08/YKe4MV.png
 
 [为你的Hexo加上评论系统](https://blog.csdn.net/blue_zy/article/details/79071414)
 
+[Git - 分支的新建与合并](https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%9A%84%E6%96%B0%E5%BB%BA%E4%B8%8E%E5%90%88%E5%B9%B6)
 
-
-以上大概就是我用得多的参考资料了。
+[Git - 远程仓库的使用](https://git-scm.com/book/zh/v2/Git-%E5%9F%BA%E7%A1%80-%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%E4%BD%BF%E7%94%A8)

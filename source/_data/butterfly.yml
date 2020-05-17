@@ -18,7 +18,6 @@ menu:
     - 前往十字街 || http://chat.henrize.kim:3000 || far fa-comments
     - 友链 || /link/ || fa fa-link
     - 音乐 || https://music.163.com/#/playlist?id=653176122 || fa fa-music
-    - 电影 || /movies/ || fa fa-film
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
@@ -317,13 +316,13 @@ footer_copyright:
 
 ICP:
   enable: false
-  url:
+  url: 'https://blog.anotia.top'
   text:
-  icon: /images/icp.png
+  icon: 
 
 ####   Analysis    ####
 # ---------------
-baidu_analytics: 1a0cb7fd66b6a64b18b02a2609d3a501
+baidu_analytics: 2beab2aae7f3ac5c51c93b42e7a2b23d
 
 # Google Analytics
 google_analytics:

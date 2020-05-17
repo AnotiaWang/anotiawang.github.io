@@ -8,6 +8,10 @@ cover: https://s1.ax1x.com/2020/05/08/YuHPZ4.jpg
 ---
 # 新功能 Timeline
 
+## 2020/5/16
+
+​	评论系统重新改为Valine，现已完整支持邮件通知。感谢DesertsP大佬的成果
+
 ## 2020/5/10
 
 ​	评论系统由 Valine 改为 来必力

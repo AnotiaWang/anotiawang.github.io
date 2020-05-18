@@ -19,4 +19,5 @@ date: 2020-05-08 15:35:26
 | :----------------------------------------------------------: | :---------: | :--------------------------: | :--------------------: |
 | <img src="https://kaifan-1301263664.cos.ap-nanjing.myqcloud.com/%E5%A4%B4%E5%83%8F/zuo.ico" style="zoom: 30%;" /> | 小通's Blog |         专业划水摸鱼         |   https://howsyc.cn    |
 | <img src="https://cdn.jsdelivr.net/gh/verbgcom/verbgcom.github.io/images/avatar.png" style="zoom: 16%;" /> |  动G Blog   | 不放松，不醉到，用学习态度。 | https://www.verbg.com/ |
-
+| <img src="https://cdn.jsdelivr.net/gh/2275676437/TUPIANKU/ico/ico2.jpg" style="zoom: 16%;" /> | 萌趣小站 | 做小站，我是正经的 | https://miku.mx/ |
+| <img src="http://meodinger.info/static/media/me.e7f90a60.png" style="zoom: 16%;" /> | 一个人的代码 | 只要心在跳动，就有血的潮汐 | http://meodinger.info |

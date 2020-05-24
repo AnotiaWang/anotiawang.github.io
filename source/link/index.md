@@ -21,3 +21,10 @@ date: 2020-05-08 15:35:26
 | <img src="https://cdn.jsdelivr.net/gh/verbgcom/verbgcom.github.io/images/avatar.png" style="zoom: 16%;" /> |  动G Blog   | 不放松，不醉到，用学习态度。 | https://www.verbg.com/ |
 | <img src="https://cdn.jsdelivr.net/gh/2275676437/TUPIANKU/ico/ico2.jpg" style="zoom: 16%;" /> | 萌趣小站 | 做小站，我是正经的 | https://miku.mx/ |
 | <img src="http://meodinger.info/static/media/me.e7f90a60.png" style="zoom: 16%;" /> | 一个人的代码 | 只要心在跳动，就有血的潮汐 | http://meodinger.info |
+| <img src="https://liuyifei.club/img/favicon.png" style="zoom: 16%;" /> | 恶龙不是龙哩 | 红尘纷扰，自有方寸 | https://liuyifei.club/ |
+
+如需互加友链，请在评论区评论，格式：
+* 名称：xxx
+* 头像：「链接」
+* 描述（Slogan）：xxx
+* 链接：「博客链接」

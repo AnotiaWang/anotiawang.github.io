@@ -4,7 +4,7 @@ date: 2020-05-27 22:31:15
 cover: /CrossStreet/banner.jpg
 ---
 ![](/CrossStreet/logo.png)
-<font size=5><center>畅所欲言，激扬文字</center></font>
+<font size=5><center>欢迎来到十字街，一个简洁轻小的聊天网站。</center></font>
 # 官网
 <font color=Aqua>http://crosst.club:3000 </font>
 # 第三方应用

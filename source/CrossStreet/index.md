@@ -12,7 +12,8 @@ cover: /CrossStreet/banner.jpg
 遵循 Material Design 的聊天室版本
 
 #### [Android App](https://pastebin.com/raw/SRjsN5cN)
-直接下载地址: [点击下载](https://cross-street.coding.net/api/share/download/1006553a-d0c5-43ff-b509-65f9d5952144)
+持续更新中，如有问题请积极反馈，我们会很快跟进，谢谢
+直接下载地址: [点击下载](https://cross-street.coding.net/api/share/download/9d95c52f-68cf-4d51-947a-20595eda2d38)
 
 #### Windows Client
 地址：[GitHub](https://github.com/LanceLiang2018/ChatClient)

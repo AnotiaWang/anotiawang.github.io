@@ -386,7 +386,7 @@ photofigcaption: false
 
 # anchor
 # when you scroll in post, the url will update according to header id.
-anchor: true
+anchor: false
 
 ####    美化/效果    ####
 #--------------------------------
@@ -492,7 +492,7 @@ display_mode: light
 
 # 美化頁面顯示
 beautify:
-  enable: false
+  enable: true
   field: post # site/post
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: '#F47466'

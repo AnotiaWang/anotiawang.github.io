@@ -13,8 +13,32 @@ cover: /CrossStreet/banner.jpg
 
 #### [Android App](https://pastebin.com/raw/SRjsN5cN)
 持续更新中，如有问题请积极反馈，我们会很快跟进，谢谢
-直接下载地址: [点击下载](https://cross-street.coding.net/api/share/download/9d95c52f-68cf-4d51-947a-20595eda2d38)
+直接下载地址: [点击下载](https://cross-street.coding.net/api/share/download/73b81cfe-0355-4f24-a1cd-e5bea516bbfa)
 
+``` log UpdateLog https://blog.anotia.top/CrossStreet 十字街相关资源集合页
+【v2.4.0】（重大更新）
+• 提高了 Target API, 不会再有“此应用专为旧版本 Android 打造”等提示，初次启动时无需请求权限；
+• 用了新（民间维护）版 Fusion App，原生合入 X5 内核，初次安装时不用启动两次了；
+• 优化初次启动时的引导步骤；
+• 新增“收藏链接”功能，长按链接、邮箱等可以保存链接在 "/sdcard/Android/data/com.CrossSt.chat/Favurl.txt ；
+• 新的“设置”页面和“关于”页面；
+• 新增“网页返回”和“一键回顶”，分别可以在右上角“更多”和悬浮按钮里找到；
+• 启动速度优化；
+• 细节优化。
+注：因更换了签名，可能需要卸载旧版本后重装
+ 
+【v2.3.7】
+• 修复了一个低级错误导致的致命问题；
+• 小优化。
+ 
+【v2.3.6.1】
+• 去掉了“导航栏沉浸”；
+• 优化了前一版的本地保险措施，避免了因为检查服务器慢导致等待很久；
+• 右上角“加入聊天室”功能优化；
+• 添加了一个可爱的悬浮按钮（可以拖动），里面放一些功能；
+• 图标换成圆角矩形了，方便适应一些机型的主题；
+• 精简初次启动欢迎语。
+```
 #### Windows Client
 地址：[GitHub](https://github.com/LanceLiang2018/ChatClient)
 

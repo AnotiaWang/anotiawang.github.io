@@ -519,7 +519,7 @@ hr:
 subtitle:
   enable: true
   # 打字效果
-  effect: false
+  effect: true
   # 循環或者只打字一次
   loop: false
   # source調用第三方服務
@@ -533,8 +533,7 @@ subtitle:
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
-    - Music is the way of thinking with sounds.
-    - Never put off till tomorrow what you can do today
+    - 梅虽逊雪三分白，雪却输梅一缕香。
 
 # fontawesome圖標
 # 默認使用的是 fontawesome v4版本的圖標

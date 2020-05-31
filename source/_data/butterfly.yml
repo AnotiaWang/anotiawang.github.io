@@ -455,7 +455,7 @@ canvas_nest:
   color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
-  count: 99 # the number of lines, default: 99.
+  count: 50 # the number of lines, default: 99.
   mobile: false # false 手機端不顯示 true 手機端顯示
 
 # 打字效果
@@ -552,10 +552,10 @@ aside:
   position: right # left or right
   card_author:
     enable: true
-    description:
+    description: 琴童、死宅一枚
   card_announcement:
     enable: true
-    content: This is my Blog on GitHub.
+    content: 学生党，更新较慢，建议收藏慢慢看😁
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -565,7 +565,7 @@ aside:
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
-    color: false
+    color: true
   card_archives:
     enable: true
     type: monthly # yearly or monthly
@@ -600,7 +600,7 @@ translate:
   #延遲時間,若不在前, 要設定延遲翻譯時間, 如100表示100ms,默認為0
   translateDelay: 0
   #博客網址
-  cookieDomain: 'https://anotiawang.tk'
+  cookieDomain: 'https://blog.anotia.top'
   #當文字是簡體時，按鈕顯示的文字
   msgToTraditionalChinese: '繁'
   #當文字是繁體時，按鈕顯示的文字
@@ -648,7 +648,7 @@ snackbar:
 
 #百度推送
 baidu_push:
-  enable: false
+  enable: true
 
 # https://instant.page/
 # prefetch預加載
@@ -678,7 +678,7 @@ note:
 
 # 圖片懶加載
 # https://github.com/ApoorvSaxena/lozad.js
-lazyload: false
+lazyload: true
 
 # 避免重複網址分散seo
 canonical: true
@@ -695,7 +695,7 @@ twitter_meta: true
 Open_Graph_meta: true
 
 # 開啟hexo自帶的緩存，加快生成速度
-fragment_cache: false
+fragment_cache: true
 
 # inject
 # 插入代码到头部</head>之前 和 尾部</body>之前

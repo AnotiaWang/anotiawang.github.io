@@ -8,8 +8,10 @@ cover: /CrossStreet/banner.jpg
 ### 官网
 <font color=Aqua>http://crosst.club:3000 </font>
 ### 第三方应用
-#### DroidChat
+#### [DroidChat](http://blog.lanceliang2001.top/chat)
 遵循 Material Design 的聊天室版本
+
+链接： http://blog.lanceliang2001.top/chat
 
 #### [Android App](https://pastebin.com/raw/SRjsN5cN)
 持续更新中，如有问题请积极反馈，我们会很快跟进，谢谢

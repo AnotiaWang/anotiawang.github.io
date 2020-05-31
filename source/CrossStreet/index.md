@@ -13,9 +13,14 @@ cover: /CrossStreet/banner.jpg
 
 #### [Android App](https://pastebin.com/raw/SRjsN5cN)
 持续更新中，如有问题请积极反馈，我们会很快跟进，谢谢
-直接下载地址: [点击下载](https://cross-street.coding.net/api/share/download/73b81cfe-0355-4f24-a1cd-e5bea516bbfa)
+直接下载地址: [点击下载](https://cross-street.coding.net/api/share/download/8e2acc7d-75db-40ad-849c-7bdee9d9a177)
 
 ``` log UpdateLog https://blog.anotia.top/CrossStreet 十字街相关资源集合页
+【v2.4.1】
+• 进一步简化并调整了引导步骤；
+• 收藏链接的存放地点改为 "/sdcard/Documents/“十字街”收藏链接.txt" （需要存储权限）
+• 新增“FAQ”；
+• 调整机制：每次启动软件后，若发现云端链接有变更，则刷新网页并更新本地文件，若没有，则不操作；
 【v2.4.0】（重大更新）
 • 提高了 Target API, 不会再有“此应用专为旧版本 Android 打造”等提示，初次启动时无需请求权限；
 • 用了新（民间维护）版 Fusion App，原生合入 X5 内核，初次安装时不用启动两次了；

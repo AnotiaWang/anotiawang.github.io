@@ -1,4 +1,15 @@
 
+# live2d:
+#   enable: true
+#   scriptFrom: local
+#   model: 
+#     use: live2d-widget-model-koharu #模型选择
+#   display: 
+#     position: right  #模型位置
+#     width: 150       #模型宽度
+#     height: 300      #模型高度
+#   mobile: 
+#     show: false      #是否在手机端显示
 
 # Main menu navigation
 # ---------------
@@ -377,12 +388,12 @@ reward:
 # 推薦文章
 related_post:
   enable: true
-  limit: 6 # 顯示推薦文章數目
+  limit: 4 # 顯示推薦文章數目
   date_type: created # or created or updated 文章日期顯示創建日或者更新日
 
 # figcaption
 # 圖片描述文字
-photofigcaption: false
+photofigcaption: true
 
 # anchor
 # when you scroll in post, the url will update according to header id.
@@ -429,7 +440,7 @@ tag_ui: # 留空或index
 background:
 
 # footer是否顯示圖片背景(與top_img一致)
-footer_bg: false
+footer_bg: true
 
 # 背景特效
 # 避免卡頓，建議只開啟一個
@@ -549,7 +560,7 @@ preloader: false
 aside:
   enable: true
   mobile: true # 手機頁面（ 顯示寬度 < 768px ）是否顯示aside內容
-  position: right # left or right
+  position: left # left or right
   card_author:
     enable: true
     description: 琴童、死宅一枚

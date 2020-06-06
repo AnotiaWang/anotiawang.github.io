@@ -127,14 +127,14 @@ favicon: /images/favicon.png
 # Post info settings
 # ---------------
 avatar:
-  img: /images/avatar.png
+  img: /images/avatar.jpg
   effect: false # 頭像會一直轉圈
 
 # the banner image of index
-index_img: /images/tag.jpg
+index_img: /images/index.jpg
 
 # if the banner of page not setting,it will show the top_img
-default_top_img: /images/mainpage.jpg
+default_top_img: /images/default.jpg
 
 # the banner image of archive page
 archive_img: /images/archive.jpg

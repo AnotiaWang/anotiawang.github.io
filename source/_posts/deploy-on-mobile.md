@@ -5,7 +5,7 @@ date: 2020-05-10 10:09:12
 tags: [博客, 教程]
 categories: 教程
 description: "我不是鸽王！"
-sticky: 1
+sticky: 
 cover: /images/deploy-on-mobile/cover.jpg
 ---
 

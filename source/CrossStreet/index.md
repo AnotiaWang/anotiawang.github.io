@@ -15,9 +15,23 @@ cover: /CrossStreet/banner.jpg
 
 #### [Android App](https://pastebin.com/raw/SRjsN5cN)
 持续更新中，如有问题请积极反馈，我们会很快跟进，谢谢
-直接下载地址: [点击下载](https://cross-street.coding.net/api/share/download/8e2acc7d-75db-40ad-849c-7bdee9d9a177)
+直接下载地址: [点击下载](https://cross-street.coding.net/api/share/download/53a72fbe-49fa-4753-bf94-bc678522ed3e)
 
 ``` log UpdateLog https://blog.anotia.top/CrossStreet 十字街相关资源集合页
+【v2.4.4】
+• 全新样式的收藏功能，支持查看和修改，请见右上角“更多”和设置页。并已加入到长按菜单的选项中。（源码来自网络，稍作改动）
+ 
+• 新的“检查更新”页；
+ 
+• 悬浮按钮加入“夜间模式”开关，不同页面需单独设置；
+ 
+• 结构优化，启动和运行速度改善；修复问题。
+ 
+【v2.4.2】
+• 新版X5内核兼容性不佳，导致上传图片报错……换用旧版内核；
+ 
+• 增加一点FAQ内容
+
 【v2.4.1】
 • 进一步简化并调整了引导步骤；
 • 收藏链接的存放地点改为 "/sdcard/Documents/“十字街”收藏链接.txt" （需要存储权限）

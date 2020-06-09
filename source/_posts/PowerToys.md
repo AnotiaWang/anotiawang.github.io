@@ -41,7 +41,7 @@ PowerToys的设置界面有详细的配置（英文）。
 
 ![](/images/PowerToys/FancyZone.png)
 
-在拖拽窗口的时候按住Shift，就会显示出窗口布局位置，直接拖动到相应的位置就能放置。
+在拖拽窗口的时候按住Shift，就会显示出窗口布局位置，直接拖动到相应的位置即可放置。
 
 按住`` Win+` ``配置布局方式。
 
@@ -58,13 +58,13 @@ PowerToys的设置界面有详细的配置（英文）。
 
 # Shortcut Guide
 
-Windows有丰富的快捷键，但是要花不少时间去学习和记忆。PowerToys提供了一个向导，长按Window键就会弹出与Win键相关的快捷键。默认的呼出时值是900毫秒，根据自己的需要调整。
+Windows有丰富的快捷键，但是要花不少时间去学习和记忆。PowerToys提供了一个向导，长按Windows键就会弹出与其相关的快捷键。默认的呼出时值是900毫秒，根据自己的需要调整。
 
 ![](/images/PowerToys/startmenu.png)
 
 # PowerRename
 
-给文件批量重命名的工具。
+给文件批量重命名的工具，应该不用多说🤪
 
 ![](/images/PowerToys/PowerRename.png)
 

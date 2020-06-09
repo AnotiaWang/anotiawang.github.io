@@ -22,6 +22,9 @@ date: 2020-05-08 15:35:26
 | <img src="https://cdn.jsdelivr.net/gh/2275676437/TUPIANKU/ico/ico2.jpg" style="zoom: 16%;" /> | 萌趣小站 | 做小站，我是正经的 | https://miku.mx/ |
 | <img src="http://meodinger.info/static/media/me.e7f90a60.png" style="zoom: 16%;" /> | 一个人的代码 | 只要心在跳动，就有血的潮汐 | http://meodinger.info |
 | <img src="https://liuyifei.club/img/favicon.png" style="zoom: 16%;" /> | 恶龙不是龙哩 | 红尘纷扰，自有方寸 | https://liuyifei.club/ |
+| <img src="https://secure.gravatar.com/avatar/00e51c8b5c096890bed1f7956977f45a?s=200&r=X&d=" style="zoom: 20%;" /> | MZRME'S | You're the Miracles. |  https://mzrme.com/ |
+| <img src="https://zankyo.cc/wp-content/uploads/2017/11/20171127_082530.jpg" style="zoom: 26%;" /> | Zankyo | 我竟从未留意过，这个世界是如此的美丽。 | https://zankyo.cc/ |
+| <img src="https://s-cd-1092-htmlmoe.oss.dogecdn.com/images/avatar.jpg" style="zoom: 20%;" /> | BOKUTAKE 的小栈 | INFP / 性别迷 / 随和 / 懒散 / KEBAB REMOVER | https://html.moe/ |
 
 如需互加友链，请在评论区评论，格式：
 * 名称：xxx

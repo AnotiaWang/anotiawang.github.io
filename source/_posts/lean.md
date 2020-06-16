@@ -4,7 +4,7 @@ copyright: true
 description: 白嫖党的胜利
 sticky: 
 date: 2020-05-25 17:43:21
-tags: 教程, 白嫖
+tags: [教程, 白嫖]
 categories: 教程
 cover: /images/lean/cover.jpeg
 ---

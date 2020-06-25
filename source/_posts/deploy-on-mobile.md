@@ -161,7 +161,7 @@ Coding 提示: Hello 艾诺迪亚, You've connected to Coding.net via SSH. This 
 > 点击“新建令牌”，名字任意取，权限勾选第一条 "***project:depot***" ，也就是完整的仓库控制权限。
 > 点击“创建令牌”，<font color=red>复制接下来出现的密钥，它只会出现一次。</font>
 > 回到你的 Coding 仓库，复制你的仓库地址，形如 "https://e.coding.net/xxx/xxx.git"
-> 进入你的博客文件夹，找到 config.yml，修改你的远程仓库地址为 "https://用户名:密码@e.coding.net/xxx/xxx.git"
+> 进入你的博客文件夹，找到 _config.yml，修改你的远程仓库地址为 **"https://用户名:密码@e.coding.net/xxx/xxx.git"**
 > 例如你的令牌用户名是 AbCdEfG、密码是 asdfghj，那么地址就是 "https://AbCdEfG:asdfghj@e.coding.net/xxx/xxx.git"
 > Git 的配置文件也可以改一下，在 “.git” 文件夹下的 “CONFIG” 文件，自行找到仓库地址，依葫芦画瓢。
 

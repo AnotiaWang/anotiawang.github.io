@@ -4,7 +4,7 @@ copyright: true
 date: 2020-05-10 10:09:12
 tags: [博客, 教程]
 categories: 教程
-description: "我不是鸽王！"
+description: "在任何地方接续你的工作"
 sticky: 
 cover: /images/deploy-on-mobile/cover.jpg
 ---
@@ -153,6 +153,18 @@ Coding 提示: Hello 艾诺迪亚, You've connected to Coding.net via SSH. This 
 ```
 
 如果出现以上提示则说明成功。GitHub使用``ssh -T git@github.com``即可。
+
+> 6/25 更新：
+> 手机端的密钥不好用，容易出错，实际上用 Coding 令牌更方便。
+> 进入 Coding 个人设置，进入“访问令牌”，记住自己的令牌用户名（图中红色涂抹区域）
+> ![Coding 个人设置页](/images/deploy-on-mobile/coding-auth.jpg)
+> 点击“新建令牌”，名字任意取，权限勾选第一条 "***project:depot***" ，也就是完整的仓库控制权限。
+> 点击“创建令牌”，<font color=red>复制接下来出现的密钥，它只会出现一次。</font>
+> 回到你的 Coding 仓库，复制你的仓库地址，形如 "https://e.coding.net/xxx/xxx.git"
+> 进入你的博客文件夹，找到 config.yml，修改你的远程仓库地址为 "https://用户名:密码@e.coding.net/xxx/xxx.git"
+> 例如你的令牌用户名是 AbCdEfG、密码是 asdfghj，那么地址就是 "https://AbCdEfG:asdfghj@e.coding.net/xxx/xxx.git"
+> Git 的配置文件也可以改一下，在 “.git” 文件夹下的 “CONFIG” 文件，自行找到仓库地址，依葫芦画瓢。
+
 ## 开始编辑
 
 因为Hexo支持跨平台，所以手机端编辑和部署操作与电脑端基本一致。这里讲一下大概的操作。

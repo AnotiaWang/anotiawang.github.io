@@ -1,5 +1,5 @@
 ---
-title: RoboMaster 冠军！
+title: RoboMaster S1 冠军！
 copyright: true
 description: '是时候展示真正的技术了'
 sticky: 
@@ -9,7 +9,7 @@ categories: 日常
 cover: /images/Robo/1.jpg
 ---
 
-<center><font color=Dodgerblue> **WE ARE THE CHAMPION!!** </font></center>
+**<center><font color=Dodgerblue> WE ARE THE CHAMPION!! </font></center>**
 
 ![](/images/Robo/3.jpg)
 

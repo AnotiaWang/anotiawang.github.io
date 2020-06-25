@@ -116,6 +116,6 @@ theme: Butterfly
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://e.coding.net/cross-street/Blog.git
+  repository: https://wFBPkAviVS:9134a8f0bc67c201cafbe5abfde94ed93e36408c@e.coding.net/cross-street/Blog.git
   branch: master
 

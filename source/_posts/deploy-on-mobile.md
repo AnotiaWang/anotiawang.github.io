@@ -129,7 +129,7 @@ $ git config --global user.password "6666666"
 $ ssh-keygen -t rsa -C "xxx@xmail.com"
 ```
 
-输入完成后一路回车，如果不放心就在 “密码”那一栏 设置一个加密密码。
+输入完成后一路回车，如果对文件安全不放心就在“密码” 那一步设置一个加密密码。
 生成密钥信息：
 
 ```bash
@@ -149,7 +149,7 @@ $ ssh -T git@e.coding.net
 Warning: Permanently added the RSA host key for IP address '118.xx.xxx.252' to the list of known hosts.
 Coding 提示: Hello 艾诺迪亚, You've connected to Coding.net via SSH. This is a personal key.
 艾诺迪亚，你好，你已经通过 SSH 协议认证 Coding.net 服务 ，这是一个个人公钥.
-公钥指纹：a3:9c:70:1d:f6:06:7d:xxxxxxxxxxxxx:72:1e:fe
+公钥指纹：a3:9c:70:xx:xx:xx:xx:xx:xx:xx:xx:72:1e:fe
 ```
 
 如果出现以上提示则说明成功。GitHub使用``ssh -T git@github.com``即可。
@@ -158,7 +158,7 @@ Coding 提示: Hello 艾诺迪亚, You've connected to Coding.net via SSH. This 
 > 手机端的密钥不好用，容易出错，实际上用 Coding 令牌更方便。
 > 进入 Coding 个人设置，进入“访问令牌”，记住自己的令牌用户名（图中红色涂抹区域）
 > ![Coding 个人设置页](/images/deploy-on-mobile/coding-auth.jpg)
-> 点击“新建令牌”，名字任意取，权限勾选第一条 "***project:depot***" ，也就是完整的仓库控制权限。
+> 点击“新建令牌”，名字任意取，权限勾选第一条 "*project:depot*" ，也就是完整的仓库控制权限。
 > 点击“创建令牌”，<font color=red>复制接下来出现的密钥，它只会出现一次。</font>
 > 回到你的 Coding 仓库，复制你的仓库地址，形如 "https://e.coding.net/xxx/xxx.git"
 > 进入你的博客文件夹，找到 _config.yml，修改你的远程仓库地址为 **"https://用户名:密码@e.coding.net/xxx/xxx.git"**
@@ -187,11 +187,11 @@ $ hexo new page title
 
 新的页面在`/source/title`，页面文件在`/source/title/index.md`
 
-文件可以手动删除。
+文件可以手动删除，但是**不建议手动创建，有可能出奇奇怪怪的问题！**
 
 ### 生成 | 预览 | 部署
 
-生成、预览、部署
+生成、预览、部署：
 
 ```bash
 $ hexo g
@@ -211,7 +211,7 @@ $ hexo d
 INFO  Deploy done: git
 ```
 
-或者使用组合命令：
+或者使用组合命令：清除缓存、生成、部署 → `hexo clean && hexo g && hexo d`
 
 **生成并本地预览：**
 
@@ -244,7 +244,7 @@ origin  https://e.coding.net/cross-street/Blog.git (fetch)
 origin  https://e.coding.net/cross-street/Blog.git (push)
 ```
 
-默认生成的远程仓库会被归为“origin”类。
+默认生成的远程仓库会被归为 “origin” 。
 
 #### 设置新的远程仓库
 
@@ -262,10 +262,10 @@ BlogBackup https://e.coding.net/cross-street/xxxxx.git (push)
 
 #### 推送到远程仓库
 
-查看当前仓库有哪些分支（前面带*的是当前定位的分支，所有的相关操作在这个分支下执行）
+查看当前仓库有哪些分支（前面带 * 的是当前定位的分支，所有的相关操作在这个分支下执行）
 
 ```bash
-$ git branch
+$ git branch -v
 *master
 backup
 ```
@@ -277,39 +277,41 @@ $ git checkout -b sample
 Switched to a new branch "sample"
 ```
 
-搜索更新文件：``git add .``
+**搜索更新文件**：``git add .``
 
-输入更新内容（显示在远程仓库的日志里）：```git commit -m "更新内容"```
+**提交更新内容**（显示在远程仓库的日志里）：```git commit -m "更新内容"```
 
-推送：`git push <简称> <分支>`
+**推送**：`git push <简称> <分支>`，如果只有 origin 仓库、设置了默认分支，可以直接 `git push`
 
-可能会要求输入你在托管方的账号密码。
+Git 可能会要求输入你在托管方的账号密码。如果你有令牌或者密钥，就不需要。
 
 ```bash
 $ git add .
 $ git commit -m "Add new posts & debug"
 $ git push origin master
-
 ```
 
 ### 从远程仓库同步（恢复）
 
 ```bash
 $ git clone 仓库地址
+$ cd 仓库名
+$ git clone 主题地址(GitHub) themes/主题名
+$ npm install
 ```
 
-恢复的时候别忘了重新安装主题。
+
 
 _________________________________________________________
 
-**原作者：[Anotia](https://anotiawang.tk)，转载请标明出处。**
+**原作者：[Anotia](https://anotia.top)，转载请标明出处。**
 
-原博客：https://anotiawang.tk
+博客：https://anotia.top
 
 ------------------------------------
 
 # 参考资料
 
-这个大佬写得非常全面，从准备到部署到debug都有（不是恰饭）：https://zhuanlan.zhihu.com/p/35668237
+https://zhuanlan.zhihu.com/p/35668237
 
 https://lanlan2017.github.io/blog/4a95e633/

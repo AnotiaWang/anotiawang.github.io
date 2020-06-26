@@ -12,6 +12,7 @@
     "version": "4.2.0"
   },
   "dependencies": {
+    "core-js": "^3.6.5",
     "hexo": "^4.2.0",
     "hexo-algoliasearch": "^0.4.2",
     "hexo-deployer-git": "^2.1.0",

@@ -9,12 +9,12 @@ admin:
   secret: Wangyukun
 
 # Site
-title: 玄风秘
-subtitle: '人，是会思考的芦苇'
+title: 艾迪的小栈
+subtitle: '认真你就输了'
 description: '梅虽逊雪三分白，雪却输梅一缕香。'
 keywords:
 author: Anotia Wang
-language: zh-cn
+language: zh-CN
 timezone: ''
 
 # 本地搜索

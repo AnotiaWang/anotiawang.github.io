@@ -6,7 +6,11 @@ categories: 日常
 description: "功能日志和未来可能增加的功能。"
 cover: https://s1.ax1x.com/2020/05/08/YuHPZ4.jpg
 ---
-# 新功能 Timeline
+# Timeline
+
+## 2020/6/26
+
+　目录结构调整，变为 /posts/title
 
 ## 2020/5/16
 

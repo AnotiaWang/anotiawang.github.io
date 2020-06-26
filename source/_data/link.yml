@@ -1,0 +1,52 @@
+- class_name: 友情链接
+  class_desc: 万物互联的世界，才是命运的共同体<br>申请友链请<a href="https://blog.anotia.top/Apply4Link">点击这里</a>
+  link_list:
+    - name: 小通's Blog
+      link: https://howsyc.cn
+      avatar: https://kaifan-1301263664.cos.ap-nanjing.myqcloud.com/%E5%A4%B4%E5%83%8F/zuo.ico
+      descr: 专业划水摸鱼
+    - name: 动 G Blog
+      link: https://www.verbg.com
+      avatar: https://cdn.jsdelivr.net/gh/verbgcom/verbgcom.github.io/images/avatar.png
+      descr: 不放松，不醉到，用学习态度。
+    - name: 萌趣小站
+      link: https://miku.mx
+      avatar: https://cdn.jsdelivr.net/gh/2275676437/TUPIANKU/ico/ico2.jpg
+      descr: 做小站，我是正经的
+    - name: 一个人的代码
+      link: http://meodinger.info
+      avatar: https://blog.anotia.top/images/friendlink/Meo.png
+      descr: 只要心在跳动，就有血的潮汐
+    - name: 恶龙不是龙哩
+      link: https://liuyifei.club
+      avatar: https://liuyifei.club/img/favicon.png
+      descr: 红尘纷扰，自有方寸
+    - name: MZRME'S
+      link: https://mzrme.com
+      avatar: https://secure.gravatar.com/avatar/00e51c8b5c096890bed1f7956977f45a?s=200&r=X&d=
+      descr: You're the Miracles.
+    - name: Zankyo
+      link: https://zankyo.cc
+      avatar: https://zankyo.cc/wp-content/uploads/2017/11/20171127_082530.jpg
+      descr: 我竟从未留意过，这个世界是如此的美丽。
+    - name: BOKUTAKE 的小栈
+      link: https://html.moe
+      avatar: https://s-cd-1092-htmlmoe.oss.dogecdn.com/images/avatar.jpg
+      descr: INFP / 性别迷 / 随和 / 懒散 / KEBAB REMOVER
+
+- class_name: 网站
+  class_desc: 收浮世之精粹，凝自我之新风
+  link_list:
+    - name: Anotia's Blog
+      link: https://anotia.top
+      avatar: https://blog.anotia.top/images/favicon.png
+      descr: 我的博客
+    - name: 十二号时评站
+      link: https://sp.anotia.top
+      avatar: https://sp.anotia.top/images/favicon.jpg
+      descr: 为班级建立的语文资料站
+    - name: 十字街 App
+      link: https://csa.anotia.top
+      avatar: https://csa.anotia.top/image/icon.png
+      descr: 个人开发，兴趣所为
+

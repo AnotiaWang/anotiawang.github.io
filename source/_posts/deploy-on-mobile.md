@@ -4,7 +4,8 @@ copyright: true
 date: 2020-05-10 10:09:12
 tags: [博客, 教程]
 categories: 教程
-description: "在任何地方接续你的工作"
+description: "在任何地方接续你的工作。"
+comments: true
 sticky: 
 cover: /images/deploy-on-mobile/cover.jpg
 ---

@@ -6,6 +6,7 @@ sticky:
 date: 2020-06-07 22:54:54
 tags: [分享]
 categories: 分享
+comments: true
 cover: /images/Adobe2020/cover.jpg
 ---
 

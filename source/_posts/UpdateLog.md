@@ -3,6 +3,7 @@ title: 功能更新日志
 date: 2020-05-08 14:21:45
 tags: [日志]
 categories: 日常
+comments: true
 description: "功能日志和未来可能增加的功能。"
 cover: https://s1.ax1x.com/2020/05/08/YuHPZ4.jpg
 ---

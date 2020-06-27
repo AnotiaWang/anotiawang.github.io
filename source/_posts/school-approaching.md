@@ -6,6 +6,7 @@ sticky:
 date: 2020-05-10 22:00:00
 tags: [随笔, 学校]
 categories: 随笔
+comments: true
 cover: /images/school-approaching/cover.jpg
 ---
 > 在学校时想家，在家时想返校

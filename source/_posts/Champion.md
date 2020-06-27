@@ -6,6 +6,7 @@ sticky:
 date: 2020-06-18 18:18:23
 tags: 学校
 categories: 日常
+comments: true
 cover: /images/Robo/1.jpg
 ---
 

@@ -6,6 +6,7 @@ sticky:
 date: 2020-05-10 17:13:49
 tags: 随笔
 categories: 随笔
+comments: true
 cover: /images/paperclip/cover.jpg
 ---
 

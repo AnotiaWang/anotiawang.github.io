@@ -15,6 +15,8 @@ cover: https://s1.ax1x.com/2020/05/08/YKe4MV.png
 
 我一开始用的是GitHub，后来发现自己也在用的Coding服务更快一些，而且中文比较容易理解 ~~（但我找静态网站入口还是找了一个世纪）~~ ，所以把东西挪到了Coding。
 
+腾讯云 Coding 的静态网页服务本来是给海外用户提供的，服务器在香港和新加坡，不过大陆用户也能用。
+
 找了好多好多教程，要是感觉一个讲得不够或者没有用，就打开另一个，综合着看，一点一点整出了这个博客。
 
 [Coding 静态网站服务 官方文档](https://help.coding.net/docs/devops/cd/static-website.html)

@@ -1,12 +1,12 @@
 ---
-title: 在移动设备上进行 Hexo 博客编辑和部署
+title: 如何在移动设备上进行 Hexo 博客编辑和部署
 copyright: true
 date: 2020-05-10 10:09:12
 tags: [博客, 教程]
 categories: 教程
 description: "在任何地方接续你的工作。"
 comments: true
-sticky: 
+sticky: 1
 cover: /images/deploy-on-mobile/cover.jpg
 ---
 
@@ -25,10 +25,10 @@ cover: /images/deploy-on-mobile/cover.jpg
 
 ## 准备材料
 
-* 一台安卓手机（已 root 且做好防范措施）
-* 安装 Termux（前往[官网](https://termux.com/)或者[Google  Play](https://play.google.com/store/apps/details?id=com.termux&hl=zh)下载）
+* 一台安卓手机（已 root ，建议做好防范措施）
+* 安装 Termux（前往[官网](https://termux.com/)或者 [Google Play](https://play.google.com/store/apps/details?id=com.termux&hl=zh) 下载）
 * 能查看系统根目录的文件管理器，如 RE 或 MT 管理器，手机需root。推荐MT
-* 【建议】科学上网工具
+* **【建议】科学上网工具**
 
 ![Termux 主界面](/images/deploy-on-mobile/termux-1.jpg)
 
@@ -36,9 +36,10 @@ cover: /images/deploy-on-mobile/cover.jpg
 >
 >  先执行```$ pkg install proot```，然后执行 ```$ termux-chroot``` 就可以模拟出root权限。详情见链接↑
 >
-> 获取完成后可以用Termux操作，但是无法用文件管理器看到。
+> 获取完成后可以用Termux操作文件和目录，但是无法用文件管理器看到。
 
 本文资料来自：华为平板 M6
+
 ## 配置环境
 
 ### 初始化

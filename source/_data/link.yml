@@ -40,10 +40,10 @@
     - name: Anotia's Blog
       link: https://anotia.top
       avatar: https://blog.anotia.top/images/favicon.png
-      descr: 我的博客
+      descr: 我的博客首页
     - name: 十二号时评站
       link: https://sp.anotia.top
-      avatar: https://sp.anotia.top/images/favicon.jpg
+      avatar: https://sp.anotia.top/images/avatar.jpg
       descr: 为班级建立的语文资料站
     - name: 十字街 App
       link: https://csa.anotia.top

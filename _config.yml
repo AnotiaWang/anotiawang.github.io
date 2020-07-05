@@ -2,12 +2,6 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# hexo-admin authentification
-admin:
-  username: Anotia
-  password_hash: $2a$10$5fvAf.zjBBDYx1bx5x7G4.x6/IC13tkg/Mo9XfpXloB/xliLiroC.
-  secret: Wangyukun
-
 # Site
 title: 艾迪的小栈
 subtitle: '认真你就输了'

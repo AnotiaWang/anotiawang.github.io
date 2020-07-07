@@ -9,11 +9,11 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "4.2.0"
+    "version": "4.2.1"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "hexo": "^4.2.0",
+    "hexo": "^4.2.1",
     "hexo-algoliasearch": "^0.4.2",
     "hexo-deployer-git": "^2.1.0",
     "hexo-generator-archive": "^1.0.0",
@@ -31,6 +31,7 @@
     "hexo-server": "^1.0.0",
     "hexo-uglify": "^1.1.0",
     "hexo-wordcount": "^6.0.1",
-    "minimatch": "^3.0.2"
-  }
+    "minimatch": "^3.0.4"
+  },
+  "devDependencies": {}
 }

@@ -33,6 +33,15 @@
       link: https://html.moe
       avatar: https://s-cd-1092-htmlmoe.oss.dogecdn.com/images/avatar.jpg
       descr: INFP / 性别迷 / 随和 / 懒散 / KEBAB REMOVER
+    - name: Aurora's Blog
+      link: https://blog.this52.cn
+      avatar: https://cdn.jsdelivr.net/gh/52assert/CDN/img/20200704172125.jpg
+      descr: 一个编程爱好者 一个Java爱好者
+    - name: 会飞的小戈
+      link: https://lovelijunyi.gitee.io
+      avatar: https://gitee.com/lovelijunyi/images/raw/master/20200404135847.jpg
+      descr: 喜欢大数据、嵌入式和机器视觉
+
 
 - class_name: 网站
   class_desc: 收浮世之精粹，凝自我之新风

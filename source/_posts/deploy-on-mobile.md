@@ -7,7 +7,7 @@ categories: 教程
 description: "在任何地方接续你的工作。"
 comments: true
 sticky: 1
-cover: /images/deploy-on-mobile/cover.jpg
+cover: https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/cover.jpg
 ---
 
 # 导言
@@ -30,7 +30,7 @@ cover: /images/deploy-on-mobile/cover.jpg
 * 能查看系统根目录的文件管理器，如 RE 或 MT 管理器，手机需root。推荐MT
 * **【建议】科学上网工具**
 
-![Termux 主界面](/images/deploy-on-mobile/termux-1.jpg)
+![Termux 主界面](https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/termux-1.jpg)
 
 > 我找资料的时候发现没有root的手机也有[解决办法](https://zhuanlan.zhihu.com/p/35668237)，在此列出作为参考：
 >
@@ -60,9 +60,9 @@ $ apt install nodejs-lts
 TypeError [ERR_INVALID_ARGTYPE]: The "mode" argument mast be integer. Received an instance of Object
 ~~~
 
-[👉nodejs新版的报错截图👈](/images/deploy-on-mobile/error-node-too-new.jpg)
+[👉nodejs新版的报错截图👈](https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/error-node-too-new.jpg)
 
-![](/images/deploy-on-mobile/install-nodejs.jpg)
+![](https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/install-nodejs.jpg)
 
 ### 安装 git
 
@@ -70,7 +70,7 @@ TypeError [ERR_INVALID_ARGTYPE]: The "mode" argument mast be integer. Received a
 $ apt install git
 ```
 
-![](/images/deploy-on-mobile/install-git.jpg)
+![](https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/install-git.jpg)
 
 ### 建立博客文件夹
 
@@ -140,7 +140,7 @@ $ cat ~/.ssh/id_rsa.pub
 
 之后程序会生成一个名为"id_rsa.pub"的文件，默认保存在`/files/.ssh/`文件夹，可以手动查看，或者直接复制程序输出的一串密钥。
 打开托管平台，在**个人设置里**新建一个SSH公钥，以Coding为例：
-![Create new SSH key](/images/deploy-on-mobile/SSH.jpg)
+![Create new SSH key](https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/SSH.jpg)
 
 > 注：Coding的公钥分为两种类型，在个人设置里的是**全局公钥**，可以编辑你的所有项目；在每个项目设置里还有单独的SSH私钥，仅对该项目有效。
 
@@ -159,7 +159,7 @@ Coding 提示: Hello 艾诺迪亚, You've connected to Coding.net via SSH. This 
 > 6/25 更新：
 > 手机端的密钥不好用，容易出错，实际上用 Coding 令牌更方便。
 > 进入 Coding 个人设置，进入“访问令牌”，记住自己的令牌用户名（图中红色涂抹区域）
-> ![Coding 个人设置页](/images/deploy-on-mobile/coding-auth.jpg)
+> ![Coding 个人设置页](https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/coding-auth.jpg)
 > 点击“新建令牌”，名字任意取，权限勾选第一条 "*project:depot*" ，也就是完整的仓库控制权限。
 > 点击“创建令牌”，<font color=red>复制接下来出现的密钥，它只会出现一次。</font>
 > 回到你的 Coding 仓库，复制你的仓库地址，形如 "https://e.coding.net/xxx/xxx.git"

@@ -7,14 +7,14 @@ date: 2020-05-16 11:54:38
 tags: [分享]
 categories: 分享
 comments: true
-cover: /images/PowerToys/cover.png
+cover: https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/cover.jpg
 ---
 
 尽管Windows占有PC市场的半壁江山，但它的特色功能一直是平淡无奇，没有多少亮点，只是默默跟着大势。反观Mac，从一开始就因为一些令人眼前一亮的设计十分讨喜。
 
 然而前段时间，~~微软~~巨硬的一款软件开始**重新**进入人们的视线，那就是“PowerToys”。
 
-![](/images/PowerToys/cover.jpg)
+![Power Toys的logo](https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/cover.png)
 
 为什么是“重新”？
 
@@ -32,7 +32,7 @@ cover: /images/PowerToys/cover.png
 
 PowerToys的设置界面有详细的配置（英文）。
 
-![](/images/PowerToys/settings.png)
+![](https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/settings.png)
 
 安装后，PowerToys会在后台运行，系统托盘显示图标。**对应的操作通过右键菜单完成。**
 
@@ -40,13 +40,13 @@ PowerToys的设置界面有详细的配置（英文）。
 
 顾名思义，它能一键设置窗口布局。
 
-![](/images/PowerToys/FancyZone.png)
+![](https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/FancyZone.png)
 
 在拖拽窗口的时候按住Shift，就会显示出窗口布局位置，直接拖动到相应的位置即可放置。
 
 按住`` Win+` ``配置布局方式。
 
-![](/images/PowerToys/FancyZoneSettings.png)
+![](https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/FancyZoneSettings.png)
 
 可以手动设置的选项：
 
@@ -61,13 +61,13 @@ PowerToys的设置界面有详细的配置（英文）。
 
 Windows有丰富的快捷键，但是要花不少时间去学习和记忆。PowerToys提供了一个向导，长按Windows键就会弹出与其相关的快捷键。默认的呼出时值是900毫秒，根据自己的需要调整。
 
-![](/images/PowerToys/startmenu.png)
+![](https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/startmenu.png)
 
 # PowerRename
 
 给文件批量重命名的工具，应该不用多说🤪
 
-![](/images/PowerToys/PowerRename.png)
+![](https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/PowerRename.png)
 
 # Preview Panes
 
@@ -75,7 +75,7 @@ Windows有丰富的快捷键，但是要花不少时间去学习和记忆。Powe
 
 在文件管理器的**顶栏 - 查看 - 预览窗格**启用预览就行。
 
-![](/images/PowerToys/PreviewPanes.png)
+![](https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/PreviewPanes.png)
 
 >  我这里的图片使用了相对路径，所以有显示错误提示
 
@@ -83,7 +83,7 @@ Windows有丰富的快捷键，但是要花不少时间去学习和记忆。Powe
 
 这个功能其实在Microsoft Office里有，微软把它拎出来做了一个单独的功能，根据需要在哪种设备上显示，压缩图片尺寸，从而节约大小。
 
-![](/images/PowerToys/Resizer.png)
+![](https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/Resizer.png)
 
 # 其他配置
 

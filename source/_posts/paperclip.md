@@ -7,7 +7,7 @@ date: 2020-05-10 17:13:49
 tags: 随笔
 categories: 随笔
 comments: true
-cover: /images/paperclip/cover.jpg
+cover: https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/paperclip/cover.jpg
 ---
 
 　　大约一个月前，科技科普媒体“回形针”因为在视频里的一些数据和描述，被指出“歧视中国人”“立场不正确“等问题，进而被曝光出一系列的”恰烂钱“”夹带私货“等做法。最终，回形针承诺停止更新一个月，回顾过去的所有视频并进行整改。4月30日，回形针恢复更新，讲述了团队制作视频的一般流程，以及对过去一些问题的回应。本人不敢妄言，但是在看了很多评论之后，还是想对当下互联网的状况发表一些拙见。

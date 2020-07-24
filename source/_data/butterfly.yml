@@ -594,10 +594,10 @@ aside:
   position: left # left or right
   card_author:
     enable: true
-    description: 琴童、死宅一枚
+    description: 琴童、死宅一枚，喜爱计算机
   card_announcement:
     enable: true
-    content: 学生党，不定期更，建议收藏慢慢看😁
+    content: 高三了(｡•̀ᴗ-)✧ Fighting
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all

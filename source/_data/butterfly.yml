@@ -594,10 +594,10 @@ aside:
   position: left # left or right
   card_author:
     enable: true
-    description: 琴童、死宅一枚，喜爱计算机
+    description: 宅一枚，喜爱计算机和钢琴。
   card_announcement:
     enable: true
-    content: 高三了(｡•̀ᴗ-)✧ Fighting
+    content: 高三 (◍•ᴗ•◍) Fighting<br>在用服务器：<a href="https://www.qexw.com/aff.php?aff=848">香港30M VPS月付17.1</a>
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all

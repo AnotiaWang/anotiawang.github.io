@@ -12,17 +12,6 @@
       </tags>
   </entry>
   <entry>
-    <title>新页面上线</title>
-    <url>/posts/6-16-%E6%B0%B4/</url>
-    <content><![CDATA[<p>折腾了一下午，终于把顶级域名安排上了页面</p><p><font size="5"><a href="https://anotia.top" target="_blank" rel="noopener">https://anotia.top</a></font></p><p>貌似 Hexo 的主题有很多都是中国人做的诶，这个只有单页面的挺不错。</p><p>有一说一，腾讯云的客服还不错<font color="grey"><del>（不像微信的那么垃圾，鸟都不鸟你）</del></font>，提交了工单很快就回复了。</p><p>但就是这个Coding的域名证书…………简直搞我心态……明天再看看通过了没有</p><p>补：</p><p>弄好了，是解析线路的问题……没有开放国外线路，导致 Let’s Encrypt 无法访问，也就无法验证域名。</p>]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>RoboMaster S1 冠军！</title>
     <url>/posts/Champion/</url>
     <content><![CDATA[<p><strong><center><font color="Dodgerblue">WE ARE THE CHAMPION!!</font></center></strong></p><p><img src= "/images/LOADING.gif" data-src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/Robo/3.jpg" alt=""></p><p><img src= "/images/LOADING.gif" data-src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/Robo/2.jpg" alt=""></p>]]></content>
@@ -42,6 +31,28 @@
       </categories>
       <tags>
         <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新页面上线</title>
+    <url>/posts/6-16-%E6%B0%B4/</url>
+    <content><![CDATA[<p>折腾了一下午，终于把顶级域名安排上了页面</p><p><font size="5"><a href="https://anotia.top" target="_blank" rel="noopener">https://anotia.top</a></font></p><p>貌似 Hexo 的主题有很多都是中国人做的诶，这个只有单页面的挺不错。</p><p>有一说一，腾讯云的客服还不错<font color="grey"><del>（不像微信的那么垃圾，鸟都不鸟你）</del></font>，提交了工单很快就回复了。</p><p>但就是这个Coding的域名证书…………简直搞我心态……明天再看看通过了没有</p><p>补：</p><p>弄好了，是解析线路的问题……没有开放国外线路，导致 Let’s Encrypt 无法访问，也就无法验证域名。</p>]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>建站参考目录</title>
+    <url>/posts/build-references/</url>
+    <content><![CDATA[<h2 id="建站参考资料"><a href="#建站参考资料" class="headerlink" title="建站参考资料"></a>建站参考资料</h2><blockquote><p>以下是我搭建这个博客用到的资料，排名不分先后。</p></blockquote><p>我一开始用的是GitHub，后来发现自己也在用的Coding服务更快一些，而且中文比较容易理解 <del>（但我找静态网站入口还是找了一个世纪）</del> ，所以把东西挪到了Coding。</p><p>腾讯云 Coding 的静态网页服务本来是给海外用户提供的，服务器在香港和新加坡，不过大陆用户也能用。</p><p>找了好多好多教程，要是感觉一个讲得不够或者没有用，就打开另一个，综合着看，一点一点整出了这个博客。</p><p><a href="https://help.coding.net/docs/devops/cd/static-website.html" target="_blank" rel="noopener">Coding 静态网站服务 官方文档</a></p><p><a href="https://blog.csdn.net/qq_36667170/article/details/79318665" target="_blank" rel="noopener">CSDN 静态网站搭建指南</a></p><p><a href="https://zhuanlan.zhihu.com/p/35668237" target="_blank" rel="noopener">超详细Hexo+Github博客搭建小白教程（知乎）</a></p><p><a href="https://www.antmoe.com/posts/75a6347a/#%E6%90%9C%E7%B4%A2%E7%B3%BB%E7%BB%9F" target="_blank" rel="noopener">Hexo安装并使用Butterfly主题</a></p><p><a href="http://baymrx.me/2019/08/02/Hexo%E8%BF%9B%E9%98%B6%E2%80%94%E2%80%94%E4%B8%BB%E9%A2%98%E5%92%8C%E5%8A%9F%E8%83%BD%E7%9A%84%E5%AE%8C%E5%96%84/#%E5%9C%A8%E6%96%87%E7%AB%A0%E6%9C%AB%E5%B0%BE%E6%B7%BB%E5%8A%A0%E6%96%87%E6%9C%AC%E7%BB%93%E6%9D%9F%E6%A0%87%E8%AE%B0" target="_blank" rel="noopener">Hexo进阶——主题和功能的完善</a></p><p><a href="https://jerry011235.github.io/2015/05/05/hexo%E7%BC%96%E8%BE%91%E5%8D%9A%E6%96%87%E4%B8%8E%E5%8F%91%E5%B8%83/" target="_blank" rel="noopener">hexo博客编辑博文与发布</a></p><p><a href="https://blog.csdn.net/blue_zy/article/details/79071414" target="_blank" rel="noopener">为你的Hexo加上评论系统</a></p><p><a href="https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%9A%84%E6%96%B0%E5%BB%BA%E4%B8%8E%E5%90%88%E5%B9%B6" target="_blank" rel="noopener">Git - 分支的新建与合并</a></p><p><a href="https://git-scm.com/book/zh/v2/Git-%E5%9F%BA%E7%A1%80-%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%E4%BD%BF%E7%94%A8" target="_blank" rel="noopener">Git - 远程仓库的使用</a></p>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>感谢</tag>
       </tags>
   </entry>
   <entry>
@@ -68,22 +79,6 @@
       </tags>
   </entry>
   <entry>
-    <title>建站参考目录</title>
-    <url>/posts/build-references/</url>
-    <content><![CDATA[<h2 id="建站参考资料"><a href="#建站参考资料" class="headerlink" title="建站参考资料"></a>建站参考资料</h2><blockquote><p>以下是我搭建这个博客用到的资料，排名不分先后。</p></blockquote><p>我一开始用的是GitHub，后来发现自己也在用的Coding服务更快一些，而且中文比较容易理解 <del>（但我找静态网站入口还是找了一个世纪）</del> ，所以把东西挪到了Coding。</p><p>腾讯云 Coding 的静态网页服务本来是给海外用户提供的，服务器在香港和新加坡，不过大陆用户也能用。</p><p>找了好多好多教程，要是感觉一个讲得不够或者没有用，就打开另一个，综合着看，一点一点整出了这个博客。</p><p><a href="https://help.coding.net/docs/devops/cd/static-website.html" target="_blank" rel="noopener">Coding 静态网站服务 官方文档</a></p><p><a href="https://blog.csdn.net/qq_36667170/article/details/79318665" target="_blank" rel="noopener">CSDN 静态网站搭建指南</a></p><p><a href="https://zhuanlan.zhihu.com/p/35668237" target="_blank" rel="noopener">超详细Hexo+Github博客搭建小白教程（知乎）</a></p><p><a href="https://www.antmoe.com/posts/75a6347a/#%E6%90%9C%E7%B4%A2%E7%B3%BB%E7%BB%9F" target="_blank" rel="noopener">Hexo安装并使用Butterfly主题</a></p><p><a href="http://baymrx.me/2019/08/02/Hexo%E8%BF%9B%E9%98%B6%E2%80%94%E2%80%94%E4%B8%BB%E9%A2%98%E5%92%8C%E5%8A%9F%E8%83%BD%E7%9A%84%E5%AE%8C%E5%96%84/#%E5%9C%A8%E6%96%87%E7%AB%A0%E6%9C%AB%E5%B0%BE%E6%B7%BB%E5%8A%A0%E6%96%87%E6%9C%AC%E7%BB%93%E6%9D%9F%E6%A0%87%E8%AE%B0" target="_blank" rel="noopener">Hexo进阶——主题和功能的完善</a></p><p><a href="https://jerry011235.github.io/2015/05/05/hexo%E7%BC%96%E8%BE%91%E5%8D%9A%E6%96%87%E4%B8%8E%E5%8F%91%E5%B8%83/" target="_blank" rel="noopener">hexo博客编辑博文与发布</a></p><p><a href="https://blog.csdn.net/blue_zy/article/details/79071414" target="_blank" rel="noopener">为你的Hexo加上评论系统</a></p><p><a href="https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%9A%84%E6%96%B0%E5%BB%BA%E4%B8%8E%E5%90%88%E5%B9%B6" target="_blank" rel="noopener">Git - 分支的新建与合并</a></p><p><a href="https://git-scm.com/book/zh/v2/Git-%E5%9F%BA%E7%A1%80-%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%E4%BD%BF%E7%94%A8" target="_blank" rel="noopener">Git - 远程仓库的使用</a></p>]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>感谢</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/posts/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p><h2 id="Backup"><a href="#Backup" class="headerlink" title="Backup"></a>Backup</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://e.coding.net/cross-street/Blog.git</span><br><span class="line">$ <span class="built_in">cd</span> Blog</span><br><span class="line">$ npm install hexo --save</span><br><span class="line">$ npm install</span><br><span class="line">$ git <span class="built_in">clone</span> -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly</span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><h1 id="官方文档"><a href="#官方文档" class="headerlink" title="官方文档"></a>官方文档</h1><p><a href="https://docs.jerryc.me/#/zh-cn/config/theme-config" target="_blank" rel="noopener">https://docs.jerryc.me/#/zh-cn/config/theme-config</a></p>]]></content>
-  </entry>
-  <entry>
     <title>Valine 评论系统保活</title>
     <url>/posts/lean/</url>
     <content><![CDATA[<p>Valine 评论系统需要 LeanCloud 的云引擎作为支持，但是 LC 的限流措施让 <font color="grey"><del>白嫖版</del></font> Valine运行断断续续，热心网友们也想出了不少办法。</p><blockquote><p>LeanCloud官方文档：<br>体验实例在进行部署等管理操作时会暂停服务；同时<strong>体验实例会执行休眠策略</strong>，没有请求时会休眠<strong><em>（约半个小时后）</em></strong>，有请求时启动（首次启动可能需要十几秒的时间），<strong>每天最多运行 18 个小时</strong>。</p></blockquote><p>我在这里列出几个有效的方法。</p><h1 id="1-钞能力"><a href="#1-钞能力" class="headerlink" title="1. 钞能力"></a>1. 钞能力</h1><p><font color="grey"><del>Pony Ma 曾经说过，没有什么是💰解决不了的，如果有，那就加大力度</del></font><br>每天几块钱，就可以让实例全天运行，没有流控、没有限时。不过对于白嫖玩家来说，氪金是不可能的，一辈子都不会氪金的。</p><h1 id="2-定时任务"><a href="#2-定时任务" class="headerlink" title="2. 定时任务"></a>2. 定时任务</h1><p>在实例设置里设置两个定时任务，一个叫<code>self_wake</code>，一个叫<code>resend_mails</code>。两种方法：</p><ul><li>可以设置 Cron 表达式，好处是可以设置运行区间，不过容易跟别人的撞车。</li><li>也可以设置间隔时长，以秒为单位。随意设置，别让运行时间超过免费版的每天限制就行。<br><img src= "/images/LOADING.gif" data-src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/autowake.jpg" alt=""></li></ul><p>这种方法目前不太行，LeanCloud 加强了流控。</p><h1 id="3-UptimeRobot"><a href="#3-UptimeRobot" class="headerlink" title="3. UptimeRobot"></a>3. UptimeRobot</h1><p>此方法适用于使用国际版 LC，设置了独立主机域名的玩家。<br><img src= "/images/LOADING.gif" data-src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/%E5%9F%9F%E5%90%8D1.jpg" alt=""><br><img src= "/images/LOADING.gif" data-src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/%E5%9F%9F%E5%90%8D2.jpg" alt=""><br>Uptime Robot（简称UR）的作用，简单来说就是<strong>存活测试</strong>，看网站是否正常运行。<br>而 LC 云引擎的运行策略是，如果主机域名被访问了，实例就会启动，半个小时无活动之后再关闭。</p><ul><li>注册一个 UR 账号</li><li>给你的<strong>后台网址</strong>添加一个监视器</li><li>设置检查时间间隔</li></ul><p><img src= "/images/LOADING.gif" data-src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/ur.jpg" alt=""><br>但是超过每天的时间上限之后就会出现 Bad Request，而且这个没法设置运行区间，所以记得把时间弄明白。</p><h1 id="Wake-LeanCloud"><a href="#Wake-LeanCloud" class="headerlink" title="Wake LeanCloud"></a>Wake LeanCloud</h1><p>目前为止最有效的方案，用 GitHub Workflow 实现定时唤醒。我试了一下，好像有用。<br><a href="https://github.com/blogimg/WakeLeanCloud" target="_blank" rel="noopener">https://github.com/blogimg/WakeLeanCloud</a></p>]]></content>
@@ -93,18 +88,6 @@
       <tags>
         <tag>教程</tag>
         <tag>白嫖</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开学日临近……</title>
-    <url>/posts/school-approaching/</url>
-    <content><![CDATA[<blockquote><p>在学校时想家，在家时想返校</p></blockquote><p>&emsp;&emsp;三个月网课学习，体验了网上教学的感觉，还有，<strong>孤独</strong>的滋味。<br>&emsp;&emsp;谁都没有料到疫情的爆发，那些义无反顾的逆行者们，我想向他们致敬。没有他们的奋斗，便没有安逸的环境和如此快的抗疫之战，也就没有了我们能够尽早返校的前提。<br><img src= "/images/LOADING.gif" data-src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/school-approaching/study.jpg" alt="返校"><br>&emsp;&emsp;三个月里，我第一次体验了如此长时间的、持续性的线上学习。实话说，我并不是很习惯。网络上有那么多新奇有趣的东西等着我去探索，注意力是分散的，思维是发散的。希望我返校后能尽快纠正姿势，回到原有的状态。<br>&emsp;&emsp;这三个月里，除了日常的学习之外，我还学会了一些东西：</p><ul><li>几首新曲子，虽然尚不能以原速演奏，但是正在逐渐熟练；</li><li>建立一个静态博客，正如你现在看到的。</li><li>学会了一点基本的视频处理技巧；</li><li>结识了一些<del>热心</del>网友，互相分享交流。我因此得以迅速熟悉新掌握的技能。</li></ul><p>&emsp;&emsp;这些东西也许对我的学业帮助不大，不过能帮助我舒缓心情，以更好的心态迎接下一步的学习。<br>&emsp;&emsp;也祝各位都越来越好，希望疫情尽快过去，祖国的一切尽快恢复原有的秩序。<br>&emsp;&emsp;明天就要开学力，要适应新的安排和新的模式，不知我们能在规则下创造出多少花样呢？<br>&emsp;&emsp;博客大抵不能每天更新了<del>（也没什么天天叨叨的）</del>，有机会的话，偶尔能利用学校电脑设备，那时再做考虑。博客应随心，以质为纲，以知识为墨。<br>&emsp;&emsp;<strong>希望归来时，一切依旧，生活不苟。</strong><br><img src= "/images/LOADING.gif" data-src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/school-approaching/books.jpg" alt="书"></p>]]></content>
-      <categories>
-        <category>随笔</category>
-      </categories>
-      <tags>
-        <tag>学校</tag>
-        <tag>随笔</tag>
       </tags>
   </entry>
   <entry>
@@ -127,6 +110,23 @@
       </categories>
       <tags>
         <tag>VPS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/posts/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p><h2 id="Backup"><a href="#Backup" class="headerlink" title="Backup"></a>Backup</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://e.coding.net/cross-street/Blog.git</span><br><span class="line">$ <span class="built_in">cd</span> Blog</span><br><span class="line">$ npm install hexo --save</span><br><span class="line">$ npm install</span><br><span class="line">$ git <span class="built_in">clone</span> -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly</span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><h1 id="官方文档"><a href="#官方文档" class="headerlink" title="官方文档"></a>官方文档</h1><p><a href="https://docs.jerryc.me/#/zh-cn/config/theme-config" target="_blank" rel="noopener">https://docs.jerryc.me/#/zh-cn/config/theme-config</a></p>]]></content>
+  </entry>
+  <entry>
+    <title>开学日临近……</title>
+    <url>/posts/school-approaching/</url>
+    <content><![CDATA[<blockquote><p>在学校时想家，在家时想返校</p></blockquote><p>&emsp;&emsp;三个月网课学习，体验了网上教学的感觉，还有，<strong>孤独</strong>的滋味。<br>&emsp;&emsp;谁都没有料到疫情的爆发，那些义无反顾的逆行者们，我想向他们致敬。没有他们的奋斗，便没有安逸的环境和如此快的抗疫之战，也就没有了我们能够尽早返校的前提。<br><img src= "/images/LOADING.gif" data-src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/school-approaching/study.jpg" alt="返校"><br>&emsp;&emsp;三个月里，我第一次体验了如此长时间的、持续性的线上学习。实话说，我并不是很习惯。网络上有那么多新奇有趣的东西等着我去探索，注意力是分散的，思维是发散的。希望我返校后能尽快纠正姿势，回到原有的状态。<br>&emsp;&emsp;这三个月里，除了日常的学习之外，我还学会了一些东西：</p><ul><li>几首新曲子，虽然尚不能以原速演奏，但是正在逐渐熟练；</li><li>建立一个静态博客，正如你现在看到的。</li><li>学会了一点基本的视频处理技巧；</li><li>结识了一些<del>热心</del>网友，互相分享交流。我因此得以迅速熟悉新掌握的技能。</li></ul><p>&emsp;&emsp;这些东西也许对我的学业帮助不大，不过能帮助我舒缓心情，以更好的心态迎接下一步的学习。<br>&emsp;&emsp;也祝各位都越来越好，希望疫情尽快过去，祖国的一切尽快恢复原有的秩序。<br>&emsp;&emsp;明天就要开学力，要适应新的安排和新的模式，不知我们能在规则下创造出多少花样呢？<br>&emsp;&emsp;博客大抵不能每天更新了<del>（也没什么天天叨叨的）</del>，有机会的话，偶尔能利用学校电脑设备，那时再做考虑。博客应随心，以质为纲，以知识为墨。<br>&emsp;&emsp;<strong>希望归来时，一切依旧，生活不苟。</strong><br><img src= "/images/LOADING.gif" data-src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/school-approaching/books.jpg" alt="书"></p>]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>学校</tag>
+        <tag>随笔</tag>
       </tags>
   </entry>
 </search>

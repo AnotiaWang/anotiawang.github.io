@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.anotia.top/uploader/index.html</loc>
-    
-    <lastmod>2020-07-30T08:41:57.334Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.anotia.top/posts/qexw/</loc>
     
     <lastmod>2020-07-30T08:19:12.863Z</lastmod>
@@ -65,13 +58,6 @@
   </url>
   
   <url>
-    <loc>https://blog.anotia.top/posts/UpdateLog/</loc>
-    
-    <lastmod>2020-07-04T09:21:11.521Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.anotia.top/posts/build-references/</loc>
     
     <lastmod>2020-07-04T09:21:11.521Z</lastmod>
@@ -79,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://blog.anotia.top/posts/hello-world/</loc>
+    <loc>https://blog.anotia.top/posts/UpdateLog/</loc>
     
     <lastmod>2020-07-04T09:21:11.521Z</lastmod>
     
@@ -87,6 +73,13 @@
   
   <url>
     <loc>https://blog.anotia.top/posts/lean/</loc>
+    
+    <lastmod>2020-07-04T09:21:11.521Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.anotia.top/posts/hello-world/</loc>
     
     <lastmod>2020-07-04T09:21:11.521Z</lastmod>
     
@@ -107,14 +100,14 @@
   </url>
   
   <url>
-    <loc>https://blog.anotia.top/tags/index.html</loc>
+    <loc>https://blog.anotia.top/link/index.html</loc>
     
     <lastmod>2020-07-04T09:21:11.521Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.anotia.top/link/index.html</loc>
+    <loc>https://blog.anotia.top/tags/index.html</loc>
     
     <lastmod>2020-07-04T09:21:11.521Z</lastmod>
     

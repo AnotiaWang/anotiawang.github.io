@@ -1,9 +1,8 @@
 ---
 title: 分类
-date: 2020-05-08 18:19:23
+layout: category
+index: true
 ---
-
-分类列出已发布的文章。
 
 
 

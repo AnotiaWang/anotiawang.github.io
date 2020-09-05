@@ -10,6 +10,7 @@ keywords:
 author: Anotia Wang
 language: zh-CN
 timezone: ''
+favicon: /images/favicon.png
 
 # 本地搜索
 search:
@@ -89,7 +90,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## Use post's date for updated date unless set in front-matter
-use_date_for_updated: false
+updated_option: 'date'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -105,7 +106,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Butterfly
+theme: volantis
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

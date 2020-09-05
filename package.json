@@ -13,14 +13,16 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "hexo": "^5.0.0",
+    "hexo": "^5.1.1",
     "hexo-algoliasearch": "^0.4.2",
     "hexo-deployer-git": "^2.1.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
-    "hexo-generator-indexed": "^1.2.0",
-    "hexo-generator-searchdb": "^1.3.0",
-    "hexo-generator-sitemap": "^2.0.0",
+    "hexo-generator-indexed": "^1.2.1",
+    "hexo-generator-json-content": "^4.2.3",
+    "hexo-generator-search": "^2.4.0",
+    "hexo-generator-searchdb": "^1.3.2",
+    "hexo-generator-sitemap": "^2.1.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-html-minifier": "^1.0.0",
     "hexo-lazyload-image": "^1.0.9",
@@ -31,7 +33,8 @@
     "hexo-server": "^1.0.0",
     "hexo-uglify": "^1.1.0",
     "hexo-wordcount": "^6.0.1",
-    "minimatch": "^3.0.4"
+    "minimatch": "^3.0.4",
+    "npm": "^6.14.8"
   },
   "devDependencies": {}
 }

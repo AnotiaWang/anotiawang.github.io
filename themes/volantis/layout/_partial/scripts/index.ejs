@@ -4,10 +4,12 @@
 
 <!-- internal -->
 <%- partial('cover') %>
+<% if (theme.rightmenu.enable == true) { %>
+  <%- partial('../rightmenu') %>
+<% } %>
 
-<!-- optional -->
-<% if (theme.search && theme.search.enable) { %>
-  <%- partial('search') %>
+<% if (theme.plugins.issues.enable) { %>
+  <%- partial('../../_third-party/issues/script') %>
 <% } %>
 
 <% if (theme.plugins.lazyload && theme.plugins.lazyload.enable) { %>
@@ -67,6 +69,11 @@
   <% } else { %>
     <%- js(['js/search.js']) %>
   <% } %>
+<% } %>
+
+<!-- optional -->
+<% if (theme.search && theme.search.enable) { %>
+  <%- partial('search') %>
 <% } %>
 
 

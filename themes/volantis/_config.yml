@@ -1,7 +1,7 @@
 ############################### Volantis ###############################
 info:
   theme_name: Volantis # This is theme's name.
-  theme_version: '4.0.0-rc.2' # This is theme's version.
+  theme_version: '4.0.0-rc.4' # This is theme's version.
   theme_docs: https://volantis.js.org/ # This is theme's URL.
   theme_repo: https://github.com/volantis-x/hexo-theme-volantis
   cdn:
@@ -44,7 +44,7 @@ navbar:
 
 ############################### Cover ############################### > start
 cover:
-  height_scheme: half # full, half
+  height_scheme: full # full, half
   layout_scheme: dock # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
@@ -82,6 +82,10 @@ cover:
       url: https://github.com/volantis-x/hexo-theme-volantis/
 ############################### Cover ############################### > end
 
+pages:
+  # 友链页面配置
+  friends:
+    layout_scheme: traditional # simple: 简单布局, traditional: 传统布局,  sites: 网站卡片布局
 
 ############################### Article Layout ############################### > start
 # 文章布局
@@ -97,6 +101,8 @@ article:
     auto_excerpt: true # false, true
     # show split line or not
     line_style: solid # hidden, solid, dashed, dotted
+    # show author
+    author: false # true, false
     # show readmore button
     readmore: auto # auto, always
   # 文章详情页面的文章卡片本体布局方案
@@ -192,7 +198,6 @@ article:
           img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png
         - id: # telegram
           img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/telegram.png
-
 ############################### Article Layout ############################### > end
 
 
@@ -373,7 +378,6 @@ sidebar:
       class: qrcode
       display: [desktop, mobile] # [desktop, mobile]
       height: 64px  # Automatic height if not set
-      fancybox: true
       images:
         - https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
         - https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
@@ -399,14 +403,16 @@ sidebar:
           enable: true
           text: '本站总字数：'   # 需要启用 wordcount
           unit: '字'
-        siteuv:
-          enable: true
-          text: '本站访客数：'   # 需要启用 busuanzi
-          unit: '人'
-        sitepv:
-          enable: true
-          text: '本站总访问量：' # 需要启用 busuanzi
-          unit: '次'
+        visitcounter:
+          service: leancloud  # busuanzi, leancloud
+          siteuv:
+            enable: true
+            text: '本站访客数：'
+            unit: '人'
+          sitepv:
+            enable: true
+            text: '本站总访问量：'
+            unit: '次'
         lastupd:
           enable: true
           friendlyShow: true    # 更友好的时间显示
@@ -425,7 +431,7 @@ tag_plugins:
     iconfont: 'Font Awesome 5 Free'
   # {% checkbox %}
   checkbox:
-    interactive: true # enable interactive for user
+    interactive: false # enable interactive for user
     color: '' # color for default checkbox
   # {% link title, url, img %}
   link:
@@ -439,31 +445,13 @@ site_footer:
   layout: [aplayer, social, license, analytics, info, copyright]
   social:
     - icon: #fas fa-rss
-      img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/020-rss.svg
-      url: atom.xml
-    - icon: #fas fa-envelope
-      url: mailto:me@xxx.com
-    - icon: #fab fa-github
-      img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/029-github.svg
-      url: https://github.com/volantis-x/
-    - img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/010-facebook.svg
-      url: /
-    - img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/018-twitter.svg
-      url: /
-    - img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/045-telegram.svg
-      url: /
-    - img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/006-youtube.svg
-      url: /
-    - icon: # fas fa-headphones-alt
-      url: #
-    - img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/64/qq.png
-      url: #
-    - img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/64/qzone.png
-      url: #
-    - img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/64/weibo.png
-      url: #
-    - avatar: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/64/wechat.png
-      url: #
+      url:
+    # or
+    - img:
+      url:
+    # or
+    - avatar:
+      url:
   # site source
   source: https://github.com/volantis-x/volantis-docs/
   # analytics using leancloud
@@ -483,9 +471,6 @@ plugins:
   jquery: https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.min.js
   # fontawesome
   fontawesome: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14/css/all.min.css
-  # fancybox
-  fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css
-
   ################ optional plugins ################
 
   ######## Plugins to improve loading speed:
@@ -503,7 +488,7 @@ plugins:
     enable: true
     js: https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js
     onlypost: false
-    loadingImg: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg
+    loadingImg: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg
     blurIn: true # 模糊加载效果 （loadingImg为空时有效）
 
   ######## Plugins to optimize the experience:
@@ -526,7 +511,7 @@ plugins:
 
   # Codeblock Copy Button
   clipboard:
-    enable: true
+    enable: #true
     js: https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js
 
   ######## Plugins for SEO:
@@ -614,22 +599,32 @@ plugins:
 
   # Artitalk https://artitalk.js.org
   # 配置过程请参考：https://artitalk.js.org/doc.html
+  # 使用过旧版本的请修改Leancloud shuoshuo class部分列名：https://artitalk.js.org/release.html
   # 除appID和appKEY外均为选填项
   artitalk:
     # Set `layout: artitalk` to enable in page
-    appID: ogP8qj3veMh0LFpFWMPOyF0X-MdYXbMMI # your appID
-    appKEY: nHXLd3N3Jgh460t2iRQKWAtr # your appKEY
-    # severurl:  #leancloud绑定的安全域名，使用国际版的话不需要填写
-    # slanguage: # 语言设置，zh为汉语，en为英语，es为西班牙语。默认为汉语
-    # per: #每页说说的显示数量
-    # placeholder1: #在编辑说说的输入框中的占位符
-    # placeholder2: #自定义头像url的输入框的占位符
-    # lazy: #加载动画的开关，1为开，0为关，默认为开
-    # bgimg: #说说输入框背景图片url
+    appId: ogP8qj3veMh0LFpFWMPOyF0X-MdYXbMMI # your appID
+    appKey: nHXLd3N3Jgh460t2iRQKWAtr # your appKEY
+    # serverURL:  #leancloud绑定的安全域名，使用国际版的话不需要填写
+    # lang: # 语言设置，zh为汉语，en为英语，es为西班牙语。默认为汉语
+    # pageSize: #每页说说的显示数量
+    # shuoPla: #在编辑说说的输入框中的占位符
+    # avatarPla: #自定义头像url的输入框的占位符
+    # motion: #加载动画的开关，1为开，0为关，默认为开
+    # bgImg: #说说输入框背景图片url
     # color1: #说说背景颜色1&按钮颜色1
     # color2: #说说背景颜色2&按钮颜色2
     # color3: #说说字体颜色
-  ##################################
+    # cssUrl: #自定义css接口
+
+  # 从 issues 加载动态数据
+  # {% issues sites/timeline/friends | api=xxx | group=key:a,b,c %}
+  # 例如：
+  # {% issues sites | api=https://api.github.com/repos/volantis-x/examples/issues?sort=updated&state=open&page=1&per_page=100 | group=version:latest,v6,v5,v4,v3,v2,v1,v0 %}
+  issues:
+    enable: #true
+    js:
+
   # 暗黑模式 darkmodejs
   # https://darkmodejs.learn.uno
   # 暗黑模式样式：https://github.com/volantis-x/hexo-theme-volantis/blob/master/source/css/_third-party/darkmode.styl
@@ -688,7 +683,7 @@ rightmenu:
 search:
   enable: true
   service: hexo  # hexo, google, algolia, azure, baidu
-  # js: https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3.0/js/search.js
+  js:
   google:
     apiKey:
     engineId:
@@ -744,12 +739,12 @@ color_scheme:
     inlinecode: '#D56D28'
 
     # 文章部分
-    h1: '#444'
-    h2: '#444'
-    h3: '#444'
+    h1: '#3a3a3a'
+    h2: '#3a3a3a'
+    h3: '#333'
     h4: '#444'
-    h5: '#444'
-    h6: '#444'
+    h5: '#555'
+    h6: '#666'
     p: '#444'
 
     # 列表文字
@@ -768,7 +763,7 @@ color_scheme:
     # 网站页脚文字
     site_footer: '#aaa'
     # 卡片背景色
-    card: '#444'
+    card: '#333'
     # 卡片上的普通文字
     text: '#eee'
 
@@ -836,9 +831,8 @@ custom_css:
     h2: 48px # Spacing above H2 (only px unit)
     h3: 24px # Spacing above H3 (only px unit)
     h4: 16px # Spacing above H4 (only px unit)
-    paragraph: 1rem # Paragraph spacing between paragraphs
-    row: .5rem # Paragraph spacing between other elements
-    line_height: 1.65 # normal, 1.5, 1.75, 2 ...
+    p: 1em # Paragraph spacing between paragraphs
+    line_height: 1.6 # normal, 1.5, 1.75, 2 ...
   border_radius:
     card: 8px
     codeblock: 4px
@@ -848,7 +842,7 @@ custom_css:
     root: 16px
     h1: 1.5rem # 不推荐用在文章中
     h2: 1.5rem
-    h3: 1.375rem
+    h3: 1.25rem
     h4: 1.125rem
     h5: 1rem
     h6: 1rem

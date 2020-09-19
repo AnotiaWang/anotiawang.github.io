@@ -1,0 +1,2 @@
+{"msg":"\u6d4b\u8bd5","name":"\u66fe\u7ecf\u7684\u67dc\u5b50","key":"5f662a9ad3de8","type":"msg"}
+{"msg":"\u829c\u6e56","name":"\u66fe\u7ecf\u7684\u67dc\u5b50","key":"5f662a9ad3de8","type":"msg"}

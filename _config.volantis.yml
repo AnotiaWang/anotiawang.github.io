@@ -59,7 +59,7 @@ navbar:
 ############################### Cover ############################### > start
 cover:
   height_scheme: half # full, half
-  layout_scheme: focus # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  layout_scheme: dock # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
     archive: true
@@ -78,10 +78,10 @@ cover:
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg
       url: /archives/
-    - name: 社区
+    - name: 聊天
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f389.svg
-      url: /contributors/
+      url: https://chat.anotia.top
     - name: 时评
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
@@ -323,7 +323,7 @@ sidebar:
     # blogger info widget
     blogger:
       class: blogger
-      display: [desktop, mobile] # [desktop, mobile]
+      display: [desktop] # [desktop, mobile]
       avatar: /images/avatar.jpg
       shape: circle # circle, rectangle
       url: /about/
@@ -394,7 +394,7 @@ sidebar:
       type:
         article:
           enable: true
-          text: '文章数目：共 '
+          text: '文章数目： '
           unit: ' 篇'
         runtime:
           enable: true
@@ -880,10 +880,10 @@ custom_css:
 
 ############################### Analytics ############################### > start
 analytics:
-  busuanzi: #https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
-  leancloud: # 请使用自己的 id & key 以防止数据丢失
-    app_id: 
-    app_key: 
+  busuanzi: https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
+  leancloud: #请使用自己的 id & key 以防止数据丢失
+    app_id: 552SwE3wmc8aszRzk4jcJ4Hr-MdYXbMMI
+    app_key: Gkh2cIlVmoWdM1HkWl5GA5yH
     custom_api_server: # 国际版一般不需要写，除非自定义了 API Server
 ############################### Analytics ############################### > end
 

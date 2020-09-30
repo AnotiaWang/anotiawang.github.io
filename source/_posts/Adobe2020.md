@@ -17,4 +17,4 @@ Adobe公司每年10月左右都会发布新一代 Adobe 系列软件，而从202
 本文章分享的是由[@vposy](https://www.weibo.com/vposy)大神破解的Adobe 2020 大师版，4月发布的版本，涵盖全平台。如果链接失效请在评论区回复
 ![](https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/Adobe2020/AdobeCC.jpg)
 
-百度网盘链接: https://pan.baidu.com/s/1n6viGuCAlsuHNxZ5Udobsg 提取码: ppfv
+百度网盘链接: https://pan.baidu.com/s/1L-NFz8Ub-CdZDRQ7TAHR-Q 提取码: wau4

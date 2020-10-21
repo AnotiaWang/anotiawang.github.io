@@ -7,7 +7,7 @@ date: 2020-07-24 22:35:53
 tags: VPS
 categories: VPS
 sticky:
-published: false
+published: true
 top_img:
 cover: https://i.loli.net/2020/07/24/52q7woyLVKIxHt6.png
 ---

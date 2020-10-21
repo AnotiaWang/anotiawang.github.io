@@ -8,15 +8,9 @@
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp">
     
-    <title>Anotia 的图床</title>
+    <title>Anotia 图床</title>
     <link rel="stylesheet" href="https://anotia-cdn-1302169837.cos.ap-guangzhou.myqcloud.com/css/mdui.min.css">
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-88818678-1');
-    </script>
+    
     <style type="text/css">
     .round_icon{
       width: 34px;
@@ -30,15 +24,15 @@
     </style>
 </head>
 <body class="mdui-loaded mdui-theme-primary-teal mdui-theme-accent-light-blue mdui-typo" style="padding: 10%">
-  <h1>Anotia 的图床</h1>
-    <p>自用，使用腾讯云 COS 存储文件。可以选择多张图片</p>
+  <h1>Anotia 外链图床</h1>
+    <p>自用<br>使用腾讯云 COS 存储文件。可以选择多张图片</p>
 <div class="mdui-progress" style="width: 100%">
   <div class="mdui-progress-determinate"></div>
 </div>
 
 
   <form enctype="multipart/form-data">
-    <input name="file" type="file" id="file" multiple="" class="mdui-btn mdui-ripple" accept="image/*"/>
+    <input name="file" type="file" id="file" multiple="" class="mdui-btn mdui-ripple" accept="image/*,.apk,.docx,.doc"/>
   </form>
   <button onclick="figurebedUpload()" class="mdui-btn mdui-ripple mdui-color-theme">上传</button>
   <button class="mdui-btn mdui-ripple btn-copy mdui-color-theme" style="display: none" data-clipboard-action="copy" data-clipboard-target="#bed-result">复制 Markdown</button>

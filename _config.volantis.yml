@@ -1,12 +1,18 @@
 ############################### Volantis ###############################
+# 仅限/source/js/中的JS文件 
+# 默认使用 https://cdn.jsdelivr.net/npm/hexo-theme-volantis/source/js/ 的CDN压缩版本，注意版本号对应关系！！可以通过修改以下配置项覆盖
+# 开发者注意 use_cdn 设置为 false
+use_cdn: true 
 info:
   theme_name: Anotia 的小栈 # This is theme's name.
-  theme_version: '4.0.0' # This is theme's version.
+  theme_version: '4.1.6' # This is theme's version.
   theme_docs: https://volantis.js.org/ # This is theme's URL.
   theme_repo: https://github.com/volantis-x/hexo-theme-volantis
   cdn:
     js:
     css:
+      first:
+      style:
 ########################################################################
 
 ############################### Navigation Bar ############################### > start
@@ -26,15 +32,12 @@ navbar:
     - name: 博客
       icon: fas fa-rss
       url: /
-    # - name: 分类
-    #   icon: fas fa-folder-open
-    #   url: categories/
-    - name: 标签
-      icon: fas fa-tags
-      url: tags/
     - name: 分类
       icon: fas fa-folder-open
       url: categories/
+    - name: 标签
+      icon: fas fa-tags
+      url: tags/
     - name: 归档
       icon: fas fa-archive
       url: archives/
@@ -55,7 +58,7 @@ navbar:
 
 ############################### Cover ############################### > start
 cover:
-  height_scheme: half # full, half
+  height_scheme: full # full, half
   layout_scheme: dock # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
@@ -136,7 +139,7 @@ article:
         icon: fas fa-bookmark
         max_count: 5
         # 设为空则不使用文章头图
-        placeholder_img: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=
+        placeholder_img: data:image/png;base64,666
       # ----------------
       # 版权声明组件 (for layout: post)
       copyright:
@@ -234,7 +237,7 @@ comments:
   minivaline:
     appId: 552SwE3wmc8aszRzk4jcJ4Hr-MdYXbMMI # your appId
     appKey: Gkh2cIlVmoWdM1HkWl5GA5yH # your appKey
-    js: https://cdn.jsdelivr.net/npm/minivaline@3/dist/MiniValine.min.js
+    js: https://cdn.jsdelivr.net/npm/minivaline@4/dist/MiniValine.min.js
     path: # 全局评论地址
     placeholder: 快来评论吧~  # 评论占位提示
     mode: DesertsP # DesertsP or xCss
@@ -609,7 +612,7 @@ plugins:
     enable: true
     timeout: 5000        # The timeout in milliseconds for the XHR requests. Set to 0 to disable the timeout.
     cacheBust: false     # When set to true, Pjax appends a timestamp  to skip the browser cache.
-    animation: nprogress # nprogress, circle
+    animation: circle # false, nprogress, circle
     banUrl:              # 被屏蔽的 url 地址将不启用 pjax 跳转，可以在控制台下使用 window.location.pathname 获取
       # - /artitalk/     # artitalk 不支持 pjax
 
@@ -642,21 +645,15 @@ plugins:
     enable: #true
     js:
 
-  # 暗黑模式 darkmodejs
-  # https://darkmodejs.learn.uno
-  # 暗黑模式样式：https://github.com/volantis-x/hexo-theme-volantis/blob/master/source/css/_third-party/darkmode.styl
+  # 暗黑模式 darkmode
+  # 样式：source/css/_plugins/dark.styl
+  # 开关按钮：在 navbar.menu 中添加：
+  # - name: 暗黑模式 # 可自定义
+  #   icon: fas fa-moon # 可自定义
+  #   toggle: darkmode
   darkmodejs:
-    enable: #true
-    js: https://cdn.jsdelivr.net/npm/darkmode-js@1.5/lib/darkmode-js.min.js
-    button: # button 使用默认或自行开发
-      enable: true
-      left: '16px'
-      bottom: '32px'
-      buttonDark: '#333'
-      buttonLight: '#ddd'
-    compatible: true # 卡片兼容性处理，如果未发现卡片出现兼容问题设置为false
-    # darkmodejs的 mix-blend-mode 与 body.effect: [blur] 样式冲突，如果backstretch.position设置为'fixed'建议删除blur或禁用暗黑模式
-    # Help Wanted : https://github.com/volantis-x/hexo-theme-volantis/blob/master/layout/_pre.ejs#L43
+    enable: true
+
 ############################### Plugins ############################### > end
 
 ############################### Rightmenu ############################### > start
@@ -753,7 +750,7 @@ color_scheme:
     # 代码块高亮时的背景色
     codeblock: '#FFF7EA'
     # 行内代码颜色
-    inlinecode: '#D56D28'
+    inlinecode: '#c74f00'
 
     # 文章部分
     h1: '#3a3a3a'
@@ -812,6 +809,7 @@ color_scheme:
 
 ############################### Custom css ############################### > start
 custom_css:
+  toc_smooth: true # TOC 目录平滑滚动效果
   cursor:
     enable: #true
     text: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/text.png

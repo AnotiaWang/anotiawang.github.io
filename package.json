@@ -12,7 +12,7 @@
     "version": "5.2.0"
   },
   "dependencies": {
-    "core-js": "^3.7.0",
+    "core-js": "^3.8.1",
     "hexo": "^5.2.0",
     "hexo-algoliasearch": "^0.4.2",
     "hexo-deployer-git": "^2.1.0",
@@ -36,7 +36,7 @@
     "hexo-uglify": "^1.1.0",
     "hexo-wordcount": "^6.0.1",
     "minimatch": "^3.0.4",
-    "npm": "^6.14.8"
+    "npm": "^6.14.9"
   },
   "devDependencies": {}
 }

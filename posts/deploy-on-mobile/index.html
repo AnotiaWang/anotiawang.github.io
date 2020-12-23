@@ -1,0 +1,596 @@
+<!DOCTYPE html><html lang="zh-CN"><head hexo-theme="https://github.com/volantis-x/hexo-theme-volantis/tree/4.1.6"><meta charset="utf-8"><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><meta name="renderer" content="webkit"><meta name="force-rendering" content="webkit"><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><meta name="HandheldFriendly" content="True"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><title>如何在移动设备上进行 Hexo 博客编辑和部署 - 艾迪的小栈</title><meta name="keywords" content="博客,教程"><meta name="description" content="在任何地方接续你的工作。"><link rel="alternate" href="/atom.xml" title="艾迪的小栈" type="application/atom+xml"><link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png"><link rel="stylesheet" href="/css/first.css"><link rel="stylesheet" href="/css/style.css" media="print" onload='this.media="all",this.onload=null'><noscript><link rel="stylesheet" href="/css/style.css"></noscript><script id="loadcss"></script></head><body><header id="l_header" class="l_header auto shadow blur" style="opacity:0"><div class="container"><div id="wrapper"><div class="nav-sub"><p class="title"></p><ul class="switcher nav-list-h m-phone" id="pjax-header-nav-list"><li><a id="s-comment" class="fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li><li><a id="s-toc" class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li></ul></div><div class="nav-main"><a class="title flat-box" target="_self" href="/"><img no-lazy class="logo" src="/images/favicon.png"></a><div class="menu navigation"><ul class="nav-list-h m-pc"><li><a class="menuitem flat-box faa-parent animated-hover" href="/" id="home"><i class="fas fa-rss fa-fw"></i>博客</a></li><li><a class="menuitem flat-box faa-parent animated-hover" href="/categories/" id="categories"><i class="fas fa-folder-open fa-fw"></i>分类</a></li><li><a class="menuitem flat-box faa-parent animated-hover" href="/tags/" id="tags"><i class="fas fa-tags fa-fw"></i>标签</a></li><li><a class="menuitem flat-box faa-parent animated-hover" href="/archives/" id="archives"><i class="fas fa-archive fa-fw"></i>归档</a></li><li><a class="menuitem flat-box faa-parent animated-hover"><i class="fas fa-info-circle fa-fw"></i>更多</a><ul class="list-v"><li><a class="menuitem flat-box faa-parent animated-hover" href="/friends/" id="friends"><i class="fas fa-link fa-fw"></i>友链</a></li><hr><li><a class="menuitem flat-box faa-parent animated-hover" href="/board/" id="board"><i class="fas fa-chalkboard fa-fw"></i>留言板</a></li></ul></li></ul></div><div class="m_search"><form name="searchform" class="form u-search-form"><i class="icon fas fa-search fa-fw"></i> <input type="text" class="input u-search-input" placeholder="搜索…"></form></div><ul class="switcher nav-list-h m-phone"><li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li><li><a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a><ul class="menu-phone list-v navigation white-box"><li><a class="menuitem flat-box faa-parent animated-hover" href="/" id="home"><i class="fas fa-rss fa-fw"></i>博客</a></li><li><a class="menuitem flat-box faa-parent animated-hover" href="/categories/" id="categories"><i class="fas fa-folder-open fa-fw"></i>分类</a></li><li><a class="menuitem flat-box faa-parent animated-hover" href="/tags/" id="tags"><i class="fas fa-tags fa-fw"></i>标签</a></li><li><a class="menuitem flat-box faa-parent animated-hover" href="/archives/" id="archives"><i class="fas fa-archive fa-fw"></i>归档</a></li><li><a class="menuitem flat-box faa-parent animated-hover"><i class="fas fa-info-circle fa-fw"></i>更多</a><ul class="list-v"><li><a class="menuitem flat-box faa-parent animated-hover" href="/friends/" id="friends"><i class="fas fa-link fa-fw"></i>友链</a></li><hr><li><a class="menuitem flat-box faa-parent animated-hover" href="/board/" id="board"><i class="fas fa-chalkboard fa-fw"></i>留言板</a></li></ul></li></ul></li></ul></div></div></div></header><div id="l_body"><div id="l_cover"><div id="half" class="cover-wrapper post dock"><div class="cover-bg lazyload placeholder" data-bg="https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/033.jpg"></div><div class="cover-body"><div class="top"><p class="title">Anotia 的小栈</p><p class="subtitle">梅虽逊雪三分白，雪却输梅一缕香。</p></div><div class="bottom"><div class="menu navigation"><div class="list-h"><a href="/" id="home"><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg" srcset="data:image/png;base64,666"><p>博客</p></a><a href="/archives/" id="archives"><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg" srcset="data:image/png;base64,666"><p>归档</p></a><a target="_blank" rel="noopener" href="https://chat.anotia.top" id="https:chatanotiatop"><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f389.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f389.svg" srcset="data:image/png;base64,666"><p>聊天</p></a><a target="_blank" rel="noopener" href="https://sp.anotia.top" id="https:spanotiatop"><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg" srcset="data:image/png;base64,666"><p>时评</p></a></div></div></div></div><div id="scroll-down" style="display:none"><i class="fa fa-chevron-down scroll-down-effects"></i></div></div></div><div id="safearea"><div class="body-wrapper" id="pjax-container"><div class="l_main"><article class="article post white-box reveal md shadow article-type-post" id="post" itemscope itemprop="blogPost"><div class="article-meta" id="top"><h1 class="title">如何在移动设备上进行 Hexo 博客编辑和部署</h1><div class="new-meta-box"><div class="new-meta-item author"><a class="author" href="/" rel="nofollow"><img no-lazy src="/images/avatar.jpg"><p>Anotia</p></a></div><div class="new-meta-item category"><a class="notlink"><i class="fas fa-folder-open fa-fw" aria-hidden="true"></i> <a class="category-link" href="/categories/%E6%95%99%E7%A8%8B/">教程</a></a></div><div class="new-meta-item date"><a class="notlink"><i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i><p>发布于：2020年5月10日</p></a></div><div class="new-meta-item browse leancloud"><a class="notlink"><div id="lc-pv" data-title="如何在移动设备上进行 Hexo 博客编辑和部署" data-path="/posts/deploy-on-mobile/"><i class="fas fa-eye fa-fw" aria-hidden="true"></i> <span id="number"><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 次浏览</div></a></div></div></div><h1 id="导言"><a href="#导言" class="headerlink" title="导言"></a>导言</h1><p>一般来说我们部署博客都是在电脑端，如果出门在外，想要用移动设备进行博客的编辑和部署，应该怎么操作？</p><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><ul><li><p>Hexo支持跨平台，所以博客的操作基本相同；</p></li><li><p>因为网上已经有很多教程了，我这里就大概讲一下步骤和注意事项😀</p></li><li><p>具体操作因人而异，<strong>请根据自己的状况取舍</strong>，不要全部照抄。</p></li></ul><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><ul><li>一台安卓手机（已 root ，建议做好防范措施）</li><li>安装 Termux（前往<a target="_blank" rel="noopener" href="https://termux.com/">官网</a>或者 <a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.termux&hl=zh">Google Play</a> 下载）</li><li>能查看系统根目录的文件管理器，如 RE 或 MT 管理器，手机需root。推荐MT</li><li><strong>【建议】科学上网工具</strong></li></ul><p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/termux-1.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/termux-1.jpg" srcset="data:image/png;base64,666" alt="Termux 主界面"></p><blockquote><p>我找资料的时候发现没有root的手机也有<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/35668237">解决办法</a>，在此列出作为参考：</p><p>先执行<code>$ pkg install proot</code>，然后执行 <code>$ termux-chroot</code> 就可以模拟出root权限。详情见链接↑</p><p>获取完成后可以用Termux操作文件和目录，但是无法用文件管理器看到。</p></blockquote><p>本文资料来自：华为平板 M6</p><h2 id="配置环境"><a href="#配置环境" class="headerlink" title="配置环境"></a>配置环境</h2><h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><p><code>$ apt update</code></p><p><code>$ apt upgrade</code></p><h3 id="安装-node-js"><a href="#安装-node-js" class="headerlink" title="安装 node.js"></a>安装 node.js</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ apt install nodejs-lts</span><br></pre></td></tr></table></figure><p>此处安装的是<u>长期支持版</u>，因为node.js的最新版在博客generate时容易出现如下错误：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">TypeError [ERR_INVALID_ARGTYPE]: The <span class="string">&quot;mode&quot;</span> argument mast be <span class="built_in">integer</span>. Received an instance of Object</span><br></pre></td></tr></table></figure><p><a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/error-node-too-new.jpg">👉nodejs新版的报错截图👈</a></p><p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/install-nodejs.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/install-nodejs.jpg" srcset="data:image/png;base64,666" alt=""></p><h3 id="安装-git"><a href="#安装-git" class="headerlink" title="安装 git"></a>安装 git</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ apt install git</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/install-git.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/install-git.jpg" srcset="data:image/png;base64,666" alt=""></p><h3 id="建立博客文件夹"><a href="#建立博客文件夹" class="headerlink" title="建立博客文件夹"></a>建立博客文件夹</h3><p>给文件管理器授予root权限；</p><p>进入手机根目录，在 <code>/data/data/com.termux/files/</code>新建一个存放博客的文件夹，如“Blog”。</p><blockquote><p>或者Termux使用命令：<code>$ mkdir Blog</code>直接创建</p></blockquote><h3 id="定位到-Blog"><a href="#定位到-Blog" class="headerlink" title="定位到 Blog"></a>定位到 Blog</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> Blog</span><br></pre></td></tr></table></figure><h3 id="安装-hexo-cli"><a href="#安装-hexo-cli" class="headerlink" title="安装 hexo-cli"></a>安装 hexo-cli</h3><blockquote><p>使用淘宝的镜像：<code>$ npm config set registry http://registry.npm.taobao.org</code></p></blockquote><p><strong>安装Hexo</strong>：<code>$ npm install hexo-cli -g</code></p><p><strong>Hexo初始化</strong>：<code>$ hexo init</code></p><p>安装必要组件：<code>$ npm install</code></p><p>完成。</p><blockquote><p>如果你的博客在git上有备份：</p><p>克隆→定位→安装Hexo→安装组件→安装主题→生成、部署。</p><p>举例：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://e.coding.net/xxx/xxx.git</span><br><span class="line">$ <span class="built_in">cd</span> xxx</span><br><span class="line">$ npm install hexo --save</span><br><span class="line">$ npm install</span><br><span class="line">$ git <span class="built_in">clone</span> -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly</span><br><span class="line">$ hexo g -s</span><br></pre></td></tr></table></figure></blockquote><h3 id="设置默认用户信息"><a href="#设置默认用户信息" class="headerlink" title="设置默认用户信息"></a>设置默认用户信息</h3><p>设置默认的账户名、邮箱和密码</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">&quot;xxx&quot;</span></span><br><span class="line">$ git config --global user.email <span class="string">&quot;xxx@xmail.com&quot;</span></span><br><span class="line">$ git config --global user.password <span class="string">&quot;6666666&quot;</span></span><br></pre></td></tr></table></figure><p>如果对账号安全不放心，可以不设置密码，在部署和备份的时候手动输入。</p><h3 id="在托管平台登记密钥"><a href="#在托管平台登记密钥" class="headerlink" title="在托管平台登记密钥"></a>在托管平台登记密钥</h3><p>先生成一个SSH密钥。邮箱填自己GitHub或Coding或其他托管平台的注册邮箱。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">&quot;xxx@xmail.com&quot;</span></span><br></pre></td></tr></table></figure><p>输入完成后一路回车，如果对文件安全不放心就在“密码” 那一步设置一个加密密码。<br>生成密钥信息：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cat ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure><p>之后程序会生成一个名为”id_rsa.pub”的文件，默认保存在<code>/files/.ssh/</code>文件夹，可以手动查看，或者直接复制程序输出的一串密钥。<br>打开托管平台，在<strong>个人设置里</strong>新建一个SSH公钥，以Coding为例：<br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/SSH.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/SSH.jpg" srcset="data:image/png;base64,666" alt="Create new SSH key"></p><blockquote><p>注：Coding的公钥分为两种类型，在个人设置里的是<strong>全局公钥</strong>，可以编辑你的所有项目；在每个项目设置里还有单独的SSH私钥，仅对该项目有效。</p></blockquote><p>接下来在设备上“注册”密钥并检查可用性：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@e.coding.net</span><br><span class="line">Warning: Permanently added the RSA host key <span class="keyword">for</span> IP address <span class="string">&#x27;118.xx.xxx.252&#x27;</span> to the list of known hosts.</span><br><span class="line">Coding 提示: Hello 艾诺迪亚, You<span class="string">&#x27;ve connected to Coding.net via SSH. This is a personal key.</span></span><br><span class="line"><span class="string">艾诺迪亚，你好，你已经通过 SSH 协议认证 Coding.net 服务 ，这是一个个人公钥.</span></span><br><span class="line"><span class="string">公钥指纹：a3:9c:70:xx:xx:xx:xx:xx:xx:xx:xx:72:1e:fe</span></span><br></pre></td></tr></table></figure><p>如果出现以上提示则说明成功。GitHub使用<code>ssh -T git@github.com</code>即可。</p><blockquote><p>6/25 更新：<br>手机端的密钥不好用，容易出错，实际上用 Coding 令牌更方便。<br>进入 Coding 个人设置，进入“访问令牌”，记住自己的令牌用户名（图中红色涂抹区域）<br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/coding-auth.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/coding-auth.jpg" srcset="data:image/png;base64,666" alt="Coding 个人设置页"><br>点击“新建令牌”，名字任意取，权限勾选第一条 “<em>project:depot</em>“ ，也就是完整的仓库控制权限。<br>点击“创建令牌”，<font color="red">复制接下来出现的密钥，它只会出现一次。</font><br>回到你的 Coding 仓库，复制你的仓库地址，形如 “<a target="_blank" rel="noopener" href="https://e.coding.net/xxx/xxx.git&quot;">https://e.coding.net/xxx/xxx.git&quot;</a><br>进入你的博客文件夹，找到 _config.yml，修改你的远程仓库地址为 <strong>“https://用户名:密码@e.coding.net/xxx/xxx.git”</strong><br>例如你的令牌用户名是 AbCdEfG、密码是 asdfghj，那么地址就是 “<a target="_blank" rel="noopener" href="https://AbCdEfG:asdfghj@e.coding.net/xxx/xxx.git&quot;">https://AbCdEfG:asdfghj@e.coding.net/xxx/xxx.git&quot;</a><br>Git 的配置文件也可以改一下，在 “.git” 文件夹下的 “CONFIG” 文件，自行找到仓库地址，依葫芦画瓢。</p></blockquote><h2 id="开始编辑"><a href="#开始编辑" class="headerlink" title="开始编辑"></a>开始编辑</h2><p>因为Hexo支持跨平台，所以手机端编辑和部署操作与电脑端基本一致。这里讲一下大概的操作。</p><h3 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a>文件操作</h3><h4 id="新建博文"><a href="#新建博文" class="headerlink" title="新建博文"></a>新建博文</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;title&quot;</span></span><br></pre></td></tr></table></figure><p>新的文章在 <code>/source/_posts/title.md</code></p><h4 id="新建页面"><a href="#新建页面" class="headerlink" title="新建页面"></a>新建页面</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new page title</span><br></pre></td></tr></table></figure><p>新的页面在<code>/source/title</code>，页面文件在<code>/source/title/index.md</code></p><p>文件可以手动删除，但是<strong>不建议手动创建，有可能出奇奇怪怪的问题！</strong></p><h3 id="生成-预览-部署"><a href="#生成-预览-部署" class="headerlink" title="生成 | 预览 | 部署"></a>生成 | 预览 | 部署</h3><p>生成、预览、部署：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Files loaded <span class="keyword">in</span> x s</span><br><span class="line">INFO  Generated: xxx</span><br><span class="line">INFO  Generated: xxx</span><br><span class="line">....</span><br><span class="line">INFO  xx files generated <span class="keyword">in</span> x.x s</span><br><span class="line"></span><br><span class="line">$ hexo s</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.</span><br><span class="line"></span><br><span class="line">$ hexo d</span><br><span class="line">...</span><br><span class="line">INFO  Deploy <span class="keyword">done</span>: git</span><br></pre></td></tr></table></figure><p>或者使用组合命令：清除缓存、生成、部署 → <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></p><p><strong>生成并本地预览：</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s -g</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure><p><strong>生成并部署：</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d -g</span><br><span class="line">INFO  Start processing</span><br><span class="line">...</span><br><span class="line">INFO  Deploy <span class="keyword">done</span>: git</span><br></pre></td></tr></table></figure><h2 id="备份与恢复"><a href="#备份与恢复" class="headerlink" title="备份与恢复"></a>备份与恢复</h2><h3 id="将博客备份到-git（以Coding为例）"><a href="#将博客备份到-git（以Coding为例）" class="headerlink" title="将博客备份到 git（以Coding为例）"></a>将博客备份到 git（以Coding为例）</h3><p>如果你的博客文件夹是从git克隆下来的，那么会自动设置远程仓库，不需要手动设置。</p><p>输入 <code>git remote -v</code>查看已经存在的远程仓库，应该会有以下提示：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git remote -v</span><br><span class="line">origin  https://e.coding.net/cross-street/Blog.git (fetch)</span><br><span class="line">origin  https://e.coding.net/cross-street/Blog.git (push)</span><br></pre></td></tr></table></figure><p>默认生成的远程仓库会被归为 “origin” 。</p><h4 id="设置新的远程仓库"><a href="#设置新的远程仓库" class="headerlink" title="设置新的远程仓库"></a>设置新的远程仓库</h4><p>输入<code>git remote add &lt;简称&gt; &lt;地址&gt;</code>新增一个远程仓库</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ git remote add BlogBackup https://e.coding.net/cross-street/xxxxx.git</span><br><span class="line"></span><br><span class="line">$ git remote -v</span><br><span class="line">origin  https://e.coding.net/cross-street/Blog.git (fetch)</span><br><span class="line">origin  https://e.coding.net/cross-street/Blog.git (push)</span><br><span class="line">BlogBackup https://e.coding.net/cross-street/xxxxx.git (fetch)</span><br><span class="line">BlogBackup https://e.coding.net/cross-street/xxxxx.git (push)</span><br></pre></td></tr></table></figure><h4 id="推送到远程仓库"><a href="#推送到远程仓库" class="headerlink" title="推送到远程仓库"></a>推送到远程仓库</h4><p>查看当前仓库有哪些分支（前面带 * 的是当前定位的分支，所有的相关操作在这个分支下执行）</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git branch -v</span><br><span class="line">*master</span><br><span class="line">backup</span><br></pre></td></tr></table></figure><p>创建并定位到新分支：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git checkout -b sample</span><br><span class="line">Switched to a new branch <span class="string">&quot;sample&quot;</span></span><br></pre></td></tr></table></figure><p><strong>搜索更新文件</strong>：<code>git add .</code></p><p><strong>提交更新内容</strong>（显示在远程仓库的日志里）：<code>git commit -m &quot;更新内容&quot;</code></p><p><strong>推送</strong>：<code>git push &lt;简称&gt; &lt;分支&gt;</code>，如果只有 origin 仓库、设置了默认分支，可以直接 <code>git push</code></p><p>Git 可能会要求输入你在托管方的账号密码。如果你有令牌或者密钥，就不需要。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git add .</span><br><span class="line">$ git commit -m <span class="string">&quot;Add new posts &amp; debug&quot;</span></span><br><span class="line">$ git push origin master</span><br></pre></td></tr></table></figure><h3 id="从远程仓库同步（恢复）"><a href="#从远程仓库同步（恢复）" class="headerlink" title="从远程仓库同步（恢复）"></a>从远程仓库同步（恢复）</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> 仓库地址</span><br><span class="line">$ <span class="built_in">cd</span> 仓库名</span><br><span class="line">$ git <span class="built_in">clone</span> 主题地址(GitHub) themes/主题名</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure><hr><p><strong>原作者：<a target="_blank" rel="noopener" href="https://anotia.top">Anotia</a>，转载请标明出处。</strong></p><p>博客：<a target="_blank" rel="noopener" href="https://anotia.top">https://anotia.top</a></p><hr><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/35668237">https://zhuanlan.zhihu.com/p/35668237</a></p><p><a target="_blank" rel="noopener" href="https://lanlan2017.github.io/blog/4a95e633/">https://lanlan2017.github.io/blog/4a95e633/</a></p><div class="footer"><div class="copyright"><blockquote><p>博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</p><p>本文永久链接：<a href="https://blog.anotia.top/posts/deploy-on-mobile/">https://blog.anotia.top/posts/deploy-on-mobile/</a></p></blockquote></div></div><div class="article-meta" id="bottom"><div class="new-meta-box"><div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-05-10T10:09:12+08:00"><a class="notlink"><i class="fas fa-edit fa-fw" aria-hidden="true"></i><p>更新于：2020年5月10日</p></a></div><div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>博客</p></a></div><div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E6%95%99%E7%A8%8B/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>教程</p></a></div><div class="new-meta-item share -mob-share-list"><div class="-mob-share-list share-body"><a class="-mob-share-qq" rel="external nofollow noopener noreferrer noopener" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://blog.anotia.top/posts/deploy-on-mobile/&title=如何在移动设备上进行 Hexo 博客编辑和部署 - 艾迪的小栈&summary="><img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" srcset="data:image/png;base64,666"> </a><a class="-mob-share-qzone" rel="external nofollow noopener noreferrer noopener" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://blog.anotia.top/posts/deploy-on-mobile/&title=如何在移动设备上进行 Hexo 博客编辑和部署 - 艾迪的小栈&summary="><img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" srcset="data:image/png;base64,666"> </a><a class="-mob-share-weibo" rel="external nofollow noopener noreferrer noopener" target="_blank" href="http://service.weibo.com/share/share.php?url=https://blog.anotia.top/posts/deploy-on-mobile/&title=如何在移动设备上进行 Hexo 博客编辑和部署 - 艾迪的小栈&summary="><img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" srcset="data:image/png;base64,666"></a></div></div></div></div><div class="prev-next"><a class="prev" href="/posts/paperclip/"><p class="title"><i class="fas fa-chevron-left" aria-hidden="true"></i>“标签”正在阻绝理性交流的可能</p><p class="content">　　大约一个月前，科技科普媒体“回形针”因为在视频里的一些数据和描述，被指出“歧视中国人”“立场不正确“等问题，进而被曝光出一系列的”恰烂钱“”夹带私货“等做法。最终，回形针承诺停止更新一个月，...</p></a><a class="next" href="/posts/build-references/"><p class="title">建站参考目录<i class="fas fa-chevron-right" aria-hidden="true"></i></p><p class="content">建站参考资料 以下是我搭建这个博客用到的资料，排名不分先后。 我一开始用的是GitHub，后来发现自己也在用的Coding服务更快一些，而且中文比较容易理解 （但我找静态网站入口还是找了一个...</p></a></div></article><article class="post white-box reveal shadow" id="comments"><p ct><i class="fas fa-comments"></i> 评论</p><div id="minivaline_container"><i class="fas fa-cog fa-spin fa-fw fa-2x"></i></div></article></div><aside class="l_side"><section class="widget blogger shadow desktop"><div class="content"><a class="avatar flat-box circle" href="/about/"><img no-lazy src="/images/avatar.jpg"></a><div class="text"><h2>Anotia 的小栈</h2><p><span id="jinrishici-sentence">艾迪的小栈</span></p><script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script></div><div class="social-wrapper"><a href="/atom.xml" class="social fas fa-rss flat-btn" target="_blank" rel="external nofollow noopener noreferrer"></a> <a href="mailto:anotiawang@qq.com" class="social fas fa-envelope flat-btn" target="_blank" rel="external nofollow noopener noreferrer"></a> <a href="https://github.com/AnotiaWang" class="social fab fa-github flat-btn" target="_blank" rel="external nofollow noopener noreferrer"></a></div></div></section><section class="widget toc-wrapper shadow desktop mobile" id="toc-div"><header><i class="fas fa-list fa-fw" aria-hidden="true"></i><span class="name">本文目录</span></header><div class="content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B3%A8%E6%84%8F"><span class="toc-text">注意</span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%86%E5%A4%87%E6%9D%90%E6%96%99"><span class="toc-text">准备材料</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83"><span class="toc-text">配置环境</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="toc-text">初始化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-node-js"><span class="toc-text">安装 node.js</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-git"><span class="toc-text">安装 git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="toc-text">建立博客文件夹</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E4%BD%8D%E5%88%B0-Blog"><span class="toc-text">定位到 Blog</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-hexo-cli"><span class="toc-text">安装 hexo-cli</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF"><span class="toc-text">设置默认用户信息</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9C%A8%E6%89%98%E7%AE%A1%E5%B9%B3%E5%8F%B0%E7%99%BB%E8%AE%B0%E5%AF%86%E9%92%A5"><span class="toc-text">在托管平台登记密钥</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%80%E5%A7%8B%E7%BC%96%E8%BE%91"><span class="toc-text">开始编辑</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C"><span class="toc-text">文件操作</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%96%B0%E5%BB%BA%E5%8D%9A%E6%96%87"><span class="toc-text">新建博文</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%96%B0%E5%BB%BA%E9%A1%B5%E9%9D%A2"><span class="toc-text">新建页面</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%9F%E6%88%90-%E9%A2%84%E8%A7%88-%E9%83%A8%E7%BD%B2"><span class="toc-text">生成 | 预览 | 部署</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%87%E4%BB%BD%E4%B8%8E%E6%81%A2%E5%A4%8D"><span class="toc-text">备份与恢复</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%86%E5%8D%9A%E5%AE%A2%E5%A4%87%E4%BB%BD%E5%88%B0-git%EF%BC%88%E4%BB%A5Coding%E4%B8%BA%E4%BE%8B%EF%BC%89"><span class="toc-text">将博客备份到 git（以Coding为例）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE%E6%96%B0%E7%9A%84%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93"><span class="toc-text">设置新的远程仓库</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8E%A8%E9%80%81%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93"><span class="toc-text">推送到远程仓库</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%8E%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E5%90%8C%E6%AD%A5%EF%BC%88%E6%81%A2%E5%A4%8D%EF%BC%89"><span class="toc-text">从远程仓库同步（恢复）</span></a></li></ol></li></div></section></aside><script>window.pdata={},pdata.ispage=!0,pdata.postTitle="如何在移动设备上进行 Hexo 博客编辑和部署",pdata.commentPath="",pdata.commentPlaceholder="";var l_header=document.getElementById("l_header");l_header.classList.remove("show")</script></div><footer class="footer clearfix"><br><br><div class="aplayer-container"></div><br><div class="social-wrapper"><a href="/atom.xml" class="social flat-btn" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/020-rss.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/020-rss.svg" srcset="data:image/png;base64,666"> </a><a href="https://github.com/AnotiaWang" class="social flat-btn" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/029-github.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/029-github.svg" srcset="data:image/png;base64,666"> </a><a href="https://t.me/atashare" class="social flat-btn" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/045-telegram.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/045-telegram.svg" srcset="data:image/png;base64,666"></a></div><div><p>博客内容遵循 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p></div><div><p><span id="lc-sv">本站总访问量： <span id="number"><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 次</span> <span id="lc-uv">访客数： <span id="number"><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 人</span></p></div>本站使用 <a href="https://github.com/volantis-x/hexo-theme-volantis/tree/4.1.6" target="_blank" class="codename">Volantis</a> 作为主题，总访问量为 <span id="busuanzi_value_site_pv"><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 次<div class="copyright"><p><a href="/">Copyright © 2020 Anotia</a></p></div></footer><a id="s-top" class="fas fa-arrow-up fa-fw" href="javascript:void(0)"></a></div></div><div><script>function loadScript(e,t){var n=document.getElementsByTagName("head")[0]||document.documentElement,o=document.createElement("script");o.setAttribute("type","text/javascript"),t&&(o.onload=t),o.setAttribute("src",e),n.appendChild(o)}window.volantis={},window.volantis.loadcss=document.getElementById("loadcss");var loadCSS=function(e,t,n,o){var i,r,d=window.document,a=d.createElement("link");r=t||(i=(d.body||d.getElementsByTagName("head")[0]).childNodes)[i.length-1];var s=d.styleSheets;if(o)for(var l in o)o.hasOwnProperty(l)&&a.setAttribute(l,o[l]);a.rel="stylesheet",a.href=e,a.media="only x",function e(t){if(d.body)return t();setTimeout(function(){e(t)})}(function(){r.parentNode.insertBefore(a,t?r:r.nextSibling)});var c=function(e){for(var t=a.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};function u(){a.addEventListener&&a.removeEventListener("load",u),a.media=n||"all"}return a.addEventListener&&a.addEventListener("load",u),(a.onloadcssdefined=c)(u),a}</script><script>loadCSS("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14/css/all.min.css",window.volantis.loadcss)</script><script src="https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.min.js"></script><script>function pjax_fancybox(){$(".md .gallery").find("img").each(function(){var a=document.createElement("a");$(a).attr("class","fancybox"),$(a).attr("pjax-fancybox",""),$(a).attr("href",$(this).attr("src")),$(this).attr("data-original")&&$(a).attr("href",$(this).attr("data-original")),$(a).attr("data-fancybox","images");var t="";$(this).attr("alt")&&($(a).attr("data-caption",$(this).attr("alt")),t=$(this).attr("alt"));var n=document.createElement("div");$(n).addClass("fancybox"),$(this).wrap(n);var e=document.createElement("span");$(e).addClass("image-caption"),$(e).text(t),$(this).after(e),$(this).wrap(a)}),$(".md .gallery").find("img").fancybox({selector:'[data-fancybox="images"]',hash:!1,loop:!1,closeClick:!0,helpers:{overlay:{closeClick:!0}},buttons:["zoom","close"]})}function SCload_fancybox(){0!=$(".md .gallery").find("img").length&&(loadCSS("https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css",document.getElementById("loadcss")),setTimeout(function(){loadScript("https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js",pjax_fancybox)},1))}$(function(){SCload_fancybox()})</script><script defer src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script><script>window.lazyLoadOptions={elements_selector:".lazyload",threshold:0},window.addEventListener("LazyLoad::Initialized",function(n){window.lazyLoadInstance=n.detail.instance},!1),document.addEventListener("DOMContentLoaded",function(){lazyLoadInstance.update()}),document.addEventListener("pjax:complete",function(){lazyLoadInstance.update()})</script><script>window.FPConfig={delay:0,ignoreKeywords:[],maxRPS:5,hoverDelay:25}</script><script defer src="https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script><script>var clipboard = new ClipboardJS('.btn-copy', {
+        target: function (trigger) {
+            return trigger.nextElementSibling
+        }
+    });
+    function wait(callback, seconds) {
+        var timelag = null;
+        timelag = window.setTimeout(callback, seconds)
+    }
+    function pjax_initCopyCode() {
+		if($(".highlight .code pre").length+$(".article pre code").length==0)return;
+        var copyHtml = '';
+        copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+        copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
+        copyHtml += '</button>';
+        $(".highlight .code pre").before(copyHtml);
+        $(".article pre code").before(copyHtml);
+        clipboard.off('success').on('success', function (e) {
+            let $btn = $(e.trigger);
+            $btn.addClass('copied');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-check-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPIED';
+            wait(function () {
+                $icon.removeClass('fa-check-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        });
+        clipboard.off('error').on('error', function (e) {
+            e.clearSelection();
+            let $btn = $(e.trigger);
+            $btn.addClass('copy-failed');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-times-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPY FAILED';
+            wait(function () {
+                $icon.removeClass('fa-times-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        })
+    }
+    $(function () {
+        pjax_initCopyCode()
+    });</script><script>function load_minivaline() {
+	setTimeout(function() {
+	
+	  loadScript('https://cdn.jsdelivr.net/npm/minivaline@4/dist/MiniValine.min.js', pjax_minivaline)
+	
+	}, 1);
+  };
+  function pjax_minivaline() {
+  if(!document.querySelectorAll("#minivaline_container")[0])return;
+
+  let pagePlaceholder = pdata.commentPlaceholder || "快来评论吧~";
+
+  let path = pdata.commentPath;
+  if (path.length == 0) {
+    let defaultPath = '';
+    path = defaultPath || decodeURI(window.location.pathname);
+  }
+
+  new MiniValine({
+    el: '#minivaline_container',
+    appId: '552SwE3wmc8aszRzk4jcJ4Hr-MdYXbMMI',
+    appKey: 'Gkh2cIlVmoWdM1HkWl5GA5yH',
+    mode: 'DesertsP',
+    placeholder: pagePlaceholder,
+    path: path,
+    lang: '',
+    adminEmailMd5: 'cf628a7651bf484559370f519d677d5b',
+    tagMeta: ["管理员", "小伙伴", "访客"],
+    master: ["de8a7aa53d07e6b6bceb45c64027763d"],
+    friends: ["b5bd5d836c7a0091aa8473e79ed4c25e", "adb7d1cd192658a55c0ad22a3309cecf", "3ce1e6c77b4910f1871106cb30dc62b0", "cfce8dc43725cc14ffcd9fb4892d5bfc"],
+    math: false,  /*布尔值 字符串无效 下同*/
+    md: true,
+    enableQQ: true,
+    NoRecordIP: true,
+    visitor: false,
+    maxNest: 6,
+    pageSize: 6,
+    barrager: 0,
+    role: 'admin',
+    closeFlag: false,
+    cloudflag: true,
+    closeUA: false,
+    emoticonUrl: ["https://cdn.jsdelivr.net/npm/alus@latest", "https://cdn.jsdelivr.net/gh/MiniValine/qq@latest", "https://cdn.jsdelivr.net/gh/MiniValine/Bilibilis@latest", "https://cdn.jsdelivr.net/gh/MiniValine/tieba@latest", "https://cdn.jsdelivr.net/gh/MiniValine/twemoji@latest", "https://cdn.jsdelivr.net/gh/MiniValine/weibo@latest"],
+    serverURLs: '',
+    region: 'false',
+    });
+  }
+  $(function () {
+    if(!document.querySelectorAll("#minivaline_container")[0])return;
+    load_minivaline();
+  });</script><script defer src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js" data-pjax></script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-volantis@4.1.6/source/js/app.min.js"></script><script>const SearchServiceimagePath="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/img/";
+const ROOT =  ("/" || "/").endsWith('/') ? ("/" || "/") : ("//" || "/" );
+
+$('.input.u-search-input').one('focus',function(){
+	
+		loadScript('https://cdn.jsdelivr.net/npm/hexo-theme-volantis@4.1.6/source/js/search/hexo.min.js',setSearchService);
+	
+})
+
+function listenSearch(){
+  
+    customSearch = new HexoSearch({
+      imagePath: SearchServiceimagePath
+    });
+  
+}
+function setSearchService() {
+	listenSearch();
+	
+}</script><script defer>const LCCounter = {
+    app_id: '552SwE3wmc8aszRzk4jcJ4Hr-MdYXbMMI',
+    app_key: 'Gkh2cIlVmoWdM1HkWl5GA5yH',
+    custom_api_server: '',
+
+    // 查询存储的记录
+    getRecord(Counter, url, title) {
+      return new Promise(function (resolve, reject) {
+        Counter('get', '/classes/Counter?where=' + encodeURIComponent(JSON.stringify({url})))
+          .then(resp => resp.json())
+          .then(({results, code, error}) => {
+            if (code === 401) {
+              throw error;
+            }
+            if (results && results.length > 0) {
+              var record = results[0];
+              resolve(record);
+            } else {
+              Counter('post', '/classes/Counter', {url, title: title, times: 0})
+                .then(resp => resp.json())
+                .then((record, error) => {
+                  if (error) {
+                    throw error;
+                  }
+                  resolve(record);
+                }).catch(error => {
+                console.error('Failed to create', error);
+                reject(error);
+              });
+            }
+          }).catch((error) => {
+          console.error('LeanCloud Counter Error:', error);
+          reject(error);
+        });
+      })
+    },
+
+    // 发起自增请求
+    increment(Counter, incrArr) {
+      return new Promise(function (resolve, reject) {
+        Counter('post', '/batch', {
+          "requests": incrArr
+        }).then((res) => {
+          res = res.json();
+          if (res.error) {
+            throw res.error;
+          }
+          resolve(res);
+        }).catch((error) => {
+          console.error('Failed to save visitor count', error);
+          reject(error);
+        });
+      });
+    },
+
+    // 构建自增请求体
+    buildIncrement(objectId) {
+      return {
+        "method": "PUT",
+        "path": `/1.1/classes/Counter/${ objectId }`,
+        "body": {
+          "times": {
+            '__op': 'Increment',
+            'amount': 1
+          }
+        }
+      }
+    },
+
+    // 校验是否为有效的 UV
+    validUV() {
+      var key = 'LeanCloudUVTimestamp';
+      var flag = localStorage.getItem(key);
+      if (flag) {
+        // 距离标记小于 24 小时则不计为 UV
+        if (new Date().getTime() - parseInt(flag) <= 86400000) {
+          return false;
+        }
+      }
+      localStorage.setItem(key, new Date().getTime().toString());
+      return true;
+    },
+
+    addCount(Counter) {
+      var enableIncr = '' === 'true' && window.location.hostname !== 'localhost';
+      enableIncr = true;
+      var getterArr = [];
+      var incrArr = [];
+      // 请求 PV 并自增
+      var pvCtn = document.querySelector('#lc-sv');
+      if (pvCtn || enableIncr) {
+        var pvGetter = this.getRecord(Counter, 'https://blog.anotia.top' + '/#lc-sv', 'Visits').then((record) => {
+          incrArr.push(this.buildIncrement(record.objectId))
+          var eles = document.querySelectorAll('#lc-sv #number');
+          if (eles.length > 0) {
+            eles.forEach((el,index,array)=>{
+              el.innerText = record.times + 1;
+              if (pvCtn) {
+                pvCtn.style.display = 'inline';
+              }
+            })
+          }
+        });
+        getterArr.push(pvGetter);
+      }
+
+      // 请求 UV 并自增
+      var uvCtn = document.querySelector('#lc-uv');
+      if (uvCtn || enableIncr) {
+        var uvGetter = this.getRecord(Counter, 'https://blog.anotia.top' + '/#lc-uv', 'Visitors').then((record) => {
+          var vuv = this.validUV();
+          vuv && incrArr.push(this.buildIncrement(record.objectId))
+          var eles = document.querySelectorAll('#lc-uv #number');
+          if (eles.length > 0) {
+            eles.forEach((el,index,array)=>{
+              el.innerText = record.times + (vuv ? 1 : 0);
+              if (uvCtn) {
+                uvCtn.style.display = 'inline';
+              }
+            })
+          }
+        });
+        getterArr.push(uvGetter);
+      }
+
+      // 请求文章的浏览数，如果是当前页面就自增
+      var allPV = document.querySelectorAll('#lc-pv');
+      if (allPV.length > 0 || enableIncr) {
+        for (i = 0; i < allPV.length; i++) {
+          let pv = allPV[i];
+          let title = pv.getAttribute('data-title');
+          var url = 'https://blog.anotia.top' + pv.getAttribute('data-path');
+          if (url) {
+            var viewGetter = this.getRecord(Counter, url, title).then((record) => {
+              // 是当前页面就自增
+              let curPath = window.location.pathname;
+              if (curPath.includes('index.html')) {
+                curPath = curPath.substring(0, curPath.lastIndexOf('index.html'));
+              }
+              if (pv.getAttribute('data-path') == curPath) {
+                incrArr.push(this.buildIncrement(record.objectId));
+              }
+              if (pv) {
+                var ele = pv.querySelector('#lc-pv #number');
+                if (ele) {
+                  if (pv.getAttribute('data-path') == curPath) {
+                    ele.innerText = (record.times || 0) + 1;
+                  } else {
+                    ele.innerText = record.times || 0;
+                  }
+                  pv.style.display = 'inline';
+                }
+              }
+            });
+            getterArr.push(viewGetter);
+          }
+        }
+      }
+
+      // 如果启动计数自增，批量发起自增请求
+      if (enableIncr) {
+        Promise.all(getterArr).then(() => {
+          incrArr.length > 0 && this.increment(Counter, incrArr);
+        })
+      }
+
+    },
+
+
+    fetchData(api_server) {
+      var Counter = (method, url, data) => {
+        return fetch(`${ api_server }/1.1${ url }`, {
+          method,
+          headers: {
+            'X-LC-Id': this.app_id,
+            'X-LC-Key': this.app_key,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data)
+        });
+      };
+      this.addCount(Counter);
+    },
+
+    refreshCounter() {
+      var api_server = this.app_id.slice(-9) !== '-MdYXbMMI' ? this.custom_api_server : `https://${ this.app_id.slice(0, 8).toLowerCase() }.api.lncldglobal.com`;
+      if (api_server) {
+        this.fetchData(api_server);
+      } else {
+        fetch('https://app-router.leancloud.cn/2/route?appId=' + this.app_id)
+          .then(resp => resp.json())
+          .then(({api_server}) => {
+            this.fetchData('https://' + api_server);
+          });
+      }
+    }
+
+  };
+
+  LCCounter.refreshCounter();
+
+  document.addEventListener('pjax:complete', function () {
+    LCCounter.refreshCounter();
+  });</script><script>const rootElement = document.documentElement;
+const darkModeStorageKey = "user-color-scheme";
+const rootElementDarkModeAttributeName = "data-user-color-scheme";
+
+const setLS = (k, v) => {
+  try {
+    localStorage.setItem(k, v);
+  } catch (e) {
+    console.log(e.message);
+  }
+};
+
+const removeLS = (k) => {
+  try {
+    localStorage.removeItem(k);
+  } catch (e) {
+    console.log(e.message);
+  }
+};
+
+const getLS = (k) => {
+  try {
+    return localStorage.getItem(k);
+  } catch (e) {
+    console.log(e.message);
+    return null;
+  }
+};
+
+const getModeFromCSSMediaQuery = () => {
+  return window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+};
+
+const resetRootDarkModeAttributeAndLS = () => {
+  rootElement.removeAttribute(rootElementDarkModeAttributeName);
+  removeLS(darkModeStorageKey);
+};
+
+const validColorModeKeys = {
+  dark: true,
+  light: true,
+};
+
+const applyCustomDarkModeSettings = (mode) => {
+  const currentSetting = mode || getLS(darkModeStorageKey);
+
+  if (currentSetting === getModeFromCSSMediaQuery()) {
+    resetRootDarkModeAttributeAndLS();
+  } else if (validColorModeKeys[currentSetting]) {
+    rootElement.setAttribute(rootElementDarkModeAttributeName, currentSetting);
+  } else {
+    resetRootDarkModeAttributeAndLS();
+  }
+};
+
+const invertDarkModeObj = {
+  dark: "light",
+  light: "dark",
+};
+
+/**
+ * get target mode
+ */
+const toggleCustomDarkMode = () => {
+  let currentSetting = getLS(darkModeStorageKey);
+
+  if (validColorModeKeys[currentSetting]) {
+    currentSetting = invertDarkModeObj[currentSetting];
+  } else if (currentSetting === null) {
+    currentSetting = invertDarkModeObj[getModeFromCSSMediaQuery()];
+  } else {
+    return;
+  }
+  setLS(darkModeStorageKey, currentSetting);
+  return currentSetting;
+};
+
+/**
+ * bind click event for toggle button
+ */
+function bindToggleButton() {
+	var btn=$("#wrapper .toggle-mode-btn");
+    btn.on('click',(e) => {
+      const mode = toggleCustomDarkMode();
+      applyCustomDarkModeSettings(mode);
+    });
+}
+
+applyCustomDarkModeSettings();
+document.addEventListener("DOMContentLoaded", bindToggleButton);
+document.addEventListener("pjax:success", bindToggleButton);</script><script>function listennSidebarTOC() {
+  const navItems = document.querySelectorAll(".toc li");
+  if (!navItems.length) return;
+  const sections = [...navItems].map((element) => {
+    const link = element.querySelector(".toc-link");
+    const target = document.getElementById(
+      decodeURI(link.getAttribute("href")).replace("#", "")
+    );
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      window.scrollTo({
+		top: target.offsetTop + 100,
+		
+		behavior: "smooth"
+		
+	  });
+    });
+    return target;
+  });
+
+  function activateNavByIndex(target) {
+    if (target.classList.contains("active-current")) return;
+
+    document.querySelectorAll(".toc .active").forEach((element) => {
+      element.classList.remove("active", "active-current");
+    });
+    target.classList.add("active", "active-current");
+    let parent = target.parentNode;
+    while (!parent.matches(".toc")) {
+      if (parent.matches("li")) parent.classList.add("active");
+      parent = parent.parentNode;
+    }
+  }
+
+  function findIndex(entries) {
+    let index = 0;
+    let entry = entries[index];
+    if (entry.boundingClientRect.top > 0) {
+      index = sections.indexOf(entry.target);
+      return index === 0 ? 0 : index - 1;
+    }
+    for (; index < entries.length; index++) {
+      if (entries[index].boundingClientRect.top <= 0) {
+        entry = entries[index];
+      } else {
+        return sections.indexOf(entry.target);
+      }
+    }
+    return sections.indexOf(entry.target);
+  }
+
+  function createIntersectionObserver(marginTop) {
+    marginTop = Math.floor(marginTop + 10000);
+    let intersectionObserver = new IntersectionObserver(
+      (entries, observe) => {
+        let scrollHeight = document.documentElement.scrollHeight + 100;
+        if (scrollHeight > marginTop) {
+          observe.disconnect();
+          createIntersectionObserver(scrollHeight);
+          return;
+        }
+        let index = findIndex(entries);
+        activateNavByIndex(navItems[index]);
+      },
+      {
+        rootMargin: marginTop + "px 0px -100% 0px",
+        threshold: 0,
+      }
+    );
+    sections.forEach((element) => {
+      element && intersectionObserver.observe(element);
+    });
+  }
+  createIntersectionObserver(document.documentElement.scrollHeight);
+}
+
+document.addEventListener("DOMContentLoaded", listennSidebarTOC);
+document.addEventListener("pjax:success", listennSidebarTOC);</script><!-- more --><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script><div class="pjax-animate"><script src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script><div id="loading-bar-wrapper"><script>NProgress.configure({parent:"#loading-bar-wrapper",trickleSpeed:100})</script></div><script>window.ShowLoading=function(){NProgress.start()},window.HideLoading=function(){NProgress.done()}</script></div><script>var pjax;
+    document.addEventListener('DOMContentLoaded', function () {
+      pjax = new Pjax({
+        elements: 'a[href]:not([href^="#"]):not([href="javascript:void(0)"]):not([pjax-fancybox])',
+        selectors: [
+          "title",
+          "#l_cover",
+          "#pjax-container",
+          "#pjax-header-nav-list"
+        ],
+        cacheBust: false,   // url 地址追加时间戳，用以避免浏览器缓存
+        timeout: 5000
+      });
+    });
+
+    document.addEventListener('pjax:send', function (e) {
+      //window.stop(); // 相当于点击了浏览器的停止按钮
+
+      try {
+        var currentUrl = window.location.pathname;
+        var targetUrl = e.triggerElement.href;
+        var banUrl = [""];
+        if (banUrl[0] != "") {
+          banUrl.forEach(item => {
+            if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
+              window.location.href = targetUrl;
+            }
+          });
+        }
+      } catch (error) {}
+
+      window.subData = null; // 移除标题（用于一二级导航栏切换处）
+      if (typeof $.fancybox != "undefined") {
+        $.fancybox.close();    // 关闭弹窗
+      }
+      volantis.$switcher.removeClass('active'); // 关闭移动端激活的搜索框
+      volantis.$header.removeClass('z_search-open'); // 关闭移动端激活的搜索框
+      volantis.$wrapper.removeClass('sub'); // 跳转页面时关闭二级导航
+
+      // 解绑事件 避免重复监听
+      volantis.$topBtn.unbind('click');
+      $('.menu a').unbind('click');
+      $(window).unbind('resize');
+      $(window).unbind('scroll');
+      $(document).unbind('scroll');
+      $(document).unbind('click');
+      $('body').unbind('click');
+	  
+      window.ShowLoading();
+	  
+    });
+
+    document.addEventListener('pjax:complete', function () {
+      // 关于百度统计对 SPA 页面的处理：
+      // 方案一：百度统计>管理>单页应用设置中，打开开启按钮即可对SPA进行统计。 https://tongji.baidu.com/web/help/article?id=324
+      // 方案二：取消注释下列代码。 https://tongji.baidu.com/web/help/article?id=235
+       
+
+      // 关于谷歌统计对 SPA 页面的处理：
+      // 当应用以动态方式加载内容并更新地址栏中的网址时，也应该更新通过 gtag.js 存储的网页网址。
+      // https://developers.google.cn/analytics/devguides/collection/gtagjs/single-page-applications?hl=zh-cn
+      
+	 
+
+      $('.nav-main').find('.list-v').not('.menu-phone').removeAttr("style",""); // 移除小尾巴的移除
+      $('.menu-phone.list-v').removeAttr("style",""); // 移除小尾巴的移除
+      $('script[data-pjax], .pjax-reload script').each(function () {
+        $(this).parent().append($(this).remove());
+      });
+      try{
+          if (typeof $.fancybox == "undefined") {
+            SCload_fancybox();
+          } else {
+            pjax_fancybox();
+          }
+        
+        
+        
+        
+        
+          pjax_initCopyCode();
+        
+        
+        
+          if (typeof MiniValine == "undefined") {
+            load_minivaline();
+          } else {
+            pjax_minivaline();
+          }
+        
+        
+        
+      } catch (e) {
+        console.log(e);
+      }
+	  
+      window.HideLoading();
+	  
+    });
+
+    document.addEventListener('pjax:error', function (e) {
+	  
+      window.HideLoading();
+	  
+      window.location.href = e.triggerElement.href;
+    });</script></div></body></html>

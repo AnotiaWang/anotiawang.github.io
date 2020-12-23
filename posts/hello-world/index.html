@@ -56,43 +56,17 @@
   };
   function pjax_minivaline() {
   if(!document.querySelectorAll("#minivaline_container")[0])return;
-
   let pagePlaceholder = pdata.commentPlaceholder || "快来评论吧~";
-
   let path = pdata.commentPath;
   if (path.length == 0) {
     let defaultPath = '';
     path = defaultPath || decodeURI(window.location.pathname);
   }
-
-  new MiniValine({
-    el: '#minivaline_container',
-    appId: '552SwE3wmc8aszRzk4jcJ4Hr-MdYXbMMI',
-    appKey: 'Gkh2cIlVmoWdM1HkWl5GA5yH',
-    mode: 'DesertsP',
-    placeholder: pagePlaceholder,
-    path: path,
-    lang: '',
-    adminEmailMd5: 'cf628a7651bf484559370f519d677d5b',
-    tagMeta: ["管理员", "小伙伴", "访客"],
-    master: ["de8a7aa53d07e6b6bceb45c64027763d"],
-    friends: ["b5bd5d836c7a0091aa8473e79ed4c25e", "adb7d1cd192658a55c0ad22a3309cecf", "3ce1e6c77b4910f1871106cb30dc62b0", "cfce8dc43725cc14ffcd9fb4892d5bfc"],
-    math: false,  /*布尔值 字符串无效 下同*/
-    md: true,
-    enableQQ: true,
-    NoRecordIP: true,
-    visitor: false,
-    maxNest: 6,
-    pageSize: 6,
-    barrager: 0,
-    role: 'admin',
-    closeFlag: false,
-    cloudflag: true,
-    closeUA: false,
-    emoticonUrl: ["https://cdn.jsdelivr.net/npm/alus@latest", "https://cdn.jsdelivr.net/gh/MiniValine/qq@latest", "https://cdn.jsdelivr.net/gh/MiniValine/Bilibilis@latest", "https://cdn.jsdelivr.net/gh/MiniValine/tieba@latest", "https://cdn.jsdelivr.net/gh/MiniValine/twemoji@latest", "https://cdn.jsdelivr.net/gh/MiniValine/weibo@latest"],
-    serverURLs: '',
-    region: 'false',
-    });
+    new MiniValine(Object.assign({"js":"https://cdn.jsdelivr.net/npm/minivaline@4/dist/MiniValine.min.js","path":null,"placeholder":"快来评论吧~","appId":"552SwE3wmc8aszRzk4jcJ4Hr-MdYXbMMI","appKey":"Gkh2cIlVmoWdM1HkWl5GA5yH","mode":"DesertsP","math":false,"md":true,"enableQQ":true,"NoRecordIP":true,"closeFlag":false,"closeUA":false,"region":false,"visitor":false,"maxNest":6,"pageSize":6,"barrager":0,"role":"admin","cloudflag":true,"adminEmailMd5":"cf628a7651bf484559370f519d677d5b","tagMeta":["管理员","小伙伴","访客"],"master":["de8a7aa53d07e6b6bceb45c64027763d"],"friends":["b5bd5d836c7a0091aa8473e79ed4c25e","adb7d1cd192658a55c0ad22a3309cecf","3ce1e6c77b4910f1871106cb30dc62b0","cfce8dc43725cc14ffcd9fb4892d5bfc"],"lang":null,"emoticonUrl":["https://cdn.jsdelivr.net/npm/alus@latest","https://cdn.jsdelivr.net/gh/MiniValine/qq@latest","https://cdn.jsdelivr.net/gh/MiniValine/Bilibilis@latest","https://cdn.jsdelivr.net/gh/MiniValine/tieba@latest","https://cdn.jsdelivr.net/gh/MiniValine/twemoji@latest","https://cdn.jsdelivr.net/gh/MiniValine/weibo@latest"]}, {
+	  el: '#minivaline_container',
+	  pathname: path,
+	  placeholder: pagePlaceholder,
+    }));
   }
   $(function () {
     if(!document.querySelectorAll("#minivaline_container")[0])return;
@@ -577,6 +551,8 @@ document.addEventListener("pjax:success", listennSidebarTOC);</script><!-- more 
           } else {
             pjax_minivaline();
           }
+        
+        
         
         
         

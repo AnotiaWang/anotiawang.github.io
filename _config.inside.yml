@@ -14,7 +14,7 @@ appearance:
 
   font:
     # 字体 CSS 文件的 URL
-    url: //fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat
+    url: //fonts.loli.net/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat
     # 基础字体，作用于 body 元素
     base: "'Josefin Sans', 'PingFang SC', Microsoft YaHei"
     # 作用于 sidebar 上方的 LOGO

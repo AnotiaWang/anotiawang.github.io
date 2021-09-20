@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "core-js": "^3.18.0",
+    "hexo": "^5.2.0",
+    "core-js": "^3.18.0",
     "hexo": "^5.4.0",
     "hexo-algoliasearch": "^0.4.2",
     "hexo-deployer-git": "^2.1.0",

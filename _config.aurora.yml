@@ -17,7 +17,7 @@ site:
   language: zh-cn
   multi_language: true
   logo: https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.1.1/images/blog/favicon.png
-  avatar: https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.1.1/images/blog/avatar.jpg
+  avatar: https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.1.2/images/blog/avatar.jpg
   beian:
     number: ''
     link: ''

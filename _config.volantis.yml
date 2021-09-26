@@ -1,22 +1,52 @@
+
+
+default:
+  avatar: https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/avatar/round/3442075.svg
+  link: https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/link/8f277b4ee0ecd.svg
+  cover: https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/cover/76b86c0226ffd.svg
+  image: https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/image/2659360.svg
+
+
+#
+# 上面的是 v5 新版通用配置，可兼容 Stellar 主题，请放心使用
+#
+# xxxxxxxx
+#
+# 下面的是 v4 旧版配置，将逐步迁移至通用配置中
+#
+
 ############################### Volantis ###############################
 # 仅限/source/js/中的JS文件 
 # 默认使用 https://cdn.jsdelivr.net/npm/hexo-theme-volantis/source/js/ 的CDN压缩版本，注意版本号对应关系！！可以通过修改以下配置项覆盖
 # 开发者注意 use_cdn 设置为 false
 use_cdn: true 
 info:
-  theme_name: Anotia 的小栈 # This is theme's name.
-  theme_version: '4.1.6' # This is theme's version.
+  theme_name: Volantis # This is theme's name.
+  theme_version: '5.0.0-alpha.5' # This is theme's version.
   theme_docs: https://volantis.js.org/ # This is theme's URL.
   theme_repo: https://github.com/volantis-x/hexo-theme-volantis
+
+  ############################### CDN ###############################
+# 本地静态文件使用jsdelivr的min版本加速 https://www.jsdelivr.com/features
+# 默认使用 https://cdn.jsdelivr.net/npm/hexo-theme-volantis@<%- theme.info.theme_version %>/source/js/*.min.js 的CDN压缩版本(min.js)，注意版本号对应关系！！可以通过修改以下配置项覆盖
+# 开发者注意 cdn.enable 设置为 false
   cdn:
+      enable: false
+  prefix: # CDN 前缀，为空使用默认值，链接最后不加 "/",例如： https://cdn.jsdelivr.net/gh/volantis-x/volantis-x.github.io@gh-page 填写最后编译生成的源码CDN地址前缀，此路径下应该含有/js与/css目录,该配置默认值是："https://cdn.jsdelivr.net/npm/hexo-theme-volantis@"+ theme.info.theme_version +"/source"
+  # 以下配置可以覆盖 cdn.prefix,配置项的值可以为空，但是要使用CDN必须依据路径填写配置项的键
+  set:
     js:
+            app: #/js/app.js
     css:
       first:
-      style:
-########################################################################
+      style: #/css/style.css # (异步加载样式)
+#######################################################################
+ # 平滑滚动效果
+scroll_smooth: true
+
 
 ############################### Navigation Bar ############################### > start
-
+# 注意事项：建议规范全站路径 URL 最后带一个 "/" 例如 "about/"
 feed:
   type: atom
   path: atom.xml
@@ -64,7 +94,7 @@ cover:
     home: true
     archive: true
     others: false # can be written in front-matter 'cover: true'
-  background: https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/033.jpg
+  background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
   logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
   title: 'Anotia 的小栈'
   subtitle: '梅虽逊雪三分白，雪却输梅一缕香。'
@@ -160,7 +190,8 @@ article:
     bottom_meta: [updated, tags, share]
     # meta library
     meta_library:
-      # 默认文章作者（可在 front-matter 中覆盖）
+      # 默认文章作者（可在 _data/author.yaml 中增加其他作者，并在 front-matter 中设置）
+      # https://volantis.js.org/advanced-settings/#多人协同      
       author:
         avatar: /images/avatar.jpg
         name: Anotia
@@ -214,16 +245,56 @@ comments:
   title: <i class='fas fa-comments'></i> 评论
   subtitle:
   service: minivaline # valine, minivaline, disqus, gitalk, vssue, livere, isso, hashover
+    # giscus
+  # https://giscus.app
+  # https://github.com/laymonage/giscus
+  giscus:
+    theme:
+      light: https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/light.css
+      dark: https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/dark.css
+    # 以下配置按照 yml 格式增删填写即可
+    # repo: xxx/xxx
+    # repo-id: xxx
+    # category: xxx
+    # category-id: xxx
+    # mapping: "pathname"
+    # reactions-enabled: "1"
+    # emit-metadata: "0"
+
+  # beaudar
+  # https://beaudar.lipk.org/
+  beaudar:
+    repo: xxx/xxx
+    issue-term: pathname
+    issue-number:
+    branch: main
+    position: top
+    order: desc
+    theme:
+      light: github-light
+      dark: github-dark
+    label: ✨💬✨
+  # utterances
+  # https://utteranc.es/
+  utterances:
+    repo: xxx/xxx
+    issue-term: pathname
+    issue-number:
+    theme:
+      light: github-light
+      dark: github-dark
+    label: ✨💬✨
   # Valine
   # https://valine.js.org/
   valine:
+    # js: https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js
+    path: # 全局评论地址 目前设置全局评论地址后visitor失效,这是valine的问题
+    placeholder: 快来评论吧~  # 评论占位提示
+    # 其他配置项按照yml格式继续填写即可 除了 [el path placeholder emojiCDN emojiMaps] 选项
     appId: 552SwE3wmc8aszRzk4jcJ4Hr-MdYXbMMI # your appId
     appKey: Gkh2cIlVmoWdM1HkWl5GA5yH # your appKey
-    # js: https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js
-    path: # 全局评论地址
-    placeholder: 快来评论吧~  # 评论占位提示
-    meta: nick,mail,link # valine comment header info
-    requiredFields: ['nick','mail']
+    meta: [nick,mail,link] # valine comment header info
+    requiredFields: [nick,mail]
     enableQQ: true # Unstable avatar link
     recordIP: false # Record commenter IP
     avatar: robohash # gravatar style https://valine.js.org/avatar
@@ -237,7 +308,7 @@ comments:
   minivaline:
     appId: 552SwE3wmc8aszRzk4jcJ4Hr-MdYXbMMI # your appId
     appKey: Gkh2cIlVmoWdM1HkWl5GA5yH # your appKey
-    js: https://cdn.jsdelivr.net/npm/minivaline@4/dist/MiniValine.min.js
+    js: https://cdn.jsdelivr.net/npm/minivaline@latest
     path: # 全局评论地址
     placeholder: 快来评论吧~  # 评论占位提示
     mode: DesertsP # DesertsP or xCss
@@ -287,23 +358,34 @@ comments:
     # optional
     autoload: false
     path: # 全局评论地址
+      # DisqusJS
+  # https://github.com/SukkaW/DisqusJS
+  disqusjs:
+    path: # 全局评论地址
+    # 配置项按照yml格式继续填写即可 除了 [siteName url identifier] 选项
+    #shortname:
+    #api:
+    #apikey:
+    #admin:
+    #nesting:
   # Gitalk
   # https://gitalk.github.io/
   gitalk:
+       # 配置项按照yml格式继续填写即可 除了 [id distractionFreeMode] 选项
     clientID:
     clientSecret:
     repo:
     owner:
     admin: # []
     path: # 全局评论地址
-  # Vssue
+  # Vssue 暂不支持Pjax
   # https://vssue.js.org/zh/
   vssue:
     owner:
     repo:
     clientId:
     clientSecret:
-  # LiveRe
+  # LiveRe 暂不支持Pjax
   # https://www.livere.com
   livere:
     uid:
@@ -312,7 +394,9 @@ comments:
   isso:
     url: https://example.com/(path/)
     src: https://example.com/(path/)js/embed.min.js
-  # HashOver
+    css:
+    gravatar:
+  # HashOver 暂不支持Pjax
   # https://www.barkdull.org/software/hashover
   hashover:
     src: https://example.com/(path/)comments.php
@@ -320,6 +404,7 @@ comments:
 
 ############################### Sidebar ############################### > start
 sidebar:
+  position: right # left right
   # 主页、分类、归档等独立页面
   for_page: [blogger, category, tagcloud, webinfo]
   # layout: docs/post 这类文章页面
@@ -330,7 +415,7 @@ sidebar:
     # blogger info widget
     blogger:
       class: blogger
-      display: [desktop] # [desktop, mobile]
+      display: [desktop, mobile] # [desktop, mobile]
       avatar: /images/avatar.jpg
       shape: circle # circle, rectangle
       url: /about/
@@ -341,7 +426,7 @@ sidebar:
         - icon: fas fa-rss
           url: /atom.xml
         - icon: fas fa-envelope
-          url: mailto:anotiawang@qq.com
+          url: mailto:mail@to.anotia.top
         - icon: fab fa-github
           url: https://github.com/AnotiaWang
 
@@ -379,10 +464,9 @@ sidebar:
       color: true
       start_color: '#999'
       end_color: '#555'
-
     # ---------------------------------------
     # qrcode widget
-    donate:
+    qrcode:
       class: qrcode
       display: [desktop, mobile] # [desktop, mobile]
       height: 64px  # Automatic height if not set
@@ -426,6 +510,14 @@ sidebar:
           friendlyShow: true    # 更友好的时间显示
           text: '最后活动时间：'
           unit: '日'
+    # ---------------------------------------
+    # lastupdate widget
+    lastupdate:
+      class: lastupdate
+      display: [desktop, mobile]
+      header:
+        icon: fas fa-clock WISTERIA
+        title: 最近更新
 ############################### Sidebar ############################### > end
 
 
@@ -456,7 +548,7 @@ site_footer:
       img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/020-rss.svg
       url: atom.xml
     - icon: #fas fa-envelope
-      url: mailto:anotiawang@qq.com
+      url: mailto:mail@to.anotia.top
     - icon: #fab fa-github
       img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/029-github.svg
       url: https://github.com/AnotiaWang
@@ -488,13 +580,21 @@ site_footer:
 plugins:
   ################ required plugins ################
   # jquery
+  globalJquery: false # 全局引入 jquery
   jquery: https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.min.js
-  # fontawesome
+  # fontawesome Pro 版本：https://cdn.jsdelivr.net/gh/inkss/fontawesome@5.15.3/css/all.min.css
   fontawesome: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14/css/all.min.css
+
   ################ optional plugins ################
+  # issues api
+  sitesjs:
+    enable: true
+  friendsjs:
+    enable: true
+  contributorsjs:
+    enable: true
 
   ######## Plugins to improve loading speed:
-
   # 预加载
   preload:
     enable: true
@@ -504,41 +604,55 @@ plugins:
 
   # 图片懒加载
   # https://www.npmjs.com/package/vanilla-lazyload
+    # tips: 
+  # 这里是主题自带的图片懒加载, 实现方案位于 /scripts/filters/z-lazyload ; srcset 属性的的优先级比 src 属性要高, 注意 srcset 存放了懒加载占位图,  src 存放了原图
+  # 在支持 srcset 的浏览器或者 RSS 阅读器(还会有人使用老旧的阅读器?)上会优先读取 srcset 加载的图片(懒加载占位图), 对于 RSS 中图片丢失变成懒加载占位图的问题, 建议 自行使用脚本移除 srcset 属性 或 关闭图片懒加载 或 在 RSS 中插入 vanilla-lazyload
   lazyload:
     enable: true
     js: https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js
     onlypost: false
-    loadingImg: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg
+    loadingImg: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg # 不建议使用占位图, 建议loadingImg为空, 当前占位图会产生布局偏移, loadingImg 为空占位图是一个 1X1 像素的图片
     blurIn: true # 模糊加载效果 （loadingImg为空时有效）
 
   ######## Plugins to optimize the experience:
-
+    # 代码高亮
+  code_highlight: highlightjs # highlightjs or prismjs
   # highlight.js
   highlightjs:
-    enable: #true # Please set hexo.config.highlight.enable = false !!!
-    js: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js
-    css: https://cdn.jsdelivr.net/npm/highlight.js@9.18.1/styles/solarized-light.css
-    # more: https://www.jsdelivr.com/package/npm/highlight.js?path=styles
+    copy_code: true
+    # 如果开启以下配置, hexo.config.highlight.enable 需要设置为 false ; hexo.config.highlight.enable 设置为 true, 则以下配置无效
+    # # 不再支持 v11.1.0 以下版本
+    # js: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/highlight.min.js # Please set hexo.config.highlight.enable = false !!!
+    # css: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/styles/default.min.css
+    # # # more: https://www.jsdelivr.com/package/npm/highlight.js?path=styles
+
+  # prismjs
+  # https://prismjs.com/
+  # https://hexo.io/zh-cn/docs/syntax-highlight#PrismJS
+  prismjs:
+    copy_code: true
+    # Please set hexo.config.highlight.enable = false !!! set hexo.config.prismjs.enable = true !!!
+    js:
+      - https://cdn.jsdelivr.net/npm/prismjs/components/prism-core.min.js
+      - https://cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
+      - https://cdn.jsdelivr.net/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
+    css:
+      - https://cdn.jsdelivr.net/npm/prismjs/themes/prism-dark.css
+      - https://cdn.jsdelivr.net/npm/prismjs/plugins/line-numbers/prism-line-numbers.css
 
   # https://scrollrevealjs.org/api/reveal.html
   scrollreveal:
     enable: #true
-    js: https://cdn.jsdelivr.net/npm/scrollreveal@4.0.6/dist/scrollreveal.min.js
+    js: https://cdn.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js
     distance: 32px
     duration: 800 # ms
     interval: 20 # ms
     scale: 1 # 0.1~1
 
-  # Codeblock Copy Button
-  clipboard:
-    enable: true
-    js: https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js
-
   ######## Plugins for SEO:
-
   # npm i hexo-wordcount
   wordcount:
-    enable: true
+    enable: #true
 
   ######## Plugins for ...
   # Button Ripple Effect
@@ -557,44 +671,43 @@ plugins:
     enable: #true
     js: https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2/js/comment_typing.js
 
-  # Slide Background
-  backstretch:
-    enable: #true
-    js: https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js
+  # 视差滚动效果 Slide Background
+  parallax:
+    enable: true
     position: cover       # cover: sticky on the cover.   fixed: Fixed as background for the site.
     shuffle: true         # shuffle playlist
     duration: 10000       # Duration (ms)
     fade: 1500            # fade duration (ms) (Not more than 1500)
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/001.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/002.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/003.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/004.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/005.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/006.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/012.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/016.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/019.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/025.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/033.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/034.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/035.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/038.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/039.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/042.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/046.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/051.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/052.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/054.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/056.jpg
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/001.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/002.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/003.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/004.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/005.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/006.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/012.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/016.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/019.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/025.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/033.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/034.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/035.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/038.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/039.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/042.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/046.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/051.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/052.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/054.webp
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/056.webp
 
   # APlayer is only available in mainland China.
   # APlayer config: https://github.com/metowolf/MetingJS
   aplayer:
     enable: #true
     js:
-      - https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js
-      - https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js
+      aplayer: https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/js/APlayer.mini.js # aplayer@1.10 魔改: 将触摸和滚轮事件监听器标记为 `passive`，以提高页面的滚动性能
+      meting: https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js
     # Required
     server: netease   # netease, tencent, kugou, xiami, baidu
     type: playlist    # song, playlist, album, search, artist
@@ -608,13 +721,38 @@ plugins:
     volume: 0.7       # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
     list_max_height: 320px # list max height
     list_folded: true
+
+    # Pjax
   pjax:
     enable: true
+    cover: true          # 封面是否pjax处理 false：每次切换页面封面都重载，适合封面较少的情况 true：封面经过Pjax处理，适合封面较多的情况
     timeout: 5000        # The timeout in milliseconds for the XHR requests. Set to 0 to disable the timeout.
     cacheBust: false     # When set to true, Pjax appends a timestamp  to skip the browser cache.
     animation: nprogress # false, nprogress, circle
     banUrl:              # 被屏蔽的 url 地址将不启用 pjax 跳转，可以在控制台下使用 window.location.pathname 获取
-      # - /artitalk/     # artitalk 不支持 pjax
+      # - '/artitalk/'   # artitalk 不支持 pjax
+      # - '/bbtalk/'     # bbtalk 不支持 pjax
+
+
+  # 暗黑模式 darkmode
+  # 开关按钮：在 navbar.menu 中添加：
+  # - name: 暗黑模式 # 可自定义
+  #   icon: fas fa-moon # 可自定义
+  #   toggle: darkmode
+  darkmode:
+    enable: #true
+
+  # 旧版 Internet Explorer 淘汰行动
+  # https://www.microsoft.com/zh-cn/WindowsForBusiness/End-of-IE-support
+  # 本主题不支持Internet Explorer的任何版本!!!
+  killOldVersionsOfIE:
+    enable: true
+
+  # 禁用JavaScript提示
+  # 本页面需要浏览器支持（启用）JavaScript
+  # 主题中的某些插件必须启用JavaScript才能正常工作，例如开启scrollreveal如果禁用JavaScript会导致卡片消失
+  killNoScript:
+    enable: true
 
 
   # Artitalk https://artitalk.js.org
@@ -637,37 +775,38 @@ plugins:
     # color3: #说说字体颜色
     # cssUrl: #自定义css接口
 
-  # 从 issues 加载动态数据
-  # {% issues sites/timeline/friends | api=xxx | group=key:a,b,c %}
-  # 例如：
-  # {% issues sites | api=https://api.github.com/repos/volantis-x/examples/issues?sort=updated&state=open&page=1&per_page=100 | group=version:latest,v6,v5,v4,v3,v2,v1,v0 %}
-  issues:
     enable: #true
     js:
 
-  # 暗黑模式 darkmode
-  # 样式：source/css/_plugins/dark.styl
-  # 开关按钮：在 navbar.menu 中添加：
-  # - name: 暗黑模式 # 可自定义
-  #   icon: fas fa-moon # 可自定义
-  #   toggle: darkmode
-  darkmodejs:
-    enable: true
+
 
 ############################### Plugins ############################### > end
 
 ############################### Rightmenu ############################### > start
 # 自定义右键菜单
 rightmenu:
-  enable: #true
+  enable: true
+  faicon: fa              # 公共图标类型 fa fal fas fad
   # hr: 分割线, music: 音乐控制器
-  layout: [home, help, examples, contributors, hr, source_docs, source_theme, hr, print, hr, music]
+  layout: [source_docs, source_theme, hr]
   # 可选功能项
-  print:
+  print:                  # 只有文章页才允许自定义打印
     name: 打印页面
     icon: fa fa-print
-    onclick: document.execCommand('print')
-  # 自定义菜单的格式如下
+    defaultStyles: true   # 是否使用预制的打印样式
+    # js:                 # 自定义 js ，可用于修饰打印样式~， 右键剔除了对 Jquery 的依赖，所以此处你只能使用原生 js
+    #  - document.querySelector('article#comments').remove()  # 移除评论
+  darkmode:        # 需开启 plugins.darkmodejs
+    name: 暗黑模式
+    icon: fa fa-moon
+  reading:
+    name: 阅读模式
+    icon: fa fa-book-open
+  customPicUrl:    # 右键的图片复制：只有 Chrome 支持，且只支持 PNG 格式的图片。
+    enable: false  # 如果使用了对象存储且开启了自适应 Webp，那么可以提供额外的链接用以替换图片的访问地址
+    old: #https://static.inkss.cn/img/article/
+    new: #https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@master/img/article/
+  ### 自定义菜单 ###
   help:
     name: 常见问题
     icon: fa fa-question
@@ -693,27 +832,15 @@ rightmenu:
 
 ############################### Search ############################### > start
 # To use hexo search, you need to install the following plugins:
-# npm i hexo-generator-search hexo-generator-json-content
+# npm i hexo-generator-json-content
 search:
   enable: true
-  service: hexo  # hexo, google, algolia, azure, baidu
+  service: hexo  # hexo
   js:
-  google:
-    apiKey:
-    engineId:
-  algolia:
-    applicationID:
-    apiKey:
-    indexName:
-  azure:
-    serviceName:
-    indexName:
-    queryKey:
-  baidu:
-    apiId:
 ############################### Search ############################### > end
 
 ############################### Color Scheme ############################### > start
+# Accessibility: 背景色和前景色要有足够的对比度 https://web.dev/color-contrast/
 color_scheme:
   # ------------
   # 通用颜色
@@ -721,7 +848,7 @@ color_scheme:
     # 主题色
     theme: '#44D7B6'
     # 链接色
-    link: '#2196f3'
+    link: '#1b79c4'
     # 按钮色
     button: '#44D7B6'
     # 鼠标放到交互元素上时的色
@@ -809,16 +936,15 @@ color_scheme:
 
 ############################### Custom css ############################### > start
 custom_css:
-  toc_smooth: true # TOC 目录平滑滚动效果
   cursor:
     enable: #true
-    text: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/text.png
-    pointer: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png
-    default: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png
-    not-allowed: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/circle.png
-    zoom-out: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-out.png
-    zoom-in: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-in.png
-    grab: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/openhand.png
+    text: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/text.png
+    pointer: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/pointer.png
+    default: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/left_ptr.png
+    not-allowed: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/circle.png
+    zoom-out: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/zoom-out.png
+    zoom-in: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/zoom-in.png
+    grab: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/openhand.png
   font_smoothing: true # font-smoothing for webkit
   max_width: 1080px # Sum of body width and sidebar width (This limit will be exceeded when the device width is greater than 2000px, reaching 75% of the total width)
   scrollbar:
@@ -834,7 +960,6 @@ custom_css:
     effect: [shadow] # [shadow, floatable, blur]
     highlight:
       language: true # show language of codeblock
-      copy_btn: true
       grayscale: false # Enable grayscale effect
     text_align: # left, right, justify, center
       h1: left
@@ -891,8 +1016,8 @@ custom_css:
 analytics:
   busuanzi: https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
   leancloud: #请使用自己的 id & key 以防止数据丢失
-    app_id: 552SwE3wmc8aszRzk4jcJ4Hr-MdYXbMMI
-    app_key: Gkh2cIlVmoWdM1HkWl5GA5yH
+    app_id: #552SwE3wmc8aszRzk4jcJ4Hr-MdYXbMMI
+    app_key: #Gkh2cIlVmoWdM1HkWl5GA5yH
     custom_api_server: # 国际版一般不需要写，除非自定义了 API Server
 ############################### Analytics ############################### > end
 

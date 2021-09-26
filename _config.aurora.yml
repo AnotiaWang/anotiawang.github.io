@@ -10,7 +10,7 @@
 #! ---------------------------------------------------------------
 site:
   subtitle: Anotia 的博客
-  author: Anotia Wang
+  author: 艾迪
   nick: Anotia
   description: 梅虽逊雪三分白，雪却输梅一缕香。
   link: '/'
@@ -47,6 +47,9 @@ menu:
   About: true
   Tags: true
   Archives: true
+  TG: 
+    name: 'TG'
+    path: 'https://t.me/atashare'
 
 #! ---------------------------------------------------------------
 #! Theme Config
@@ -66,7 +69,14 @@ theme:
 #! @docs https://aurora.tridiamond.tech/guide/social.html
 #! ---------------------------------------------------------------
 socials:
+  github: 'https://github.com/AnotiaWang'
   customs:
+    telegram: 
+      icon: iconfont icon-bxl-telegram
+      link: https://t.me/atashare
+    email:
+      icon: iconfont icon-email
+      link: mailto:mail@to.anotia.top
   ##! Example:
   ##! --- Using SVG
   # bilibili:
@@ -77,12 +87,6 @@ socials:
   # baidu:
   #   icon: iconfont icon-baidu
   #   link: https://live.bilibili.com/22619211
-  github:
-    icon: fab fa-github
-    url: https://github.com/AnotiaWang
-  telegram:
-    icon: fab fa-telegram-plane
-    url: https://t.me/atashare
   ##! --- Using FontAwesome
   # book:
   #   icon: far fa-address-book
@@ -126,7 +130,7 @@ valine:
   app_id: 552SwE3wmc8aszRzk4jcJ4Hr-MdYXbMMI
   app_key: Gkh2cIlVmoWdM1HkWl5GA5yH
   avatar: 'https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.1.1/images/blog/favicon.png'
-  placeholder: 畅所欲言~
+  placeholder: '畅所欲言~'
   visitor: true
   lang: zh-CN
   avatarForce: false
@@ -167,7 +171,7 @@ aurora_bot:
   # -- en: 英语
   # -- cn: 中文
   # ======================================================
-  locale: en
+  locale: cn
   # ======================================================
   # 目前只支持使用 Dia，将来会支持 live2d。
   # ======================================================
@@ -370,5 +374,6 @@ aurora_bot:
 #! @docs https://aurora.tridiamond.tech/guide/site-meta.html#custom-meta
 #! ---------------------------------------------------------------
 injects:
-  scripts: <script>var _hmt = _hmt || [];(function() {  var hm = document.createElement("script");  hm.src = "https://hm.baidu.com/hm.js?2beab2aae7f3ac5c51c93b42e7a2b23d";  var s = document.getElementsByTagName("script")[0];   s.parentNode.insertBefore(hm, s);})();</script>
+  scripts: 
   css:
+    - <link rel="stylesheet" href="//at.alicdn.com/t/font_2836816_d7p6i3xyhn.css" />

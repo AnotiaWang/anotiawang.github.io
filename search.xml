@@ -2,24 +2,6 @@
 <search>
   <entry>
     <title>新页面上线</title>
-    <url>/posts/6-16-%E6%B0%B4/</url>
-    <content><![CDATA[<p>折腾了一下午，终于把顶级域名安排上了页面</p>
-<p><font size="5"><a href="https://anotia.top">https://anotia.top</a></font></p>
-<p>貌似 Hexo 的主题有很多都是中国人做的诶，这个只有单页面的挺不错。</p>
-<p>有一说一，腾讯云的客服还不错<font color="grey"><del>（不像微信的那么垃圾，鸟都不鸟你）</del></font>，提交了工单很快就回复了。</p>
-<p>但就是这个Coding的域名证书…………简直搞我心态……明天再看看通过了没有</p>
-<p>补：</p>
-<p>弄好了，是解析线路的问题……没有开放国外线路，导致 Let’s Encrypt 无法访问，也就无法验证域名。</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>新页面上线</title>
     <url>/posts/6-16/</url>
     <content><![CDATA[<p>折腾了一下午，终于把顶级域名安排上了页面</p>
 <p><font size="5"><a href="https://anotia.top">https://anotia.top</a></font></p>
@@ -28,6 +10,7 @@
 <p>但就是这个Coding的域名证书…………简直搞我心态……明天再看看通过了没有</p>
 <p>补：</p>
 <p>弄好了，是解析线路的问题……没有开放国外线路，导致 Let’s Encrypt 无法访问，也就无法验证域名。</p>
+
 ]]></content>
       <categories>
         <category>日常</category>
@@ -37,25 +20,12 @@
       </tags>
   </entry>
   <entry>
-    <title>RoboMaster S1 冠军！</title>
-    <url>/posts/Champion/</url>
-    <content><![CDATA[<p><strong><center><font color=Dodgerblue> WE ARE THE CHAMPION!! </font></center></strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/Robo/3.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/Robo/3.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt=""></p>
-<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/Robo/2.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/Robo/2.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt=""></p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>学校</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Adobe 2020 全平台全家桶 赢政天下版（4月更新，附下载）</title>
     <url>/posts/Adobe2020/</url>
-    <content><![CDATA[<p>会一点设计的朋友们都知道，Adobe 的软件是不可或缺的生产力工具，其“全家桶”被视为技术<font color=grey> <del>和逼格</del> </font>的象征。<br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/Adobe2020/Adobe2020.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/Adobe2020/Adobe2020.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt=""><br>Adobe公司每年10月左右都会发布新一代 Adobe 系列软件，而从2020开始他们弃用了”CC”命名，改为”Adobe 2020”，加入了很多强劲的功能，但配置需求也提高了。</p>
-<p>本文章分享的是由<a href="https://www.weibo.com/vposy">@vposy</a>大神破解的Adobe 2020 大师版，4月发布的版本，涵盖全平台。如果链接失效请在评论区回复<br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/Adobe2020/AdobeCC.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/Adobe2020/AdobeCC.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt=""></p>
-<p>百度网盘链接: <a href="https://pan.baidu.com/s/1n6viGuCAlsuHNxZ5Udobsg">https://pan.baidu.com/s/1n6viGuCAlsuHNxZ5Udobsg</a> 提取码: ppfv</p>
+    <content><![CDATA[<p>会一点设计的朋友们都知道，Adobe 的软件是不可或缺的生产力工具，其“全家桶”被视为技术<font color=grey> <del>和逼格</del> </font>的象征。<br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/Adobe2020/Adobe2020.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/Adobe2020/Adobe2020.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""><br>Adobe公司每年10月左右都会发布新一代 Adobe 系列软件，而从2020开始他们弃用了”CC”命名，改为”Adobe 2020”，加入了很多强劲的功能，但配置需求也提高了。</p>
+<p>本文章分享的是由<a href="https://www.weibo.com/vposy">@vposy</a>大神破解的Adobe 2020 大师版，4月发布的版本，涵盖全平台。如果链接失效请在评论区回复<br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/Adobe2020/AdobeCC.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/Adobe2020/AdobeCC.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""></p>
+<p>百度网盘链接: <a href="https://pan.baidu.com/s/1L-NFz8Ub-CdZDRQ7TAHR-Q">https://pan.baidu.com/s/1L-NFz8Ub-CdZDRQ7TAHR-Q</a> 提取码: wau4</p>
+
 ]]></content>
       <categories>
         <category>分享</category>
@@ -65,30 +35,64 @@
       </tags>
   </entry>
   <entry>
-    <title>功能更新日志</title>
-    <url>/posts/UpdateLog/</url>
-    <content><![CDATA[<h1 id="Timeline"><a href="#Timeline" class="headerlink" title="Timeline"></a>Timeline</h1><h2 id="2020-6-26"><a href="#2020-6-26" class="headerlink" title="2020/6/26"></a>2020/6/26</h2><p>　目录结构调整，变为 /posts/title</p>
-<h2 id="2020-5-16"><a href="#2020-5-16" class="headerlink" title="2020/5/16"></a>2020/5/16</h2><p>​    评论系统重新改为Valine，现已完整支持邮件通知。感谢DesertsP大佬的成果</p>
-<h2 id="2020-5-10"><a href="#2020-5-10" class="headerlink" title="2020/5/10"></a>2020/5/10</h2><p>​    评论系统由 Valine 改为 来必力</p>
-<p>​    增加置顶功能</p>
-<p>​    新增本地搜索功能</p>
-<h2 id="2020-5-9"><a href="#2020-5-9" class="headerlink" title="2020/5/9"></a>2020/5/9</h2><p>​    小优化</p>
-<h2 id="2020-5-8"><a href="#2020-5-8" class="headerlink" title="2020/5/8"></a>2020/5/8</h2><p>​    更换网站 由 Coding 代理，<del>方便看懂</del> 博客更稳定</p>
-<p>​    添加了评论区支持</p>
-<p>​    页面改版，使用 Butterfly 主题</p>
-<h2 id="2020-5-7"><a href="#2020-5-7" class="headerlink" title="2020/5/7"></a>2020/5/7</h2><p>​    <strong>博客创建完成！</strong></p>
-<h1 id="下一步计划"><a href="#下一步计划" class="headerlink" title="下一步计划"></a>下一步计划</h1><p>暂无</p>
-<h1 id="内嵌播放器测试"><a href="#内嵌播放器测试" class="headerlink" title="内嵌播放器测试"></a>内嵌播放器测试</h1><p>From 哔哩哔哩</p>
-<iframe src="//player.bilibili.com/player.html?aid=625290769&bvid=BV1st4y1272Y&cid=179267721&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+    <title>RoboMaster S1 冠军！</title>
+    <url>/posts/Champion/</url>
+    <content><![CDATA[<p><strong><center><font color=Dodgerblue> WE ARE THE CHAMPION!! </font></center></strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/Robo/3.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/Robo/3.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/Robo/2.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/Robo/2.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""></p>
 
-
-
-<h1 id="还有什么慢慢加"><a href="#还有什么慢慢加" class="headerlink" title="还有什么慢慢加"></a>还有什么慢慢加</h1>]]></content>
+]]></content>
       <categories>
         <category>日常</category>
       </categories>
       <tags>
-        <tag>日志</tag>
+        <tag>学校</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>原神玩家应该知道的5个超实用工具</title>
+    <url>/posts/Genshin-Tools/</url>
+    <content><![CDATA[<p> PS：本文和视频搭配食用更佳</p>
+<h1 id="1-Honey-Impact"><a href="#1-Honey-Impact" class="headerlink" title="1. Honey Impact"></a>1. Honey Impact</h1><p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@master/images/blog/Genshin-Tools/honey-impact.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@master/images/blog/Genshin-Tools/honey-impact.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""></p>
+<h3 id="优点："><a href="#优点：" class="headerlink" title="优点："></a>优点：</h3><ul>
+<li>收录了原神正式服和测试服的几乎所有数据</li>
+<li>包括暂未上线的角色等数据</li>
+<li>数据全</li>
+</ul>
+<h3 id="缺点："><a href="#缺点：" class="headerlink" title="缺点："></a>缺点：</h3><p>汉化不完全</p>
+<h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><p><strong>短链接：<a href="https://g-hhw.com">https://g-hhw.com</a></strong></p>
+<p>完整链接：<a href="https://genshin.honeyhunterworld.com/?lang=CHS">https://genshin.honeyhunterworld.com/?lang=CHS</a></p>
+<p>如果在浏览的时候语言又变成英文，在网页的链接尾部添加 <code>?lang=CHS</code> 即可</p>
+<h1 id="2-大世界地图"><a href="#2-大世界地图" class="headerlink" title="2. 大世界地图"></a>2. 大世界地图</h1><p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@master/images/blog/Genshin-Tools/BigMap.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@master/images/blog/Genshin-Tools/BigMap.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""></p>
+<h3 id="优点：-1"><a href="#优点：-1" class="headerlink" title="优点："></a>优点：</h3><ul>
+<li>比米游社的版本要全面</li>
+<li>登录账号后可将点位标记为已找到</li>
+<li>每个点位有评论区，可以发表评论</li>
+<li>中文支持</li>
+</ul>
+<h3 id="缺点：-1"><a href="#缺点：-1" class="headerlink" title="缺点："></a>缺点：</h3><p>暂无</p>
+<h3 id="链接-1"><a href="#链接-1" class="headerlink" title="链接"></a>链接</h3><p><a href="https://genshin-impact-map.appsample.com">https://genshin-impact-map.appsample.com</a></p>
+<h1 id="3-安卓端数据库-GenshinDB"><a href="#3-安卓端数据库-GenshinDB" class="headerlink" title="3. 安卓端数据库 GenshinDB"></a>3. 安卓端数据库 GenshinDB</h1><p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@master/images/blog/Genshin-Tools/genshindb.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@master/images/blog/Genshin-Tools/genshindb.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""></p>
+<h3 id="优点：-2"><a href="#优点：-2" class="headerlink" title="优点："></a>优点：</h3><ul>
+<li>节省加载时间</li>
+<li>数据全面</li>
+<li>可按类别和品阶检索</li>
+</ul>
+<h3 id="缺点：-2"><a href="#缺点：-2" class="headerlink" title="缺点："></a>缺点：</h3><ul>
+<li>用 Flutter 开发，与原生应用相比可能略显卡顿</li>
+</ul>
+<h3 id="链接-2"><a href="#链接-2" class="headerlink" title="链接"></a>链接</h3><p>GitHub 仓库地址：<a href="https://github.com/Wolfteam/GenshinDb">https://github.com/Wolfteam/GenshinDb</a></p>
+<p>Google Play：<a href="https://play.google.com/store/apps/details?id=com.miraisoft.genshindb">https://play.google.com/store/apps/details?id=com.miraisoft.genshindb</a></p>
+<p>如果无法访问 Google Play，请从我转载的网盘链接下载 <a href="https://alist.anotia.top/home/genshindb_1.1.4(104).apk">https://alist.anotia.top/home/genshindb_1.1.4(104).apk</a></p>
+<h1 id="4-抽卡记录导出工具"><a href="#4-抽卡记录导出工具" class="headerlink" title="4. 抽卡记录导出工具"></a>4. 抽卡记录导出工具</h1><h2 id="1-Windows-端"><a href="#1-Windows-端" class="headerlink" title="1) Windows 端"></a>1) Windows 端</h2><div class="story post-story"><p>GitHub 链接：<a href="https://github.com/biuuu/genshin-wish-export">https://github.com/biuuu/genshin-wish-export</a> ，内含使用方法</p>
+</div><h2 id="2-Android-端"><a href="#2-Android-端" class="headerlink" title="2) Android 端"></a>2) Android 端</h2><div class="story post-story"><p>官网：<a href="https://gtool.mukapp.top">https://gtool.mukapp.top</a> ，使用方法软件内有写</p>
+
+</div>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>原神</tag>
       </tags>
   </entry>
   <entry>
@@ -96,7 +100,7 @@
     <url>/posts/PowerToys/</url>
     <content><![CDATA[<p>尽管Windows占有PC市场的半壁江山，但它的特色功能一直是平淡无奇，没有多少亮点，只是默默跟着大势。反观Mac，从一开始就因为一些令人眼前一亮的设计十分讨喜。</p>
 <p>然而前段时间，<del>微软</del>巨硬的一款软件开始<strong>重新</strong>进入人们的视线，那就是“PowerToys”。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/cover.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/cover.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="Power Toys的logo"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/cover.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/cover.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Power Toys的logo"></p>
 <p>为什么是“重新”？</p>
 <p>微软曾经在Windows 95时代就开发出了这个软件，作为系统工具使用，但是后来抛弃了它，直到去年底才重新开始更新。</p>
 <p>这次的PowerToys有这些亮点：</p>
@@ -109,13 +113,13 @@
 </ul>
 <p>官网：<a href="https://github.com/microsoft/PowerToys">https://github.com/microsoft/PowerToys</a></p>
 <p>PowerToys的设置界面有详细的配置（英文）。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/settings.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/settings.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/settings.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/settings.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""></p>
 <p>安装后，PowerToys会在后台运行，系统托盘显示图标。<strong>对应的操作通过右键菜单完成。</strong></p>
 <h1 id="FancyZone"><a href="#FancyZone" class="headerlink" title="FancyZone"></a>FancyZone</h1><p>顾名思义，它能一键设置窗口布局。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/FancyZone.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/FancyZone.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/FancyZone.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/FancyZone.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""></p>
 <p>在拖拽窗口的时候按住Shift，就会显示出窗口布局位置，直接拖动到相应的位置即可放置。</p>
 <p>按住<code>Win+`</code>配置布局方式。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/FancyZoneSettings.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/FancyZoneSettings.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/FancyZoneSettings.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/FancyZoneSettings.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""></p>
 <p>可以手动设置的选项：</p>
 <ul>
 <li>覆盖Windows自带的热键；</li>
@@ -126,17 +130,17 @@
 <li>示意区域的颜色可以调节。</li>
 </ul>
 <h1 id="Shortcut-Guide"><a href="#Shortcut-Guide" class="headerlink" title="Shortcut Guide"></a>Shortcut Guide</h1><p>Windows有丰富的快捷键，但是要花不少时间去学习和记忆。PowerToys提供了一个向导，长按Windows键就会弹出与其相关的快捷键。默认的呼出时值是900毫秒，根据自己的需要调整。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/startmenu.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/startmenu.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/startmenu.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/startmenu.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""></p>
 <h1 id="PowerRename"><a href="#PowerRename" class="headerlink" title="PowerRename"></a>PowerRename</h1><p>给文件批量重命名的工具，应该不用多说🤪</p>
-<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/PowerRename.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/PowerRename.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/PowerRename.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/PowerRename.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""></p>
 <h1 id="Preview-Panes"><a href="#Preview-Panes" class="headerlink" title="Preview Panes"></a>Preview Panes</h1><p>实际上是一个扩展，增加了文件资源管理器中可以在侧边栏预览的文件格式，新增了Markdown (.md) 和 SVG (.svg)。</p>
 <p>在文件管理器的<strong>顶栏 - 查看 - 预览窗格</strong>启用预览就行。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/PreviewPanes.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/PreviewPanes.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/PreviewPanes.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/PreviewPanes.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""></p>
 <blockquote>
 <p> 我这里的图片使用了相对路径，所以有显示错误提示</p>
 </blockquote>
 <h1 id="Images-Resizer"><a href="#Images-Resizer" class="headerlink" title="Images Resizer"></a>Images Resizer</h1><p>这个功能其实在Microsoft Office里有，微软把它拎出来做了一个单独的功能，根据需要在哪种设备上显示，压缩图片尺寸，从而节约大小。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/Resizer.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/Resizer.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/Resizer.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/PowerToys/Resizer.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""></p>
 <h1 id="其他配置"><a href="#其他配置" class="headerlink" title="其他配置"></a>其他配置</h1><ul>
 <li>应用支持浅色和深色主题，可以根据系统自动切换；</li>
 <li>可以开机启动、以管理员模式启动；</li>
@@ -147,6 +151,7 @@
 <blockquote>
 <p>封面图片来自PowerToys GitHub页面，PowerToys的图标来自网络。</p>
 </blockquote>
+
 ]]></content>
       <categories>
         <category>分享</category>
@@ -156,9 +161,37 @@
       </tags>
   </entry>
   <entry>
+    <title>功能更新日志</title>
+    <url>/posts/UpdateLog/</url>
+    <content><![CDATA[<h1 id="Timeline"><a href="#Timeline" class="headerlink" title="Timeline"></a>Timeline</h1><h2 id="2020-6-26"><a href="#2020-6-26" class="headerlink" title="2020/6/26"></a>2020/6/26</h2><div class="story post-story"><p>　目录结构调整，变为 /posts/title</p>
+</div><h2 id="2020-5-16"><a href="#2020-5-16" class="headerlink" title="2020/5/16"></a>2020/5/16</h2><div class="story post-story"><p>​    评论系统重新改为Valine，现已完整支持邮件通知。感谢DesertsP大佬的成果</p>
+</div><h2 id="2020-5-10"><a href="#2020-5-10" class="headerlink" title="2020/5/10"></a>2020/5/10</h2><div class="story post-story"><p>​    评论系统由 Valine 改为 来必力</p>
+<p>​    增加置顶功能</p>
+<p>​    新增本地搜索功能</p>
+</div><h2 id="2020-5-9"><a href="#2020-5-9" class="headerlink" title="2020/5/9"></a>2020/5/9</h2><div class="story post-story"><p>​    小优化</p>
+</div><h2 id="2020-5-8"><a href="#2020-5-8" class="headerlink" title="2020/5/8"></a>2020/5/8</h2><div class="story post-story"><p>​    更换网站 由 Coding 代理，<del>方便看懂</del> 博客更稳定</p>
+<p>​    添加了评论区支持</p>
+<p>​    页面改版，使用 Butterfly 主题</p>
+</div><h2 id="2020-5-7"><a href="#2020-5-7" class="headerlink" title="2020/5/7"></a>2020/5/7</h2><div class="story post-story"><p>​    <strong>博客创建完成！</strong></p>
+<h1 id="下一步计划"><a href="#下一步计划" class="headerlink" title="下一步计划"></a>下一步计划</h1><p>暂无</p>
+<h1 id="内嵌播放器测试"><a href="#内嵌播放器测试" class="headerlink" title="内嵌播放器测试"></a>内嵌播放器测试</h1><p>From 哔哩哔哩</p>
+<iframe src="//player.bilibili.com/player.html?aid=625290769&bvid=BV1st4y1272Y&cid=179267721&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
+<h1 id="还有什么慢慢加"><a href="#还有什么慢慢加" class="headerlink" title="还有什么慢慢加"></a>还有什么慢慢加</h1>
+</div>]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>建站参考目录</title>
     <url>/posts/build-references/</url>
-    <content><![CDATA[<h2 id="建站参考资料"><a href="#建站参考资料" class="headerlink" title="建站参考资料"></a>建站参考资料</h2><blockquote>
+    <content><![CDATA[<h2 id="建站参考资料"><a href="#建站参考资料" class="headerlink" title="建站参考资料"></a>建站参考资料</h2><div class="story post-story"><blockquote>
 <p> 以下是我搭建这个博客用到的资料，排名不分先后。</p>
 </blockquote>
 <p>我一开始用的是GitHub，后来发现自己也在用的Coding服务更快一些，而且中文比较容易理解 <del>（但我找静态网站入口还是找了一个世纪）</del> ，所以把东西挪到了Coding。</p>
@@ -173,7 +206,8 @@
 <p><a href="https://blog.csdn.net/blue_zy/article/details/79071414">为你的Hexo加上评论系统</a></p>
 <p><a href="https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%9A%84%E6%96%B0%E5%BB%BA%E4%B8%8E%E5%90%88%E5%B9%B6">Git - 分支的新建与合并</a></p>
 <p><a href="https://git-scm.com/book/zh/v2/Git-%E5%9F%BA%E7%A1%80-%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%E4%BD%BF%E7%94%A8">Git - 远程仓库的使用</a></p>
-]]></content>
+
+</div>]]></content>
       <categories>
         <category>教程</category>
       </categories>
@@ -193,20 +227,20 @@
 <li><p>具体操作因人而异，<strong>请根据自己的状况取舍</strong>，不要全部照抄。</p>
 </li>
 </ul>
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><ul>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><div class="story post-story"><ul>
 <li>一台安卓手机（已 root ，建议做好防范措施）</li>
 <li>安装 Termux（前往<a href="https://termux.com/">官网</a>或者 <a href="https://play.google.com/store/apps/details?id=com.termux&hl=zh">Google Play</a> 下载）</li>
 <li>能查看系统根目录的文件管理器，如 RE 或 MT 管理器，手机需root。推荐MT</li>
 <li><strong>【建议】科学上网工具</strong></li>
 </ul>
-<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/termux-1.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/termux-1.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="Termux 主界面"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/termux-1.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/termux-1.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Termux 主界面"></p>
 <blockquote>
 <p>我找资料的时候发现没有root的手机也有<a href="https://zhuanlan.zhihu.com/p/35668237">解决办法</a>，在此列出作为参考：</p>
 <p> 先执行<code>$ pkg install proot</code>，然后执行 <code>$ termux-chroot</code> 就可以模拟出root权限。详情见链接↑</p>
 <p>获取完成后可以用Termux操作文件和目录，但是无法用文件管理器看到。</p>
 </blockquote>
 <p>本文资料来自：华为平板 M6</p>
-<h2 id="配置环境"><a href="#配置环境" class="headerlink" title="配置环境"></a>配置环境</h2><h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><p><code>$ apt update</code></p>
+</div><h2 id="配置环境"><a href="#配置环境" class="headerlink" title="配置环境"></a>配置环境</h2><div class="story post-story"><h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><p><code>$ apt update</code></p>
 <p><code>$ apt upgrade</code></p>
 <h3 id="安装-node-js"><a href="#安装-node-js" class="headerlink" title="安装 node.js"></a>安装 node.js</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ apt install nodejs-lts</span><br></pre></td></tr></table></figure>
 
@@ -214,10 +248,10 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">TypeError [ERR_INVALID_ARGTYPE]: The <span class="string">&quot;mode&quot;</span> argument mast be <span class="built_in">integer</span>. Received an instance of Object</span><br></pre></td></tr></table></figure>
 
 <p><a href="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/error-node-too-new.jpg">👉nodejs新版的报错截图👈</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/install-nodejs.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/install-nodejs.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/install-nodejs.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/install-nodejs.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""></p>
 <h3 id="安装-git"><a href="#安装-git" class="headerlink" title="安装 git"></a>安装 git</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ apt install git</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/install-git.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/install-git.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/install-git.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/install-git.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""></p>
 <h3 id="建立博客文件夹"><a href="#建立博客文件夹" class="headerlink" title="建立博客文件夹"></a>建立博客文件夹</h3><p>给文件管理器授予root权限；</p>
 <p>进入手机根目录，在 <code>/data/data/com.termux/files/</code>新建一个存放博客的文件夹，如“Blog”。</p>
 <blockquote>
@@ -249,7 +283,7 @@
 <p>输入完成后一路回车，如果对文件安全不放心就在“密码” 那一步设置一个加密密码。<br>生成密钥信息：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ cat ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
 
-<p>之后程序会生成一个名为”id_rsa.pub”的文件，默认保存在<code>/files/.ssh/</code>文件夹，可以手动查看，或者直接复制程序输出的一串密钥。<br>打开托管平台，在<strong>个人设置里</strong>新建一个SSH公钥，以Coding为例：<br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/SSH.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/SSH.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="Create new SSH key"></p>
+<p>之后程序会生成一个名为”id_rsa.pub”的文件，默认保存在<code>/files/.ssh/</code>文件夹，可以手动查看，或者直接复制程序输出的一串密钥。<br>打开托管平台，在<strong>个人设置里</strong>新建一个SSH公钥，以Coding为例：<br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/SSH.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/SSH.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Create new SSH key"></p>
 <blockquote>
 <p>注：Coding的公钥分为两种类型，在个人设置里的是<strong>全局公钥</strong>，可以编辑你的所有项目；在每个项目设置里还有单独的SSH私钥，仅对该项目有效。</p>
 </blockquote>
@@ -258,9 +292,9 @@
 
 <p>如果出现以上提示则说明成功。GitHub使用<code>ssh -T git@github.com</code>即可。</p>
 <blockquote>
-<p>6/25 更新：<br>手机端的密钥不好用，容易出错，实际上用 Coding 令牌更方便。<br>进入 Coding 个人设置，进入“访问令牌”，记住自己的令牌用户名（图中红色涂抹区域）<br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/coding-auth.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/coding-auth.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="Coding 个人设置页"><br>点击“新建令牌”，名字任意取，权限勾选第一条 “<em>project:depot</em>“ ，也就是完整的仓库控制权限。<br>点击“创建令牌”，<font color=red>复制接下来出现的密钥，它只会出现一次。</font><br>回到你的 Coding 仓库，复制你的仓库地址，形如 “<a href="https://e.coding.net/xxx/xxx.git&quot;">https://e.coding.net/xxx/xxx.git&quot;</a><br>进入你的博客文件夹，找到 _config.yml，修改你的远程仓库地址为 <strong>“https://用户名:密码@e.coding.net/xxx/xxx.git”</strong><br>例如你的令牌用户名是 AbCdEfG、密码是 asdfghj，那么地址就是 “<a href="https://AbCdEfG:asdfghj@e.coding.net/xxx/xxx.git&quot;">https://AbCdEfG:asdfghj@e.coding.net/xxx/xxx.git&quot;</a><br>Git 的配置文件也可以改一下，在 “.git” 文件夹下的 “CONFIG” 文件，自行找到仓库地址，依葫芦画瓢。</p>
+<p>6/25 更新：<br>手机端的密钥不好用，容易出错，实际上用 Coding 令牌更方便。<br>进入 Coding 个人设置，进入“访问令牌”，记住自己的令牌用户名（图中红色涂抹区域）<br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/coding-auth.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/deploy-on-mobile/coding-auth.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Coding 个人设置页"><br>点击“新建令牌”，名字任意取，权限勾选第一条 “<em>project:depot</em>“ ，也就是完整的仓库控制权限。<br>点击“创建令牌”，<font color=red>复制接下来出现的密钥，它只会出现一次。</font><br>回到你的 Coding 仓库，复制你的仓库地址，形如 “<a href="https://e.coding.net/xxx/xxx.git&quot;">https://e.coding.net/xxx/xxx.git&quot;</a><br>进入你的博客文件夹，找到 _config.yml，修改你的远程仓库地址为 <strong>“https://用户名:密码@e.coding.net/xxx/xxx.git”</strong><br>例如你的令牌用户名是 AbCdEfG、密码是 asdfghj，那么地址就是 “<a href="https://AbCdEfG:asdfghj@e.coding.net/xxx/xxx.git&quot;">https://AbCdEfG:asdfghj@e.coding.net/xxx/xxx.git&quot;</a><br>Git 的配置文件也可以改一下，在 “.git” 文件夹下的 “CONFIG” 文件，自行找到仓库地址，依葫芦画瓢。</p>
 </blockquote>
-<h2 id="开始编辑"><a href="#开始编辑" class="headerlink" title="开始编辑"></a>开始编辑</h2><p>因为Hexo支持跨平台，所以手机端编辑和部署操作与电脑端基本一致。这里讲一下大概的操作。</p>
+</div><h2 id="开始编辑"><a href="#开始编辑" class="headerlink" title="开始编辑"></a>开始编辑</h2><div class="story post-story"><p>因为Hexo支持跨平台，所以手机端编辑和部署操作与电脑端基本一致。这里讲一下大概的操作。</p>
 <h3 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a>文件操作</h3><h4 id="新建博文"><a href="#新建博文" class="headerlink" title="新建博文"></a>新建博文</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;title&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>新的文章在 <code>/source/_posts/title.md</code></p>
@@ -278,7 +312,7 @@
 <p><strong>生成并部署：</strong></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo d -g</span><br><span class="line">INFO  Start processing</span><br><span class="line">...</span><br><span class="line">INFO  Deploy <span class="keyword">done</span>: git</span><br></pre></td></tr></table></figure>
 
-<h2 id="备份与恢复"><a href="#备份与恢复" class="headerlink" title="备份与恢复"></a>备份与恢复</h2><h3 id="将博客备份到-git（以Coding为例）"><a href="#将博客备份到-git（以Coding为例）" class="headerlink" title="将博客备份到 git（以Coding为例）"></a>将博客备份到 git（以Coding为例）</h3><p>如果你的博客文件夹是从git克隆下来的，那么会自动设置远程仓库，不需要手动设置。</p>
+</div><h2 id="备份与恢复"><a href="#备份与恢复" class="headerlink" title="备份与恢复"></a>备份与恢复</h2><div class="story post-story"><h3 id="将博客备份到-git（以Coding为例）"><a href="#将博客备份到-git（以Coding为例）" class="headerlink" title="将博客备份到 git（以Coding为例）"></a>将博客备份到 git（以Coding为例）</h3><p>如果你的博客文件夹是从git克隆下来的，那么会自动设置远程仓库，不需要手动设置。</p>
 <p>输入 <code>git remote -v</code>查看已经存在的远程仓库，应该会有以下提示：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git remote -v</span><br><span class="line">origin  https://e.coding.net/cross-street/Blog.git (fetch)</span><br><span class="line">origin  https://e.coding.net/cross-street/Blog.git (push)</span><br></pre></td></tr></table></figure>
 
@@ -308,7 +342,8 @@
 <hr>
 <h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://zhuanlan.zhihu.com/p/35668237">https://zhuanlan.zhihu.com/p/35668237</a></p>
 <p><a href="https://lanlan2017.github.io/blog/4a95e633/">https://lanlan2017.github.io/blog/4a95e633/</a></p>
-]]></content>
+
+</div>]]></content>
       <categories>
         <category>教程</category>
       </categories>
@@ -316,6 +351,37 @@
         <tag>博客</tag>
         <tag>教程</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/posts/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><div class="story post-story"><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+</div><h2 id="Backup"><a href="#Backup" class="headerlink" title="Backup"></a>Backup</h2><div class="story post-story"><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://e.coding.net/cross-street/Blog.git</span><br><span class="line">$ <span class="built_in">cd</span> Blog</span><br><span class="line">$ npm install hexo --save</span><br><span class="line">$ npm install</span><br><span class="line">$ git <span class="built_in">clone</span> -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly</span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+
+<h1 id="官方文档"><a href="#官方文档" class="headerlink" title="官方文档"></a>官方文档</h1><p><a href="https://docs.jerryc.me/#/zh-cn/config/theme-config">https://docs.jerryc.me/#/zh-cn/config/theme-config</a></p>
+
+</div>]]></content>
+  </entry>
+  <entry>
+    <title>一言爬取器</title>
+    <url>/posts/hitokotocrawler/</url>
+    <content><![CDATA[<p>爬取步骤：<a href="https://anotia-cdn-1302169837.cos.ap-guangzhou.myqcloud.com/cos-file/file/ScreenRecord-2020-10-13-08-38-02.mp4">https://anotia-cdn-1302169837.cos.ap-guangzhou.myqcloud.com/cos-file/file/ScreenRecord-2020-10-13-08-38-02.mp4</a></p>
+<p>爬取结果示例：<a href="https://anotia-cdn-1302169837.cos.ap-guangzhou.myqcloud.com/cos-file/file/hitokoto.txt">https://anotia-cdn-1302169837.cos.ap-guangzhou.myqcloud.com/cos-file/file/hitokoto.txt</a></p>
+<p>软件下载：<a href="https://anotia-cdn-1302169837.cos.ap-guangzhou.myqcloud.com/cos-file/file/%E4%B8%80%E8%A8%80_1.2.apk">https://anotia-cdn-1302169837.cos.ap-guangzhou.myqcloud.com/cos-file/file/%E4%B8%80%E8%A8%80_1.2.apk</a></p>
+
+]]></content>
   </entry>
   <entry>
     <title>Valine 评论系统保活</title>
@@ -329,17 +395,18 @@
 <h1 id="2-定时任务"><a href="#2-定时任务" class="headerlink" title="2. 定时任务"></a>2. 定时任务</h1><p>在实例设置里设置两个定时任务，一个叫<code>self_wake</code>，一个叫<code>resend_mails</code>。两种方法：</p>
 <ul>
 <li>可以设置 Cron 表达式，好处是可以设置运行区间，不过容易跟别人的撞车。</li>
-<li>也可以设置间隔时长，以秒为单位。随意设置，别让运行时间超过免费版的每天限制就行。<br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/autowake.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/autowake.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt=""></li>
+<li>也可以设置间隔时长，以秒为单位。随意设置，别让运行时间超过免费版的每天限制就行。<br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/autowake.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/autowake.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""></li>
 </ul>
 <p>这种方法目前不太行，LeanCloud 加强了流控。</p>
-<h1 id="3-UptimeRobot"><a href="#3-UptimeRobot" class="headerlink" title="3. UptimeRobot"></a>3. UptimeRobot</h1><p>此方法适用于使用国际版 LC，设置了独立主机域名的玩家。<br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/%E5%9F%9F%E5%90%8D1.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/%E5%9F%9F%E5%90%8D1.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt=""><br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/%E5%9F%9F%E5%90%8D2.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/%E5%9F%9F%E5%90%8D2.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt=""><br>Uptime Robot（简称UR）的作用，简单来说就是<strong>存活测试</strong>，看网站是否正常运行。<br>而 LC 云引擎的运行策略是，如果主机域名被访问了，实例就会启动，半个小时无活动之后再关闭。</p>
+<h1 id="3-UptimeRobot"><a href="#3-UptimeRobot" class="headerlink" title="3. UptimeRobot"></a>3. UptimeRobot</h1><p>此方法适用于使用国际版 LC，设置了独立主机域名的玩家。<br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/%E5%9F%9F%E5%90%8D1.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/%E5%9F%9F%E5%90%8D1.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""><br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/%E5%9F%9F%E5%90%8D2.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/%E5%9F%9F%E5%90%8D2.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""><br>Uptime Robot（简称UR）的作用，简单来说就是<strong>存活测试</strong>，看网站是否正常运行。<br>而 LC 云引擎的运行策略是，如果主机域名被访问了，实例就会启动，半个小时无活动之后再关闭。</p>
 <ul>
 <li>注册一个 UR 账号</li>
 <li>给你的<strong>后台网址</strong>添加一个监视器</li>
 <li>设置检查时间间隔</li>
 </ul>
-<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/ur.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/ur.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt=""><br>但是超过每天的时间上限之后就会出现 Bad Request，而且这个没法设置运行区间，所以记得把时间弄明白。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/ur.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.2/images/lean/ur.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""><br>但是超过每天的时间上限之后就会出现 Bad Request，而且这个没法设置运行区间，所以记得把时间弄明白。</p>
 <h1 id="Wake-LeanCloud"><a href="#Wake-LeanCloud" class="headerlink" title="Wake LeanCloud"></a>Wake LeanCloud</h1><p>目前为止最有效的方案，用 GitHub Workflow 实现定时唤醒。我试了一下，好像有用。<br><a href="https://github.com/blogimg/WakeLeanCloud">https://github.com/blogimg/WakeLeanCloud</a></p>
+
 ]]></content>
       <categories>
         <category>教程</category>
@@ -350,90 +417,20 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/posts/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<h2 id="Backup"><a href="#Backup" class="headerlink" title="Backup"></a>Backup</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://e.coding.net/cross-street/Blog.git</span><br><span class="line">$ <span class="built_in">cd</span> Blog</span><br><span class="line">$ npm install hexo --save</span><br><span class="line">$ npm install</span><br><span class="line">$ git <span class="built_in">clone</span> -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly</span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
-
-<h1 id="官方文档"><a href="#官方文档" class="headerlink" title="官方文档"></a>官方文档</h1><p><a href="https://docs.jerryc.me/#/zh-cn/config/theme-config">https://docs.jerryc.me/#/zh-cn/config/theme-config</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>“标签”正在阻绝理性交流的可能</title>
-    <url>/posts/paperclip/</url>
-    <content><![CDATA[<p>　　大约一个月前，科技科普媒体“回形针”因为在视频里的一些数据和描述，被指出“歧视中国人”“立场不正确“等问题，进而被曝光出一系列的”恰烂钱“”夹带私货“等做法。最终，回形针承诺停止更新一个月，回顾过去的所有视频并进行整改。4月30日，回形针恢复更新，讲述了团队制作视频的一般流程，以及对过去一些问题的回应。本人不敢妄言，但是在看了很多评论之后，还是想对当下互联网的状况发表一些拙见。</p>
-<p>　　视频发出后，评论区很快就被引爆了，涌现了非常多的谩骂和指责，然而，很多评论的发出时间远没有达到视频的全长。这意味着，那些人<strong>连视频都没有看完</strong>，就开始叫“回形针滚”、“反省无用”、“屁股还是歪的”……官方很快删除了一些评论，但是又有更多的出现。甚至有人复制了同一段文字，在每条评论下粘贴；有人发“毛主席万岁！你删一个试试？”；任何一条评论都能被人分析出一个立场…… </p>
-<p>　　且不管回形针是否真的错了、哪一方是否买了水军。为什么会出现这种立场极端分立的事情？因为回形针被打上了<strong>“标签”</strong>。</p>
-<p>　　“标签”本来有益。互联网的信息很繁杂，我们需要提炼出高度概括的内容，方便他人辨识，就为信息打上标签，如“科技”“教育”“手工”等。标签的存在，为网民提供了便利的索引，让信息分门别类地接受检索，提高了信息交换的效率。</p>
-<p>　　但“标签”正在被滥用。我们逐渐形成了标签化思维，习惯以“贴标签”的形式，用长期以来形成的对某个群体、某类事物的刻板印象，评判具体的人、具体的事。由于标签的简短、精炼，带有标签的舆论话题更容易广泛传播，而这就是问题所在。的确，看标签是了解事物的捷径和切入点，但是如果在了解之前不做辨析，就一味地相信、跟从，那么思维就容易被同化，最终网络上会出现一个（或多个）很庞大的声音。声音的来源不一定权威，甚至不一定可靠，他们只是靠着一手“标签”和一点真真假假的理由，就让很多人信以为然。<strong>“说真话”和“说全部的真话”不同</strong>，只要给一点正确的论据，而回避其他可疑的部分，人们出于思维惯性依然会选择相信。于是，事情本来的面貌，就在一次次传播、一次次标签化和再标签化中被逐渐掩盖了。</p>
-<p>　　这些现象反映了一个问题：互联网的普及，让一些人渐渐不会思考了。标签，多么便利，又符合自己的印象，于是他们就认同，继续向周围传播。这种像蝴蝶效应一般的现象，让互联网上出现了大量的大型群体，对认同的东西大肆传扬，对不喜的东西一致抵制。众口铄金的力量是可怕的，我们不应失去最基本的辨别能力。互联网可以是事物发展的上升气流，也可以是逆风；可以提供情绪的正向循环，也可以提供发泄的垃圾箱。</p>
-<p>　　人在网上，<strong>我们应该对巨大的声音保持质疑，对细小的声音保持倾听。</strong>善用工具，多方面了解讯息，产出自己的看法，而不是完全相信和复制他人的传言。</p>
-]]></content>
-      <categories>
-        <category>随笔</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>性价比不错的 VPS「企鹅小屋」</title>
-    <url>/posts/qexw/</url>
-    <content><![CDATA[<p>上周给论坛物色合适的服务器，找了好几天，最后发现有一家叫<a href="https://www.qexw.com/aff.php?aff=848">「企鹅小屋」</a>的VPS服务商。对比了一下价格发现挺便宜就入手了。我现在的网站服务器就是他们的，选了香港四期，属于平价套餐。</p>
-<p>配置：1H1G | 20G SSD | 30Mbps，每个月27元</p>
-<p>使用体验：</p>
-<p>带宽没有水分（服务器的下行是100M，上行是30M），正常时候（香港地区有时候网络会波动）的 ping 是 40ms左右，还算中肯。</p>
-<p>其他几种套餐我觉得也不错，只是因为没钱没必要，所以对比之后只选了这个便宜的。</p>
-<p>老板全天在线 Telegram，<a href="https://t.me/qexw_noc">频道</a>的信息更新很及时</p>
-<p>列出一些7月份在售的机型</p>
-<p>Qexw 2020年7月 在售机器推荐</p>
-<p>四期<br>1H 0.5G 10GSSD 30Mbps 300GB<br>售价：17.1元/月</p>
-<p>1H 1G 20GSSD 100Mbps 1000GB<br>售价：33元每月  330元/年</p>
-<p>2H 2G 20GSSD 100Mbps 1500GB（香港原生IP）<br>售价：66元/月<br>购买目录地址：<a href="https://www.qexw.com/aff.php?aff=848&amp;gid=28">https://www.qexw.com/aff.php?aff=848&amp;gid=28</a><br>注:默认新加坡IP，非独享频宽严禁长时间占用，严禁安装TG代理，不允许大规模代理，不允许机场，机场绕路，面向国内用户线路 三网优化频宽</p>
-<p>建站推荐<br>1H 1G 30GSSD 5Mbps 300GB<br>售价：21元/月 99元/年</p>
-<p>2H 2G 50GSSD 10Mbps 400GB<br>售价：27元/月 198元/年</p>
-<p>4H 4G 80GSSD 10Mbps 900GB<br>售价：48元/月 372元/年</p>
-<p>购买目录地址：<a href="https://www.qexw.com/aff.php?aff=848&amp;gid=37">https://www.qexw.com/aff.php?aff=848&amp;gid=37</a><br>注:建站专用,不允许代理及VPN/违者封禁/活动产品不支持退款/面向国内用户线路 三网直连优化</p>
-<p>深港专线<br>1H 0.25G 10GSSD 20Mbps 200GB（单向）<br>售价：133元/月900元/年</p>
-<p>1H 0.5G 10GSSD 500Mbps 3000GB（单向）<br>售价：420元/月 960元/季</p>
-<p>购买目录地址：<a href="https://www.qexw.com/aff.php?aff=848&amp;gid=17">https://www.qexw.com/aff.php?aff=848&amp;gid=17</a></p>
-<p>2H 1G 20GSSD 10Mbps独享不限流量<br>售价：2100元/季</p>
-<p>购买目录地址：<a href="https://www.qexw.com/aff.php?aff=848&amp;gid=35">https://www.qexw.com/aff.php?aff=848&amp;gid=35</a><br>注:不开放80/443端扣 首期账单送同时长香港落地。</p>
-<p>注：现在企鹅小屋有活动，全部商品6折优惠码：qexw2020-6</p>
-]]></content>
-      <categories>
-        <category>VPS</category>
-      </categories>
-      <tags>
-        <tag>VPS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>开学日临近……</title>
     <url>/posts/school-approaching/</url>
     <content><![CDATA[<blockquote>
 <p>在学校时想家，在家时想返校</p>
 </blockquote>
-<p>&emsp;&emsp;三个月网课学习，体验了网上教学的感觉，还有，<strong>孤独</strong>的滋味。<br>&emsp;&emsp;谁都没有料到疫情的爆发，那些义无反顾的逆行者们，我想向他们致敬。没有他们的奋斗，便没有安逸的环境和如此快的抗疫之战，也就没有了我们能够尽早返校的前提。<br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/school-approaching/study.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/school-approaching/study.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="返校"><br>&emsp;&emsp;三个月里，我第一次体验了如此长时间的、持续性的线上学习。实话说，我并不是很习惯。网络上有那么多新奇有趣的东西等着我去探索，注意力是分散的，思维是发散的。希望我返校后能尽快纠正姿势，回到原有的状态。<br>&emsp;&emsp;这三个月里，除了日常的学习之外，我还学会了一些东西：</p>
+<p>&emsp;&emsp;三个月网课学习，体验了网上教学的感觉，还有，<strong>孤独</strong>的滋味。<br>&emsp;&emsp;谁都没有料到疫情的爆发，那些义无反顾的逆行者们，我想向他们致敬。没有他们的奋斗，便没有安逸的环境和如此快的抗疫之战，也就没有了我们能够尽早返校的前提。<br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/school-approaching/study.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/school-approaching/study.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="返校"><br>&emsp;&emsp;三个月里，我第一次体验了如此长时间的、持续性的线上学习。实话说，我并不是很习惯。网络上有那么多新奇有趣的东西等着我去探索，注意力是分散的，思维是发散的。希望我返校后能尽快纠正姿势，回到原有的状态。<br>&emsp;&emsp;这三个月里，除了日常的学习之外，我还学会了一些东西：</p>
 <ul>
 <li>几首新曲子，虽然尚不能以原速演奏，但是正在逐渐熟练；</li>
 <li>建立一个静态博客，正如你现在看到的。</li>
 <li>学会了一点基本的视频处理技巧；</li>
 <li>结识了一些<del>热心</del>网友，互相分享交流。我因此得以迅速熟悉新掌握的技能。</li>
 </ul>
-<p>&emsp;&emsp;这些东西也许对我的学业帮助不大，不过能帮助我舒缓心情，以更好的心态迎接下一步的学习。<br>&emsp;&emsp;也祝各位都越来越好，希望疫情尽快过去，祖国的一切尽快恢复原有的秩序。<br>&emsp;&emsp;明天就要开学力，要适应新的安排和新的模式，不知我们能在规则下创造出多少花样呢？<br>&emsp;&emsp;博客大抵不能每天更新了<del>（也没什么天天叨叨的）</del>，有机会的话，偶尔能利用学校电脑设备，那时再做考虑。博客应随心，以质为纲，以知识为墨。<br>&emsp;&emsp;<strong>希望归来时，一切依旧，生活不苟。</strong><br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/school-approaching/books.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/school-approaching/books.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="书"></p>
+<p>&emsp;&emsp;这些东西也许对我的学业帮助不大，不过能帮助我舒缓心情，以更好的心态迎接下一步的学习。<br>&emsp;&emsp;也祝各位都越来越好，希望疫情尽快过去，祖国的一切尽快恢复原有的秩序。<br>&emsp;&emsp;明天就要开学力，要适应新的安排和新的模式，不知我们能在规则下创造出多少花样呢？<br>&emsp;&emsp;博客大抵不能每天更新了<del>（也没什么天天叨叨的）</del>，有机会的话，偶尔能利用学校电脑设备，那时再做考虑。博客应随心，以质为纲，以知识为墨。<br>&emsp;&emsp;<strong>希望归来时，一切依旧，生活不苟。</strong><br><img src="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/school-approaching/books.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.0.7/images/blog/school-approaching/books.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="书"></p>
+
 ]]></content>
       <categories>
         <category>随笔</category>

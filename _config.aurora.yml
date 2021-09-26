@@ -14,7 +14,7 @@ site:
   nick: Anotia
   description: 梅虽逊雪三分白，雪却输梅一缕香。
   link: '/'
-  language: zh-cn
+  language: cn
   multi_language: true
   logo: https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.1.1/images/blog/favicon.png
   avatar: https://cdn.jsdelivr.net/gh/AnotiaWang/jscdn@1.0.1.2/images/blog/avatar.jpg

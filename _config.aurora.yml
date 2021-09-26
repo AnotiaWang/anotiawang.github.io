@@ -47,9 +47,9 @@ menu:
   About: true
   Tags: true
   Archives: true
-  TG: 
-    name: 'TG'
-    path: 'https://t.me/atashare'
+#  TG: 
+#    name: 'TG'
+#    path: 'https://t.me/atashare'
 
 #! ---------------------------------------------------------------
 #! Theme Config
@@ -71,9 +71,9 @@ theme:
 socials:
   github: 'https://github.com/AnotiaWang'
   customs:
-    telegram: 
-      icon: iconfont icon-bxl-telegram
-      link: https://t.me/atashare
+#    telegram: 
+#      icon: iconfont icon-bxl-telegram
+#      link: https://t.me/atashare
     email:
       icon: iconfont icon-email
       link: mailto:mail@to.anotia.top

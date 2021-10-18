@@ -1,7 +1,7 @@
 ---
 title: RoboMaster S1 冠军！
 copyright: true
-description: '是时候展示真正的技术了'
+description: ''
 sticky: 
 date: 2020-06-18 18:18:23
 tags: 学校

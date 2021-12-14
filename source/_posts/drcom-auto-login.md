@@ -4,9 +4,9 @@ copyright: true
 description: '使用 Python 编写的一个小脚本，自动登录校园网。'
 comments: true
 date: 2021-12-14 13:55:34
-tags: Python,技术,Drcom
-categories:教程
-sticky:false
+tags: Python, Drcom
+categories: 教程
+sticky: false
 top_img:
 cover:
 published:

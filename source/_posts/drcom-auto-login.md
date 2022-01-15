@@ -14,7 +14,7 @@ published:
 
 # Dr.com 一键登录脚本
 
->  By [AnotiaWang](https://github.com/AnotiaWang) ，最后修改：2021.12.13
+>  By [AnotiaWang](https://github.com/AnotiaWang) ，最后修改：2022.1.10
 
 ## 介绍
 
@@ -22,7 +22,7 @@ published:
 
 我用 PyInstaller 打包好了一份 Windows 的程序，可以直接拿来用，本地有 Python 环境即可。账号密码会存在 .exe 文件同目录下的 secrets.d 文件，~~明文保存~~，建议把程序妥善放在其它盘里，然后拉一个快捷方式到桌面。如要修改账号密码，可以直接编辑 secrets.d 文件，也可以删了再运行程序，重新生成。
 
-SZUer 不骗 SZUer，请放心使用，我自己有宽带账号也不需要小偷小摸的。如果嫌交互式麻烦~~（只有数据文件有问题才会提示交互，不会吧不会吧）~~或者有其他顾虑，也可以把 login 函数的内容扒出来，把自己账号密码写死然后打包一份。打包命令是 `pyinstaller -F --hidden-import=pywintypes 文件名` 。
+SZUer 不骗 SZUer，请放心使用。如果嫌交互式麻烦~~（只有数据文件有问题才会提示交互，不会吧不会吧）~~或者有其他顾虑，也可以把 login 函数的内容扒出来，把自己账号密码写死然后打包一份。打包命令是 `pyinstaller -F --hidden-import=pywintypes 文件名` 。
 
 ## 原理
 
@@ -30,23 +30,28 @@ SZUer 不骗 SZUer，请放心使用，我自己有宽带账号也不需要小�
 
 ### 登录
 
-向 `http://172.30.255.2/0.htm` 发送 POST 请求，包含以下参数：
+向 `http://172.30.255.42:801/eportal/portal/login` 发送 POST 请求，包含以下参数（实际只有前两个为必选）：
 
-- `ddddd` : 校园卡号
-- `upass` : 密码
-- `0MKKey` : 值为 `123456` 的不知道什么东西
+- `user_account`: 校园卡号
+- `user_password`: 校园网登录密码
+- `callback`: 大概是楼栋代码吧
+- `login_method`: 未知
+- `wlan_user_ip`: 客户端的内网 IP 地址
+- `wlan_user_ipv6`: 空值
+- `wlan_user_mac`: 一串 0
+- `wlan_ac_ip`: 空值
+- `wlan_ac_name`: 空值
+- `jsVersion`: JS Version
+- `terminal_type`: 未知
+- `lang`: 语言（`zh`）
+- `v`: 未知
 
-服务器返回的 HTML 中：
-
-- 如果标题是 “登录成功窗”，说明登录成功；
-- 如果包含 `userid error 1`，说明用户名错误；
-- 如果包含 `ldap auth error`，说明密码错误；
-- 其它的返回值，像 IP / 账号不允许 Web 登录、账号停用、改密码相关提示一般不会遇到，至少我没遇到过，因此没作应对措施
+服务器返回一串数据，形如：`callback[{result: 0, ret_code: 0, msg: '登录成功'}]`，具体几种情况抓包即可，这里不赘述。
 
 ### 登出
 
-比登录简单多了，直接一个 `GET http://172.30.255.2/F.htm`
+比登录简单多了，直接一个 `GET http://172.30.255.42:801/eportal/portal/logout`
 
 ## 下载
 
-[TMP.link](https://tmp.link/f/61b832815cc03)      [蓝奏云](https://anotia.lanzouy.com/iFJ1cxld5re)
+[蓝奏云](https://anotia.lanzouy.com/ie17Oyshr1c)
